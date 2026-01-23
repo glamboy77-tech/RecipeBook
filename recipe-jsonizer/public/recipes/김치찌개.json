@@ -28,7 +28,7 @@
           "amount": null,
           "unit": "",
           "note": "메인 - 맛소금 톡톡",
-          "scalable": false
+          "scalable": null
         },
         {
           "name": "신김치",
