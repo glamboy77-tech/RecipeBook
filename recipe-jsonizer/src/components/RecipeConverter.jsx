@@ -358,7 +358,9 @@ function buildRecipe(rawText, overrides) {
   }
 
   const ingredient_groups = Object.entries(groupMap).map(([name, items]) => ({ name, items }));
-  const ingredients = ingredient_groups.flatMap((g) => g.items);
+  // NOTE: 과거 포맷 호환을 위해 `ingredients`(flat list)를 넣어둔 적이 있었는데,
+  // `ingredient_groups`와 동일 데이터가 중복되어 JSON이 헷갈릴 수 있음.
+  // 이제는 group 기반만 유지.
 
   const steps = parseSteps(rawText);
 
@@ -372,7 +374,6 @@ function buildRecipe(rawText, overrides) {
     base_servings,
     tags: overrides.tags || [],
     ingredient_groups,
-    ingredients, // 호환용(원하면 나중에 제거 가능)
     steps,
     memo: mergedMemo,
     source: overrides.source || "",
