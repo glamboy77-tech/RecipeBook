@@ -1,10 +1,85 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
 import RecipeViewer from "./components/RecipeViewer";
 import RecipeConverter from "./components/RecipeConverter";
+import { useMediaQuery } from "./lib/useMediaQuery";
 
 export default function App() {
+  const isMobile = useMediaQuery("(max-width: 768px)");
+
   // UI tab
   const [tab, setTab] = useState("viewer"); // "viewer" | "converter"
+
+  const styles = useMemo(() => {
+    const pagePadding = isMobile ? 10 : 16;
+
+    return {
+      page: {
+        fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, sans-serif",
+        padding: pagePadding,
+        background: "#0b0d12",
+        color: "#e8ecf3",
+        height: "100vh",
+        overflow: "hidden", // body 스크롤 제거
+        display: "flex",
+        flexDirection: "column",
+        gap: 12,
+      },
+      header: {
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: isMobile ? "stretch" : "center",
+        flexDirection: isMobile ? "column" : "row",
+        gap: 12,
+        padding: 12,
+        borderRadius: 16,
+        background: "#121623",
+        border: "1px solid #1f263a",
+        flexShrink: 0,
+      },
+      brand: { display: "flex", alignItems: "center", gap: 12, minWidth: 0 },
+      logo: {
+        width: 44,
+        height: 44,
+        borderRadius: 14,
+        display: "grid",
+        placeItems: "center",
+        background: "#1a2140",
+        border: "1px solid #2a3566",
+        fontSize: 22,
+        flex: "0 0 auto",
+      },
+      title: { fontWeight: 800, fontSize: isMobile ? 16 : 18, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" },
+      subTitle: { opacity: 0.75, fontSize: 12, marginTop: 2, whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" },
+      tabs: { display: "flex", gap: 8 },
+      // React 경고 방지: border(축약) + borderColor(비축약) 혼용 금지
+      tabBtn: {
+        padding: isMobile ? "10px 12px" : "10px 14px",
+        borderRadius: 12,
+        borderWidth: 1,
+        borderStyle: "solid",
+        borderColor: "#2a3566",
+        background: "#151a2a",
+        color: "#e8ecf3",
+        cursor: "pointer",
+        whiteSpace: "nowrap",
+        flex: isMobile ? 1 : "0 0 auto",
+        minWidth: isMobile ? 0 : undefined,
+      },
+      tabActive: { background: "#1a2140", borderColor: "#3b4aa3" },
+
+      main: {
+        flex: 1,
+        display: "flex",
+        flexDirection: "column",
+        minHeight: 0,
+        overflow: "auto",
+      },
+      content: {
+        minHeight: 0,
+        height: "100%",
+      },
+    };
+  }, [isMobile]);
 
   // Converter -> download recipe as JSON file
   const addRecipeFromJsonObject = (obj) => {
@@ -74,45 +149,3 @@ export default function App() {
     </div>
   );
 }
-
-const styles = {
-  page: { 
-    fontFamily: "system-ui, -apple-system, Segoe UI, Roboto, sans-serif", 
-    padding: 16, 
-    background: "#0b0d12", 
-    color: "#e8ecf3", 
-    height: "100vh",
-    overflow: "hidden" // body 스크롤 제거
-  },
-  header: { 
-    display: "flex", 
-    justifyContent: "space-between", 
-    alignItems: "center", 
-    gap: 12, 
-    padding: 12, 
-    borderRadius: 16, 
-    background: "#121623", 
-    border: "1px solid #1f263a",
-    flexShrink: 0 // header가 축소되지 않도록
-  },
-  brand: { display: "flex", alignItems: "center", gap: 12 },
-  logo: { width: 44, height: 44, borderRadius: 14, display: "grid", placeItems: "center", background: "#1a2140", border: "1px solid #2a3566", fontSize: 22 },
-  title: { fontWeight: 800, fontSize: 18 },
-  subTitle: { opacity: 0.75, fontSize: 12, marginTop: 2 },
-  tabs: { display: "flex", gap: 8 },
-  // React 경고 방지: border(축약) + borderColor(비축약) 혼용 금지
-  tabBtn: { padding: "10px 14px", borderRadius: 12, borderWidth: 1, borderStyle: "solid", borderColor: "#2a3566", background: "#151a2a", color: "#e8ecf3", cursor: "pointer" },
-  tabActive: { background: "#1a2140", borderColor: "#3b4aa3" },
-
-  main: { 
-    display: "flex",
-    flexDirection: "column",
-    minHeight: 0, // Grid/Flex 자식이 overflow를 제대로 먹도록
-    height: "calc(100vh - 16px - 16px - 72px - 12px)", // page padding + header height + main padding
-    overflow: "auto" // 여기만 스크롤 허용
-  },
-  content: { 
-    minHeight: 0, // 자식이 overflow를 제대로 먹도록
-    height: "100%" // 부모(main)의 높이를 꽉 채움
-  },
-};

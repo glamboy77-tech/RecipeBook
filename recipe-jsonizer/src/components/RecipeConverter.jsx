@@ -1,5 +1,6 @@
 import React, { useMemo, useState } from "react";
 import RecipeViewer from "./RecipeViewer";
+import { useMediaQuery } from "../lib/useMediaQuery";
 
 /** ---------- utils ---------- **/
 function slugifyId(title) {
@@ -411,6 +412,7 @@ const exampleText = `제목 : 닭한마리 칼국수
 4. 남은 국물에 밥, 계란, 김가루, 참기름을 넣고 죽을 끓인다.`;
 
 export default function RecipeConverter({ onCreate }) {
+  const isMobile = useMediaQuery("(max-width: 768px)");
   const [inputText, setInputText] = useState("");
   const [titleOverride, setTitleOverride] = useState("");
   const [servings, setServings] = useState(4);
@@ -469,7 +471,7 @@ export default function RecipeConverter({ onCreate }) {
         </div>
       </div>
 
-      <div style={styles.grid2}>
+      <div style={{ ...styles.grid2, gridTemplateColumns: isMobile ? "1fr" : styles.grid2.gridTemplateColumns }}>
         <div style={styles.card}>
           <div style={styles.cardTitle}>입력 (텍스트 레시피)</div>
           <textarea

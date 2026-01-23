@@ -1,7 +1,9 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { formatIngredientNote, scaleIngredientAmount } from "../lib/recipe";
+import { useMediaQuery } from "../lib/useMediaQuery";
 
 function RecipeViewerEmbedded({ recipe }) {
+  const isMobile = useMediaQuery("(max-width: 768px)");
   const [targetServings, setTargetServings] = useState(recipe?.base_servings || 4);
 
   const base = recipe?.base_servings || 1;
@@ -52,7 +54,7 @@ function RecipeViewerEmbedded({ recipe }) {
             )}
           </div>
 
-          <div style={styles.grid2}>
+          <div style={{ ...styles.grid2, gridTemplateColumns: isMobile ? "1fr" : styles.grid2.gridTemplateColumns }}>
             <div style={{ ...styles.card, backgroundColor: "#121623", border: "1px solid #1f263a" }}>
               <div style={styles.cardTitle}>재료</div>
               {(recipe?.ingredient_groups || []).map((g, gIdx) => (
@@ -120,10 +122,12 @@ function RecipeViewerEmbedded({ recipe }) {
 }
 
 function RecipeViewerApp() {
+  const isMobile = useMediaQuery("(max-width: 768px)");
   const [recipes, setRecipes] = useState([]);
   const [query, setQuery] = useState("");
   const [selectedId, setSelectedId] = useState(null);
   const [targetServings, setTargetServings] = useState(4);
+  const [mobilePane, setMobilePane] = useState("list"); // 'list' | 'detail'
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [sortBy, setSortBy] = useState("title");
@@ -166,6 +170,12 @@ function RecipeViewerApp() {
   }, []);
 
   const selected = useMemo(() => recipes.find((r) => r.id === selectedId) || null, [recipes, selectedId]);
+
+  // 모바일에서 선택이 생기면 자동으로 상세로 이동
+  useEffect(() => {
+    if (!isMobile) return;
+    if (selectedId) setMobilePane("detail");
+  }, [isMobile, selectedId]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -245,15 +255,32 @@ function RecipeViewerApp() {
   return (
     <div style={styles.panel}>
       <div style={styles.panelHeader}>
-        <div>
+        <div style={{ minWidth: 0 }}>
           <div style={styles.panelTitle}>레시피 뷰어</div>
           <div style={styles.panelHint}>파일 시스템 기반 레시피 뷰어</div>
         </div>
+
+        {isMobile ? (
+          <div style={{ display: "flex", gap: 8 }}>
+            <button
+              style={{
+                ...styles.primaryBtn,
+                padding: "8px 10px",
+                borderRadius: 12,
+              }}
+              onClick={() => setMobilePane((p) => (p === "list" ? "detail" : "list"))}
+              disabled={!selectedId && mobilePane === "list"}
+              title="목록/상세 전환"
+            >
+              {mobilePane === "list" ? "상세" : "목록"}
+            </button>
+          </div>
+        ) : null}
       </div>
 
-      <div style={styles.grid2}>
+      <div style={{ ...styles.grid2, gridTemplateColumns: isMobile ? "1fr" : styles.grid2.gridTemplateColumns }}>
         {/* 왼쪽: 목록 + 검색 */}
-        <div style={styles.card}>
+        <div style={{ ...styles.card, ...(isMobile && mobilePane !== "list" ? styles.mobileHidden : {}) }}>
           <div style={styles.cardTitle}>레시피 목록</div>
           <input
             value={query}
@@ -285,6 +312,7 @@ function RecipeViewerApp() {
                   onClick={() => {
                     setSelectedId(r.id);
                     setTargetServings(r.base_servings || 4);
+                    if (isMobile) setMobilePane("detail");
                   }}
                   style={{
                     ...styles.listItem,
@@ -302,7 +330,7 @@ function RecipeViewerApp() {
         </div>
 
         {/* 오른쪽: 재료 + 요리법 */}
-        <div style={styles.card}>
+        <div style={{ ...styles.card, ...(isMobile && mobilePane !== "detail" ? styles.mobileHidden : {}) }}>
           <div style={styles.cardTitle}>레시피 상세</div>
           {!selected ? (
             <div style={styles.emptyBox}>레시피를 선택해줘.</div>
@@ -491,6 +519,9 @@ const styles = {
   stepsList: { margin: 0, paddingLeft: 18, color: "#e8ecf3" },
   stepItem: { marginBottom: 8, lineHeight: 1.4 },
   memo: { whiteSpace: "pre-wrap", opacity: 0.8, color: "#e8ecf3" },
+
+  // 모바일에서 한쪽 패널 숨김
+  mobileHidden: { display: "none" },
   
   // 계량 기준 안내 스타일
   measurementGuide: { padding: 12, borderRadius: 12, border: "1px solid #2a3566", background: "#0b0f1b", marginTop: 8 },
