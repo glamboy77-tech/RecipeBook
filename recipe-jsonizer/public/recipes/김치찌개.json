@@ -31,9 +31,9 @@
           "scalable": false
         },
         {
-          "name": "신김치 반포기(1kg)",
-          "amount": null,
-          "unit": "",
+          "name": "신김치",
+          "amount": 1,
+          "unit": "kg",
           "note": "메인",
           "scalable": false,
           "ingredient_type": "solid",
@@ -139,9 +139,9 @@
       "scalable": false
     },
     {
-      "name": "신김치 반포기(1kg)",
-      "amount": null,
-      "unit": "",
+      "name": "신김치",
+      "amount": 1,
+      "unit": "kg",
       "note": "메인",
       "scalable": false,
       "ingredient_type": "solid",
