@@ -1,0 +1,246 @@
+{
+  "id": "김치찌개_앞다리살_794172",
+  "title": "김치찌개(앞다리살)",
+  "base_servings": 10,
+  "tags": [
+    "한식",
+    "국물",
+    "김치찌개",
+    "앞다리살",
+    "전지",
+    "돼지고기"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        {
+          "name": "앞다리살",
+          "amount": 700,
+          "unit": "g",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        },
+        {
+          "name": "후추,",
+          "amount": null,
+          "unit": "",
+          "note": "메인 - 맛소금 톡톡",
+          "scalable": false
+        },
+        {
+          "name": "신김치 반포기(1kg)",
+          "amount": null,
+          "unit": "",
+          "note": "메인",
+          "scalable": false,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        },
+        {
+          "name": "다진마늘",
+          "amount": 1,
+          "unit": "TB",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "semi_solid",
+          "approx_ml": null
+        },
+        {
+          "name": "고추가루",
+          "amount": 1,
+          "unit": "TB",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "paste",
+          "approx_ml": null
+        },
+        {
+          "name": "간장",
+          "amount": 1,
+          "unit": "TB",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "liquid",
+          "approx_ml": null
+        },
+        {
+          "name": "물",
+          "amount": 1.5,
+          "unit": "L",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "liquid",
+          "approx_ml": null
+        },
+        {
+          "name": "다시다",
+          "amount": 1,
+          "unit": "TB",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        },
+        {
+          "name": "혼다시",
+          "amount": 1,
+          "unit": "TB",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        },
+        {
+          "name": "미원",
+          "amount": null,
+          "unit": "",
+          "note": "메인 - 톡톡",
+          "scalable": false
+        },
+        {
+          "name": "참치액",
+          "amount": 1,
+          "unit": "TB",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        },
+        {
+          "name": "대파",
+          "amount": 1,
+          "unit": "1뿌리",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "semi_solid",
+          "approx_ml": null
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "앞다리살",
+      "amount": 700,
+      "unit": "g",
+      "note": "메인",
+      "scalable": true,
+      "ingredient_type": "solid",
+      "approx_ml": null
+    },
+    {
+      "name": "후추,",
+      "amount": null,
+      "unit": "",
+      "note": "메인 - 맛소금 톡톡",
+      "scalable": false
+    },
+    {
+      "name": "신김치 반포기(1kg)",
+      "amount": null,
+      "unit": "",
+      "note": "메인",
+      "scalable": false,
+      "ingredient_type": "solid",
+      "approx_ml": null
+    },
+    {
+      "name": "다진마늘",
+      "amount": 1,
+      "unit": "TB",
+      "note": "메인",
+      "scalable": true,
+      "ingredient_type": "semi_solid",
+      "approx_ml": null
+    },
+    {
+      "name": "고추가루",
+      "amount": 1,
+      "unit": "TB",
+      "note": "메인",
+      "scalable": true,
+      "ingredient_type": "paste",
+      "approx_ml": null
+    },
+    {
+      "name": "간장",
+      "amount": 1,
+      "unit": "TB",
+      "note": "메인",
+      "scalable": true,
+      "ingredient_type": "liquid",
+      "approx_ml": null
+    },
+    {
+      "name": "물",
+      "amount": 1.5,
+      "unit": "L",
+      "note": "메인",
+      "scalable": true,
+      "ingredient_type": "liquid",
+      "approx_ml": null
+    },
+    {
+      "name": "다시다",
+      "amount": 1,
+      "unit": "TB",
+      "note": "메인",
+      "scalable": true,
+      "ingredient_type": "solid",
+      "approx_ml": null
+    },
+    {
+      "name": "혼다시",
+      "amount": 1,
+      "unit": "TB",
+      "note": "메인",
+      "scalable": true,
+      "ingredient_type": "solid",
+      "approx_ml": null
+    },
+    {
+      "name": "미원",
+      "amount": null,
+      "unit": "",
+      "note": "메인 - 톡톡",
+      "scalable": false
+    },
+    {
+      "name": "참치액",
+      "amount": 1,
+      "unit": "TB",
+      "note": "메인",
+      "scalable": true,
+      "ingredient_type": "solid",
+      "approx_ml": null
+    },
+    {
+      "name": "대파",
+      "amount": 1,
+      "unit": "1뿌리",
+      "note": "메인",
+      "scalable": true,
+      "ingredient_type": "semi_solid",
+      "approx_ml": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "돼지고기를 팬에 볶다가 다진마늘, 김치 넣고 볶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "고춧가루, 간장넣고 물을 조금 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "물을 붓고 끓이다가 다시다 미원 멸치액젓으로 간을본다.",
+      "timer_sec": null
+    }
+  ],
+  "memo": "너무 셔서 못먹겠을 정도일때만 설탕 1티스푼 넣고\n왠만하면 설탕은 넣지말자!!",
+  "source": ""
+}
