@@ -1,0 +1,372 @@
+{
+  "id": "닭한마리_칼국수_046173",
+  "title": "닭한마리 칼국수",
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "국물",
+    "칼국수",
+    "닭"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "닭한마리",
+      "items": [
+        {
+          "name": "재료",
+          "amount": 4,
+          "unit": "4인분",
+          "note": "닭한마리",
+          "scalable": true
+        },
+        {
+          "name": "닭도리탕용 닭",
+          "amount": 1,
+          "unit": "마리",
+          "note": "닭한마리",
+          "scalable": true
+        },
+        {
+          "name": "감자",
+          "amount": 1,
+          "unit": "개",
+          "note": "닭한마리 - 3~4등분",
+          "scalable": true
+        },
+        {
+          "name": "양파",
+          "amount": 0.5,
+          "unit": "반개",
+          "note": "닭한마리",
+          "scalable": true
+        },
+        {
+          "name": "대파",
+          "amount": 2,
+          "unit": "대",
+          "note": "닭한마리",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 1,
+          "unit": "tbsp",
+          "note": "닭한마리",
+          "scalable": true
+        },
+        {
+          "name": "다시다",
+          "amount": 1,
+          "unit": "tbsp",
+          "note": "닭한마리",
+          "scalable": true
+        },
+        {
+          "name": "치킨스톡",
+          "amount": 0.5,
+          "unit": "tbsp",
+          "note": "닭한마리",
+          "scalable": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.25,
+          "unit": "tbsp",
+          "note": "닭한마리",
+          "scalable": true
+        },
+        {
+          "name": "물",
+          "amount": 1.5,
+          "unit": "L",
+          "note": "닭한마리",
+          "scalable": true
+        },
+        {
+          "name": "후추",
+          "amount": null,
+          "unit": "",
+          "note": "톡톡",
+          "scalable": false
+        },
+        {
+          "name": "생칼국수",
+          "amount": 2,
+          "unit": "개",
+          "note": "닭한마리 - 300g",
+          "scalable": true
+        }
+      ]
+    },
+    {
+      "name": "양념장",
+      "items": [
+        {
+          "name": "고춧가루",
+          "amount": 3,
+          "unit": "tbsp",
+          "note": "양념장",
+          "scalable": true
+        },
+        {
+          "name": "간장",
+          "amount": 6,
+          "unit": "tbsp",
+          "note": "양념장",
+          "scalable": true
+        },
+        {
+          "name": "식초",
+          "amount": 6,
+          "unit": "tbsp",
+          "note": "양념장",
+          "scalable": true
+        },
+        {
+          "name": "물",
+          "amount": 6,
+          "unit": "tbsp",
+          "note": "양념장",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 1.5,
+          "unit": "tbsp",
+          "note": "양념장",
+          "scalable": true
+        },
+        {
+          "name": "설탕",
+          "amount": 2,
+          "unit": "tbsp",
+          "note": "양념장",
+          "scalable": true
+        },
+        {
+          "name": "겨자",
+          "amount": 0.5,
+          "unit": "tbsp",
+          "note": "양념장",
+          "scalable": true
+        },
+        {
+          "name": "부추",
+          "amount": null,
+          "unit": "",
+          "note": "왕창",
+          "scalable": false
+        }
+      ]
+    },
+    {
+      "name": "볶음밥",
+      "items": [
+        {
+          "name": "밥",
+          "amount": 1,
+          "unit": "1공기",
+          "note": "볶음밥",
+          "scalable": true
+        },
+        {
+          "name": "계란",
+          "amount": 1,
+          "unit": "개",
+          "note": "볶음밥",
+          "scalable": true
+        },
+        {
+          "name": "참기름",
+          "amount": 1,
+          "unit": "tbsp",
+          "note": "볶음밥",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "재료",
+      "amount": 4,
+      "unit": "4인분",
+      "note": "닭한마리",
+      "scalable": true
+    },
+    {
+      "name": "닭도리탕용 닭",
+      "amount": 1,
+      "unit": "마리",
+      "note": "닭한마리",
+      "scalable": true
+    },
+    {
+      "name": "감자",
+      "amount": 1,
+      "unit": "개",
+      "note": "닭한마리 - 3~4등분",
+      "scalable": true
+    },
+    {
+      "name": "양파",
+      "amount": 0.5,
+      "unit": "반개",
+      "note": "닭한마리",
+      "scalable": true
+    },
+    {
+      "name": "대파",
+      "amount": 2,
+      "unit": "대",
+      "note": "닭한마리",
+      "scalable": true
+    },
+    {
+      "name": "다진마늘",
+      "amount": 1,
+      "unit": "tbsp",
+      "note": "닭한마리",
+      "scalable": true
+    },
+    {
+      "name": "다시다",
+      "amount": 1,
+      "unit": "tbsp",
+      "note": "닭한마리",
+      "scalable": true
+    },
+    {
+      "name": "치킨스톡",
+      "amount": 0.5,
+      "unit": "tbsp",
+      "note": "닭한마리",
+      "scalable": true
+    },
+    {
+      "name": "미원",
+      "amount": 0.25,
+      "unit": "tbsp",
+      "note": "닭한마리",
+      "scalable": true
+    },
+    {
+      "name": "물",
+      "amount": 1.5,
+      "unit": "L",
+      "note": "닭한마리",
+      "scalable": true
+    },
+    {
+      "name": "후추",
+      "amount": null,
+      "unit": "",
+      "note": "톡톡",
+      "scalable": false
+    },
+    {
+      "name": "생칼국수",
+      "amount": 2,
+      "unit": "개",
+      "note": "닭한마리 - 300g",
+      "scalable": true
+    },
+    {
+      "name": "고춧가루",
+      "amount": 3,
+      "unit": "tbsp",
+      "note": "양념장",
+      "scalable": true
+    },
+    {
+      "name": "간장",
+      "amount": 6,
+      "unit": "tbsp",
+      "note": "양념장",
+      "scalable": true
+    },
+    {
+      "name": "식초",
+      "amount": 6,
+      "unit": "tbsp",
+      "note": "양념장",
+      "scalable": true
+    },
+    {
+      "name": "물",
+      "amount": 6,
+      "unit": "tbsp",
+      "note": "양념장",
+      "scalable": true
+    },
+    {
+      "name": "다진마늘",
+      "amount": 1.5,
+      "unit": "tbsp",
+      "note": "양념장",
+      "scalable": true
+    },
+    {
+      "name": "설탕",
+      "amount": 2,
+      "unit": "tbsp",
+      "note": "양념장",
+      "scalable": true
+    },
+    {
+      "name": "겨자",
+      "amount": 0.5,
+      "unit": "tbsp",
+      "note": "양념장",
+      "scalable": true
+    },
+    {
+      "name": "부추",
+      "amount": null,
+      "unit": "",
+      "note": "왕창",
+      "scalable": false
+    },
+    {
+      "name": "밥",
+      "amount": 1,
+      "unit": "1공기",
+      "note": "볶음밥",
+      "scalable": true
+    },
+    {
+      "name": "계란",
+      "amount": 1,
+      "unit": "개",
+      "note": "볶음밥",
+      "scalable": true
+    },
+    {
+      "name": "참기름",
+      "amount": 1,
+      "unit": "tbsp",
+      "note": "볶음밥",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "물에 재료를 몽땅넣고 끓인다.",
+      "timer_sec": null
+    },
+    {
+      "text": "감자가 익으면 끝.",
+      "timer_sec": null
+    },
+    {
+      "text": "고기를 건져먹고 칼국수를 끓인다. (옵션 : 김치국물)",
+      "timer_sec": null
+    },
+    {
+      "text": "남은 국물에 밥, 계란, 김가루, 참기름을 넣고 죽을 끓인다.",
+      "timer_sec": null
+    }
+  ],
+  "memo": "",
+  "source": ""
+}

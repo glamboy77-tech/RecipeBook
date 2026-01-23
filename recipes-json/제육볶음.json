@@ -1,0 +1,251 @@
+{
+  "id": "제육볶음_636717",
+  "title": "제육볶음",
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "앞다리살",
+    "돼지",
+    "제육"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        {
+          "name": "앞다리살",
+          "amount": 1,
+          "unit": "kg",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "대파",
+          "amount": 1,
+          "unit": "대",
+          "note": "메인",
+          "scalable": true
+        }
+      ]
+    },
+    {
+      "name": "소스",
+      "items": [
+        {
+          "name": "고춧가루",
+          "amount": 1,
+          "unit": "tbsp",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "다시다",
+          "amount": 0.25,
+          "unit": "tbsp",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.25,
+          "unit": "tbsp",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "설탕",
+          "amount": 0.5,
+          "unit": "tbsp",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "후추",
+          "amount": null,
+          "unit": "",
+          "note": "톡톡",
+          "scalable": false
+        },
+        {
+          "name": "미림",
+          "amount": 0.5,
+          "unit": "tbsp",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "매실액기스",
+          "amount": 0.25,
+          "unit": "tbsp",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 0.5,
+          "unit": "tbsp",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "진간장",
+          "amount": 0.5,
+          "unit": "tbsp",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "배음료",
+          "amount": 1.5,
+          "unit": "tbsp",
+          "note": "소스 - 물",
+          "scalable": true
+        },
+        {
+          "name": "참기름",
+          "amount": 0.5,
+          "unit": "tbsp",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "참깨",
+          "amount": 0.5,
+          "unit": "tbsp",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "고추장",
+          "amount": 1.5,
+          "unit": "tbsp",
+          "note": "소스",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "앞다리살",
+      "amount": 1,
+      "unit": "kg",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "대파",
+      "amount": 1,
+      "unit": "대",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "고춧가루",
+      "amount": 1,
+      "unit": "tbsp",
+      "note": "소스",
+      "scalable": true
+    },
+    {
+      "name": "다시다",
+      "amount": 0.25,
+      "unit": "tbsp",
+      "note": "소스",
+      "scalable": true
+    },
+    {
+      "name": "미원",
+      "amount": 0.25,
+      "unit": "tbsp",
+      "note": "소스",
+      "scalable": true
+    },
+    {
+      "name": "설탕",
+      "amount": 0.5,
+      "unit": "tbsp",
+      "note": "소스",
+      "scalable": true
+    },
+    {
+      "name": "후추",
+      "amount": null,
+      "unit": "",
+      "note": "톡톡",
+      "scalable": false
+    },
+    {
+      "name": "미림",
+      "amount": 0.5,
+      "unit": "tbsp",
+      "note": "소스",
+      "scalable": true
+    },
+    {
+      "name": "매실액기스",
+      "amount": 0.25,
+      "unit": "tbsp",
+      "note": "소스",
+      "scalable": true
+    },
+    {
+      "name": "다진마늘",
+      "amount": 0.5,
+      "unit": "tbsp",
+      "note": "소스",
+      "scalable": true
+    },
+    {
+      "name": "진간장",
+      "amount": 0.5,
+      "unit": "tbsp",
+      "note": "소스",
+      "scalable": true
+    },
+    {
+      "name": "배음료",
+      "amount": 1.5,
+      "unit": "tbsp",
+      "note": "소스 - 물",
+      "scalable": true
+    },
+    {
+      "name": "참기름",
+      "amount": 0.5,
+      "unit": "tbsp",
+      "note": "소스",
+      "scalable": true
+    },
+    {
+      "name": "참깨",
+      "amount": 0.5,
+      "unit": "tbsp",
+      "note": "소스",
+      "scalable": true
+    },
+    {
+      "name": "고추장",
+      "amount": 1.5,
+      "unit": "tbsp",
+      "note": "소스",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "파를 태우듯이 굽다가 식용유 1T 넣고 고기를 넣어서 굽는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "고기가 어느정도 익으면 양념넣고 볶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "마지막에 참기름 살짝",
+      "timer_sec": null
+    }
+  ],
+  "memo": "",
+  "source": ""
+}

@@ -1,0 +1,57 @@
+name: Deploy RecipeBook to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          # Vite 7 권장: Node 20.19+ 또는 22.12+
+          node-version: '20.19.0'
+          cache: 'npm'
+          cache-dependency-path: recipe-jsonizer/package-lock.json
+
+      - name: Install
+        working-directory: recipe-jsonizer
+        run: npm ci
+
+      - name: Lint
+        working-directory: recipe-jsonizer
+        run: npm run lint
+
+      - name: Build
+        working-directory: recipe-jsonizer
+        run: npm run build
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: recipe-jsonizer/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,147 @@
+{
+  "id": "해물칼국수_816421",
+  "title": "해물칼국수",
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "국물",
+    "칼국수",
+    "오징어",
+    "조개"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        {
+          "name": "감자 슬라이스",
+          "amount": 1,
+          "unit": "개",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "당근",
+          "amount": null,
+          "unit": "",
+          "note": "메인 - 조금",
+          "scalable": false
+        },
+        {
+          "name": "양파",
+          "amount": 1,
+          "unit": "개",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "대파 반대",
+          "amount": null,
+          "unit": "",
+          "note": "메인",
+          "scalable": false
+        },
+        {
+          "name": "물",
+          "amount": 2.4,
+          "unit": "L",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "오징어",
+          "amount": 1,
+          "unit": "마리",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "조개 적당히",
+          "amount": null,
+          "unit": "",
+          "note": "메인",
+          "scalable": false
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "감자 슬라이스",
+      "amount": 1,
+      "unit": "개",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "당근",
+      "amount": null,
+      "unit": "",
+      "note": "메인 - 조금",
+      "scalable": false
+    },
+    {
+      "name": "양파",
+      "amount": 1,
+      "unit": "개",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "대파 반대",
+      "amount": null,
+      "unit": "",
+      "note": "메인",
+      "scalable": false
+    },
+    {
+      "name": "물",
+      "amount": 2.4,
+      "unit": "L",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "오징어",
+      "amount": 1,
+      "unit": "마리",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "조개 적당히",
+      "amount": null,
+      "unit": "",
+      "note": "메인",
+      "scalable": false
+    }
+  ],
+  "steps": [
+    {
+      "text": "물에 멸치가루 1t, 멸치액젓 1t, 조개다시다 1t, 다진마늘 1t, 미원 후추 톡톡 넣고 끓인다.",
+      "timer_sec": null
+    },
+    {
+      "text": "감자부터 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "물이 팔팔 끓으면 나머지 재료도 다 넣는다",
+      "timer_sec": null
+    },
+    {
+      "text": "굵은소금으로 간을한다",
+      "timer_sec": null
+    },
+    {
+      "text": "칼국수는 물에 담갔다가 끓인다",
+      "timer_sec": null
+    },
+    {
+      "text": "마지막 후추 톡톡",
+      "timer_sec": null
+    }
+  ],
+  "memo": "",
+  "source": ""
+}

@@ -1,0 +1,121 @@
+{
+  "id": "김치전_339315",
+  "title": "김치전",
+  "base_servings": 2,
+  "tags": [
+    "한식",
+    "김치전",
+    "부침개",
+    "막걸리"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        {
+          "name": "김치",
+          "amount": 0.7,
+          "unit": "0.7컵",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "부침가루",
+          "amount": 1,
+          "unit": "1컵",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "물",
+          "amount": 1,
+          "unit": "1컵",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "식용유",
+          "amount": 1,
+          "unit": "1스푼",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "고운고춧가루 색깔내기",
+          "amount": null,
+          "unit": "",
+          "note": "메인",
+          "scalable": false
+        },
+        {
+          "name": "김치국물 색깔내기",
+          "amount": null,
+          "unit": "",
+          "note": "메인",
+          "scalable": false
+        },
+        {
+          "name": "참치캔",
+          "amount": 0.5,
+          "unit": "개",
+          "note": "메인 - 옵션",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "김치",
+      "amount": 0.7,
+      "unit": "0.7컵",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "부침가루",
+      "amount": 1,
+      "unit": "1컵",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "물",
+      "amount": 1,
+      "unit": "1컵",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "식용유",
+      "amount": 1,
+      "unit": "1스푼",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "고운고춧가루 색깔내기",
+      "amount": null,
+      "unit": "",
+      "note": "메인",
+      "scalable": false
+    },
+    {
+      "name": "김치국물 색깔내기",
+      "amount": null,
+      "unit": "",
+      "note": "메인",
+      "scalable": false
+    },
+    {
+      "name": "참치캔",
+      "amount": 0.5,
+      "unit": "개",
+      "note": "메인 - 옵션",
+      "scalable": true
+    }
+  ],
+  "steps": [],
+  "memo": "",
+  "source": ""
+}

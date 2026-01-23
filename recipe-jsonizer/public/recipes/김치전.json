@@ -1,0 +1,152 @@
+{
+  "id": "김치전_339315",
+  "title": "김치전",
+  "base_servings": 2,
+  "tags": [
+    "한식",
+    "김치전",
+    "부침개",
+    "막걸리"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        {
+          "name": "김치",
+          "amount": 0.7,
+          "unit": "컵",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "부침가루",
+          "amount": 1,
+          "unit": "컵",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "물",
+          "amount": 1,
+          "unit": "컵",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "식용유",
+          "amount": 1,
+          "unit": "밥숟가락",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "liquid",
+          "approx_ml": 10
+        },
+        {
+          "name": "고운고춧가루 색깔내기",
+          "amount": null,
+          "unit": "",
+          "note": "메인",
+          "scalable": false
+        },
+        {
+          "name": "김치국물 색깔내기",
+          "amount": null,
+          "unit": "",
+          "note": "메인",
+          "scalable": false
+        },
+        {
+          "name": "참치캔",
+          "amount": 0.5,
+          "unit": "개",
+          "note": "옵션",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "김치",
+      "amount": 0.7,
+      "unit": "0.7컵",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "부침가루",
+      "amount": 1,
+      "unit": "1컵",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "물",
+      "amount": 1,
+      "unit": "1컵",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "식용유",
+      "amount": 1,
+      "unit": "1스푼",
+      "note": "메인",
+      "scalable": true
+    },
+    {
+      "name": "고운고춧가루 색깔내기",
+      "amount": null,
+      "unit": "",
+      "note": "메인",
+      "scalable": false
+    },
+    {
+      "name": "김치국물 색깔내기",
+      "amount": null,
+      "unit": "",
+      "note": "메인",
+      "scalable": false
+    },
+    {
+      "name": "참치캔",
+      "amount": 0.5,
+      "unit": "개",
+      "note": "메인 - 옵션",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "김치는 물기를 살짝 짜고 잘게 썬다.",
+      "timer_sec": null
+    },
+    {
+      "text": "부침가루에 물을 넣고 잘 섞어 반죽을 만든다.",
+      "timer_sec": null
+    },
+    {
+      "text": "김치와 부침가루 반죽을 섞어 김치전 반죽을 완성한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "팬에 식용유를 두르고 중불로 달군다.",
+      "timer_sec": null
+    },
+    {
+      "text": "김치전 반죽을 한 숟가락씩 떠서 올려 노릇노릇하게 부친다.",
+      "timer_sec": null
+    },
+    {
+      "text": "한쪽이 익으면 뒤집어서 노릇하게 부친다.",
+      "timer_sec": null
+    },
+    {
+      "text": "접시에 옮겨 간장과 함께 곁들여 낸다.",
+      "timer_sec": null
+    }
+  ],
+  "memo": "",
+  "source": ""
+}

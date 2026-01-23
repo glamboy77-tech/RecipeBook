@@ -1,0 +1,229 @@
+{
+  "id": "크림파스타_456689",
+  "title": "크림파스타",
+  "base_servings": 1,
+  "tags": [
+    "양식",
+    "파스타",
+    "크림"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        {
+          "name": "올리브유",
+          "amount": 1,
+          "unit": "teaspoon",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "name": "다진양파",
+          "amount": 0.5,
+          "unit": "개",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "name": "베이컨",
+          "amount": 2,
+          "unit": "줄",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 1,
+          "unit": "teaspoon",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "name": "버터",
+          "amount": 1,
+          "unit": "조각",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "name": "칵테일새우 많이",
+          "amount": null,
+          "unit": "",
+          "note": "",
+          "scalable": false
+        },
+        {
+          "name": "양송이",
+          "amount": 3,
+          "unit": "개",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "name": "생크림",
+          "amount": 100,
+          "unit": "ml",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "name": "굴소스",
+          "amount": 1,
+          "unit": "밥숟가락",
+          "note": "밥숟가락 기준, 고체",
+          "scalable": true
+        },
+        {
+          "name": "치킨스톡",
+          "amount": null,
+          "unit": "",
+          "note": "톡톡",
+          "scalable": false
+        },
+        {
+          "name": "치즈가루",
+          "amount": null,
+          "unit": "",
+          "note": "톡톡",
+          "scalable": false
+        },
+        {
+          "name": "우유 점성조절",
+          "amount": null,
+          "unit": "",
+          "note": "",
+          "scalable": false
+        },
+        {
+          "name": "파스타면",
+          "amount": 100,
+          "unit": "g",
+          "note": "",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "올리브유",
+      "amount": 1,
+      "unit": "teaspoon",
+      "note": "",
+      "scalable": true
+    },
+    {
+      "name": "다진양파",
+      "amount": 0.5,
+      "unit": "개",
+      "note": "",
+      "scalable": true
+    },
+    {
+      "name": "베이컨",
+      "amount": 2,
+      "unit": "줄",
+      "note": "",
+      "scalable": true
+    },
+    {
+      "name": "다진마늘",
+      "amount": 1,
+      "unit": "teaspoon",
+      "note": "",
+      "scalable": true
+    },
+    {
+      "name": "버터",
+      "amount": 1,
+      "unit": "조각",
+      "note": "",
+      "scalable": true
+    },
+    {
+      "name": "칵테일새우 많이",
+      "amount": null,
+      "unit": "",
+      "note": "",
+      "scalable": false
+    },
+    {
+      "name": "양송이",
+      "amount": 3,
+      "unit": "개",
+      "note": "",
+      "scalable": true
+    },
+    {
+      "name": "생크림",
+      "amount": 100,
+      "unit": "ml",
+      "note": "",
+      "scalable": true
+    },
+    {
+      "name": "굴소스",
+      "amount": 1,
+      "unit": "밥숟가락",
+      "note": "밥숟가락 기준, 고체",
+      "scalable": true
+    },
+    {
+      "name": "치킨스톡",
+      "amount": null,
+      "unit": "",
+      "note": "톡톡",
+      "scalable": false
+    },
+    {
+      "name": "치즈가루",
+      "amount": null,
+      "unit": "",
+      "note": "톡톡",
+      "scalable": false
+    },
+    {
+      "name": "우유 점성조절",
+      "amount": null,
+      "unit": "",
+      "note": "",
+      "scalable": false
+    },
+    {
+      "name": "파스타면",
+      "amount": 100,
+      "unit": "g",
+      "note": "",
+      "scalable": true
+    }
+  ],
+  "steps": [
+    {
+      "text": "올리브유에 베이컨, 양파 넣고 10분간 볶다가 다진마늘, 버터를 넣어준다.",
+      "timer_sec": null
+    },
+    {
+      "text": "면을 소금물에 8분간 삶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "새우, 양송이, 후추를 넣고 10분간 볶아준다.",
+      "timer_sec": null
+    },
+    {
+      "text": "색깔이 나오면 생크림 넣고 졸이다가 굴소스, 치킨스톡, 치즈가루, 체다치즈, 소금으로 간을한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "농도가 너무 진하면 면수나 우유로 조절한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "후추, 파슬리 등을 뿌린다.",
+      "timer_sec": null
+    }
+  ],
+  "memo": "",
+  "source": ""
+}
