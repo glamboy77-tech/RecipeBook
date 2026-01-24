@@ -1,0 +1,80 @@
+{
+  "id": "어묵양념간장_706256",
+  "title": "어묵양념간장",
+  "base_servings": 4,
+  "tags": [
+    "소스",
+    "간장"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        {
+          "name": "간장",
+          "amount": 3,
+          "unit": "밥숟가락",
+          "note": "메인 - 밥숟가락 기준, 액체",
+          "scalable": true,
+          "ingredient_type": "liquid",
+          "approx_ml": 30
+        },
+        {
+          "name": "물",
+          "amount": 3,
+          "unit": "밥숟가락",
+          "note": "메인 - 밥숟가락 기준, 액체",
+          "scalable": true,
+          "ingredient_type": "liquid",
+          "approx_ml": 30
+        },
+        {
+          "name": "고춧가루",
+          "amount": 1,
+          "unit": "밥숟가락",
+          "note": "메인 - 밥숟가락 기준, 반고형",
+          "scalable": true,
+          "ingredient_type": "semi_solid",
+          "approx_ml": 15
+        },
+        {
+          "name": "다진파",
+          "amount": 1,
+          "unit": "밥숟가락",
+          "note": "메인 - 밥숟가락 기준, 반고형",
+          "scalable": true,
+          "ingredient_type": "semi_solid",
+          "approx_ml": 15
+        },
+        {
+          "name": "다진마늘",
+          "amount": 1,
+          "unit": "밥숟가락",
+          "note": "메인 - 밥숟가락 기준, 반고형",
+          "scalable": true,
+          "ingredient_type": "semi_solid",
+          "approx_ml": 15
+        },
+        {
+          "name": "와사비",
+          "amount": 0.5,
+          "unit": "밥숟가락",
+          "note": "메인 - 밥숟가락 기준, 고체",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": 7.5
+        },
+        {
+          "name": "후추",
+          "amount": null,
+          "unit": "",
+          "note": "메인 - 톡톡",
+          "scalable": false
+        }
+      ]
+    }
+  ],
+  "steps": [],
+  "memo": "",
+  "source": ""
+}
