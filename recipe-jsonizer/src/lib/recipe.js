@@ -51,6 +51,30 @@ function roundByUnit(value, unit) {
 }
 
 /**
+ * unit 문자열에 숫자가 포함된 경우를 정규화한다.
+ * 예)
+ * - amount: 1, unit: "1뿌리"   => amount: 1, unit: "뿌리"   (실표기는 1뿌리)
+ * - amount: 2, unit: "0.7컵"  => amount: 1.4, unit: "컵"  (스케일링/표시에서 중복 숫자 제거)
+ * - amount: null, unit: "1뿌리" => amount: null, unit: "1뿌리" (양이 없으면 그대로 둠)
+ */
+export function normalizeIngredientAmountUnit(amount, unit) {
+  const u = (unit || "").trim();
+  if (!u) return { amount, unit };
+  if (amount === null || amount === undefined) return { amount, unit };
+  if (!Number.isFinite(amount)) return { amount, unit };
+
+  // unit이 숫자로 시작하는 케이스: "0.7컵", "1뿌리", "2 개" 등
+  const m = u.match(/^([0-9]+(?:\.[0-9]+)?)\s*(.+)$/);
+  if (!m) return { amount, unit };
+
+  const factor = Number(m[1]);
+  const pureUnit = (m[2] || "").trim();
+  if (!Number.isFinite(factor) || factor === 0 || !pureUnit) return { amount, unit };
+
+  return { amount: amount * factor, unit: pureUnit };
+}
+
+/**
  * 기본은 선형 스케일링.
  * v2 대비로 ingredient.scale_mode 등을 해석하지만, 값이 없으면 기존과 동일하게 동작.
  *
@@ -59,7 +83,8 @@ function roundByUnit(value, unit) {
  * @param {number} targetServings
  */
 export function scaleIngredientAmount(ing, baseServings, targetServings) {
-  const amount = ing?.amount;
+  const normalized = normalizeIngredientAmountUnit(ing?.amount, ing?.unit);
+  const amount = normalized.amount;
   if (amount === null || amount === undefined) return null;
   if (!Number.isFinite(amount)) return amount;
 
@@ -87,7 +112,7 @@ export function scaleIngredientAmount(ing, baseServings, targetServings) {
     scaled = amount * k;
   }
 
-  return roundByUnit(scaled, ing?.unit);
+  return roundByUnit(scaled, normalized.unit);
 }
 
 /**

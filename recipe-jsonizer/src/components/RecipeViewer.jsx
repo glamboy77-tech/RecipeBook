@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { formatIngredientNote, scaleIngredientAmount } from "../lib/recipe";
+import { formatIngredientNote, normalizeIngredientAmountUnit, scaleIngredientAmount } from "../lib/recipe";
 import { useMediaQuery } from "../lib/useMediaQuery";
 
 function RecipeViewerEmbedded({ recipe }) {
@@ -62,6 +62,7 @@ function RecipeViewerEmbedded({ recipe }) {
                   <h4 style={styles.groupName}>{g.name}</h4>
                   <ul style={styles.ingredientList}>
                     {(g.items || []).map((ing, idx) => {
+                      const normalized = normalizeIngredientAmountUnit(ing?.amount, ing?.unit);
                       const scaled = scaleIngredientAmount(ing, base, target);
                       const note = formatIngredientNote(ing.note, g.name);
 
@@ -69,7 +70,7 @@ function RecipeViewerEmbedded({ recipe }) {
                         <li key={idx} style={styles.ingredientItem}>
                           <span style={styles.ingredientName}>{ing.name}</span>
                           <span style={styles.ingredientAmount}>
-                            {scaled !== null && scaled !== undefined ? `: ${scaled} ${ing.unit || ""}` : ""}
+                            {scaled !== null && scaled !== undefined ? `: ${scaled}${normalized.unit || ""}` : ""}
                             {note ? ` (${note})` : ""}
                             {ing.scalable === false ? " [취향]" : ""}
                           </span>
@@ -385,6 +386,7 @@ function RecipeViewerApp() {
                       <ul style={styles.ingredientList}>
                         {(g.items || []).map((ing, idx) => {
                           const base = selected.base_servings || 1;
+                          const normalized = normalizeIngredientAmountUnit(ing?.amount, ing?.unit);
                           const scaled = scaleIngredientAmount(ing, base, targetServings);
                           const note = formatIngredientNote(ing.note, g.name);
 
@@ -392,9 +394,9 @@ function RecipeViewerApp() {
                             <li key={idx} style={styles.ingredientItem}>
                               <span style={styles.ingredientName}>{ing.name}</span>
                               <span style={styles.ingredientAmount}>
-                                {scaled !== null && scaled !== undefined ? `: ${scaled} ${ing.unit || ""}` : ""}
+                                {scaled !== null && scaled !== undefined ? `: ${scaled}${normalized.unit || ""}` : ""}
                                 {note ? ` (${note})` : ""}
-                                {!ing.scalable ? " [취향]" : ""}
+                                {ing.scalable === false ? " [취향]" : ""}
                               </span>
                             </li>
                           );
@@ -406,6 +408,7 @@ function RecipeViewerApp() {
                   <ul style={styles.ingredientList}>
                     {(selected.ingredients || []).map((ing, idx) => {
                       const base = selected.base_servings || 1;
+                      const normalized = normalizeIngredientAmountUnit(ing?.amount, ing?.unit);
                       const scaled = scaleIngredientAmount(ing, base, targetServings);
                       const note = formatIngredientNote(ing.note, "");
 
@@ -413,9 +416,9 @@ function RecipeViewerApp() {
                         <li key={idx} style={styles.ingredientItem}>
                           <span style={styles.ingredientName}>{ing.name}</span>
                           <span style={styles.ingredientAmount}>
-                            {scaled !== null && scaled !== undefined ? `: ${scaled} ${ing.unit || ""}` : ""}
+                            {scaled !== null && scaled !== undefined ? `: ${scaled}${normalized.unit || ""}` : ""}
                             {note ? ` (${note})` : ""}
-                            {!ing.scalable ? " [취향]" : ""}
+                            {ing.scalable === false ? " [취향]" : ""}
                           </span>
                         </li>
                       );
