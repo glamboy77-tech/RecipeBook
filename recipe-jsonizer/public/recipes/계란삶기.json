@@ -1,0 +1,44 @@
+{
+  "id": "계란삶기_573824",
+  "title": "계란삶기",
+  "base_servings": 5,
+  "tags": [
+    "계란"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        {
+          "name": "계란",
+          "amount": 5,
+          "unit": "개",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "계란은 20분전에 실온에 꺼내놓는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "물 1리터에 소금 한스푼 넣고 끓인다.",
+      "timer_sec": null
+    },
+    {
+      "text": "물이 끓으면 계란을 국자로 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "찬물에 담가두었다가 계란이 식으면 깐다. (찬물에 너무 오래 넣어두면 오히려 안까짐)",
+      "timer_sec": null
+    }
+  ],
+  "memo": "6분30초~7분30초 : 물처럼 흐르는 반숙\n8분~9분30초       : 촉촉 쫀득한 반숙\n10분                  : 완숙과 반숙 사이\n12분~13분          : 완벽한 완숙",
+  "source": ""
+}
