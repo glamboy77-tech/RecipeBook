@@ -1,0 +1,231 @@
+{
+  "id": "부대찌개_470076",
+  "title": "부대찌개",
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "국물",
+    "부대찌개",
+    "햄",
+    "소시지"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        {
+          "name": "대파",
+          "amount": 1,
+          "unit": "1뿌리",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "semi_solid",
+          "approx_ml": null
+        },
+        {
+          "name": "청양고추",
+          "amount": 1,
+          "unit": "개",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "paste",
+          "approx_ml": null
+        },
+        {
+          "name": "양파",
+          "amount": 0.3333333333333333,
+          "unit": "개",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "semi_solid",
+          "approx_ml": null
+        },
+        {
+          "name": "떡&마카로니",
+          "amount": null,
+          "unit": "",
+          "note": "메인 - 한줌씩",
+          "scalable": false
+        },
+        {
+          "name": "두부",
+          "amount": 0.5,
+          "unit": "모",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        },
+        {
+          "name": "베이컨",
+          "amount": 120,
+          "unit": "g",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        },
+        {
+          "name": "콘킹 소시지",
+          "amount": 3,
+          "unit": "개",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        },
+        {
+          "name": "튤립햄",
+          "amount": 200,
+          "unit": "g",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        },
+        {
+          "name": "토마토콩 크게",
+          "amount": 3,
+          "unit": "밥숟가락",
+          "note": "메인 - 밥숟가락 기준, 고체",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": 45
+        },
+        {
+          "name": "치즈",
+          "amount": 0.5,
+          "unit": "개",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        },
+        {
+          "name": "라면사리",
+          "amount": 1,
+          "unit": "개",
+          "note": "메인",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        }
+      ]
+    },
+    {
+      "name": "양념장",
+      "items": [
+        {
+          "name": "고추가루",
+          "amount": 2,
+          "unit": "밥숟가락",
+          "note": "양념장 - 밥숟가락 기준, 점성 재료",
+          "scalable": true,
+          "ingredient_type": "paste",
+          "approx_ml": 40
+        },
+        {
+          "name": "다시다",
+          "amount": 0.25,
+          "unit": "밥숟가락",
+          "note": "양념장 - 밥숟가락 기준, 고체",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": 3.75
+        },
+        {
+          "name": "치킨스톡",
+          "amount": 0.25,
+          "unit": "밥숟가락",
+          "note": "양념장 - 밥숟가락 기준, 고체",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": 3.75
+        },
+        {
+          "name": "짬뽕다시",
+          "amount": 0.5,
+          "unit": "밥숟가락",
+          "note": "양념장 - 밥숟가락 기준, 고체",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": 7.5
+        },
+        {
+          "name": "다진마늘",
+          "amount": 0.5,
+          "unit": "밥숟가락",
+          "note": "양념장 - 밥숟가락 기준, 반고형",
+          "scalable": true,
+          "ingredient_type": "semi_solid",
+          "approx_ml": 7.5
+        },
+        {
+          "name": "굴소스",
+          "amount": 1,
+          "unit": "밥숟가락",
+          "note": "양념장 - 밥숟가락 기준, 고체",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": 15
+        },
+        {
+          "name": "간장",
+          "amount": 1.5,
+          "unit": "TB",
+          "note": "양념장",
+          "scalable": true,
+          "ingredient_type": "liquid",
+          "approx_ml": null
+        },
+        {
+          "name": "정종",
+          "amount": 1.5,
+          "unit": "TB",
+          "note": "양념장",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        },
+        {
+          "name": "물",
+          "amount": 700,
+          "unit": "ml",
+          "note": "양념장",
+          "scalable": true,
+          "ingredient_type": "liquid",
+          "approx_ml": null
+        },
+        {
+          "name": "사골육수",
+          "amount": 500,
+          "unit": "ml",
+          "note": "양념장",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "재료에 육수를 붇고 양념장 크게 4스푼 넣고 끓인다.",
+      "timer_sec": null
+    },
+    {
+      "text": "졸이면서 간을보고 육수 추가한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "라면사리를 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "최종 간을한다 (멸치액젓, 미원, 후추, 양파맛소금 등)",
+      "timer_sec": null
+    }
+  ],
+  "memo": "",
+  "source": ""
+}
