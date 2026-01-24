@@ -36,6 +36,7 @@ function normalizeUnit(raw) {
   if (u === "마리") return "마리";
   if (u === "줄") return "줄";
   if (u === "조각") return "조각";
+  if (u === "모") return "모";
 
   return raw;
 }
@@ -138,7 +139,7 @@ function detectSectionHeader(line) {
   if (/\d/.test(t)) return null; // 숫자 있으면 보통 재료/설명
 
   // 단위/취향표현이 있으면 재료일 가능성↑ → 헤더 제외
-  if (/(큰술|작은술|tbsp|tsp|리터|l|ml|g|kg|개|대|마리|한줌|톡톡|약간|취향)/i.test(t)) return null;
+  if (/(큰술|작은술|tbsp|tsp|리터|l|ml|g|kg|개|대|마리|모|한줌|톡톡|약간|취향)/i.test(t)) return null;
 
   // 키워드 포함하면 헤더
   if (SECTION_KEYWORDS.some((k) => t.includes(k))) return t;
@@ -169,7 +170,7 @@ function parseIngredientLine(line, currentGroup) {
 
   // 숫자 없는 취향 재료(후추 톡톡, 깨 왕창 등)
   const hasVague = VAGUE_WORDS.some((w) => noParen.includes(w));
-  const hasNumber = /\d/.test(noParen) || noParen.includes("반개") || parseFraction(noParen) !== null;
+  const hasNumber = /\d/.test(noParen) || noParen.includes("반개") || noParen.includes("반모") || parseFraction(noParen) !== null;
 
   if (hasVague && !hasNumber) {
     const first = noParen.split(" ").filter(Boolean)[0] || clean;
@@ -193,6 +194,13 @@ function parseIngredientLine(line, currentGroup) {
     unitRaw = "개";
   }
 
+  // "반모" 처리 (예: 두부 반모)
+  // NOTE: "반"은 숫자가 없어서 기존 로직에서는 재료로 인식조차 못 할 수 있어 여기서 특례 처리.
+  if (amount === null && /(^|\s)반\s*모($|\s)/.test(noParen)) {
+    amount = 0.5;
+    unitRaw = "모";
+  }
+
   // 분수 우선
   const frac = parseFraction(noParen);
   if (frac !== null) amount = frac;
@@ -206,17 +214,25 @@ function parseIngredientLine(line, currentGroup) {
   // unit 추출
 
   // "1.5리터"처럼 붙어있는 단위
-  const stuck = noParen.match(/(\d+(\.\d+)?)(리터|L|ml|g|kg|큰술|작은술|tsp|tbsp|대|개|마리|컵|숟가락|숟갈|스푼|T|t|줄|조각)/i);
+  const stuck = noParen.match(/(\d+(\.\d+)?)(리터|L|ml|g|kg|큰술|작은술|tsp|tbsp|대|개|마리|모|컵|숟가락|숟갈|스푼|T|t|줄|조각)/i);
   if (stuck) unitRaw = stuck[3];
 
   // "1/2큰술" 분수 + 단위
-  const stuckFrac = noParen.match(/(\d+\s*\/\s*\d+)(리터|L|ml|g|kg|큰술|작은술|tsp|tbsp|대|개|마리|컵|숟가락|숟갈|스푼|T|t|줄|조각)/i);
+  const stuckFrac = noParen.match(/(\d+\s*\/\s*\d+)(리터|L|ml|g|kg|큰술|작은술|tsp|tbsp|대|개|마리|모|컵|숟가락|숟갈|스푼|T|t|줄|조각)/i);
   if (stuckFrac) unitRaw = stuckFrac[2];
 
   // 공백 단위: "300 g"
   if (!unitRaw) {
     const tokens = noParen.split(" ").filter(Boolean);
-    if (tokens.length >= 2) unitRaw = tokens[1];
+    // 예: "소금 3 g"     -> tokens[1] = "3", tokens[2] = "g"
+    // 예: "두부 1/2 모"  -> tokens[1] = "1/2", tokens[2] = "모"
+    // 예: "대파 2대"     -> tokens[1] = "2대" (stuck 케이스에서 처리됨)
+    if (tokens.length >= 3) {
+      const maybeAmount = parseFraction(tokens[1]) ?? (Number.isFinite(Number(tokens[1])) ? Number(tokens[1]) : null);
+      unitRaw = maybeAmount !== null ? tokens[2] : tokens[1];
+    } else if (tokens.length >= 2) {
+      unitRaw = tokens[1];
+    }
   }
 
   const unit = normalizeUnit(unitRaw);
@@ -224,6 +240,7 @@ function parseIngredientLine(line, currentGroup) {
   // name 추출: 숫자/분수 앞까지
   const name = noParen
     .replace(/반개/g, "")
+    .replace(/(^|\s)반\s*모($|\s)/g, " ")
     .split(/(\d+\s*\/\s*\d+|\d+(\.\d+)?)/)[0]
     .replace(/[:：]/g, "")
     .trim();
@@ -334,6 +351,7 @@ function buildRecipe(rawText, overrides) {
       line.includes("\t") ||
       /\d/.test(line) ||
       line.includes("반개") ||
+      line.includes("반모") ||
       /(큰술|작은술|tbsp|tsp|리터|L|ml|g|kg|개|대|마리)/i.test(line) ||
       VAGUE_WORDS.some((w) => line.includes(w));
 
