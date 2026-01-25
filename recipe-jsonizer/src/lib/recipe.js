@@ -42,9 +42,21 @@
 function roundByUnit(value, unit) {
   if (!Number.isFinite(value)) return value;
 
+  const u = (unit || "").trim();
+
   // 개수 단위 → 0.5 단위
-  if (["개", "대", "마리"].includes(unit || "")) {
+  if (["개", "대", "마리"].includes(u)) {
     return Math.round(value * 2) / 2;
+  }
+
+  // 숟가락(밥숟가락) → 0.5 숟가락 단위
+  if (u === "밥숟가락") {
+    return Math.round(value * 2) / 2;
+  }
+
+  // L(리터) → 0.1L 단위
+  if (u === "L") {
+    return Math.round(value * 10) / 10;
   }
 
   return Math.round(value * 100) / 100;
