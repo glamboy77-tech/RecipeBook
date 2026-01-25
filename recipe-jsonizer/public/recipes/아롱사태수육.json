@@ -14,12 +14,12 @@
       "items": [
         { "name": "스지", "amount": 800, "unit": "g", "note": "재료", "scalable": true },
         { "name": "사태", "amount": 400, "unit": "g", "note": "재료", "scalable": true },
-        { "name": "무", "amount": 0.2, "unit": "개", "note": "1/5개", "scalable": true },
-        { "name": "양파", "amount": 0.5, "unit": "개", "note": "반개", "scalable": true },
+        { "name": "무", "amount": 0.2, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "양파", "amount": 0.5, "unit": "개", "note": "재료", "scalable": true },
         { "name": "파채", "amount": null, "unit": "", "note": "먹을만큼 넉넉하게", "scalable": false },
-        { "name": "월계수잎", "amount": null, "unit": "", "note": "압력솥(추정)", "scalable": false },
-        { "name": "통후추", "amount": null, "unit": "", "note": "압력솥(추정)", "scalable": false },
-        { "name": "소금", "amount": 1, "unit": "t", "note": "소금1(추정)", "scalable": true }
+        { "name": "월계수잎", "amount": null, "unit": "", "note": "재료", "scalable": false },
+        { "name": "통후추", "amount": null, "unit": "", "note": "재료", "scalable": false },
+        { "name": "소금", "amount": 1, "unit": "t", "note": "재료", "scalable": true }
       ]
     },
     {
@@ -39,7 +39,7 @@
       "items": [
         { "name": "물", "amount": 1, "unit": "L", "note": "육수", "scalable": true },
         { "name": "사골액기스", "amount": 20, "unit": "g", "note": "육수", "scalable": true },
-        { "name": "다진마늘", "amount": 0.5, "unit": "밥숟가락", "note": "반스푼", "scalable": true },
+        { "name": "다진마늘", "amount": 0.5, "unit": "밥숟가락", "note": "육수", "scalable": true },
         { "name": "청양고추", "amount": null, "unit": "", "note": "취향", "scalable": false },
         { "name": "다시다/미원/소금/후추", "amount": null, "unit": "", "note": "약간", "scalable": false }
       ]
