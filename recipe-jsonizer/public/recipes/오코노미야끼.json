@@ -1,0 +1,48 @@
+{
+  "id": "오코노미야끼_500017",
+  "title": "오코노미야끼",
+  "time_total_min": 25,
+  "base_servings": 2,
+  "tags": [
+    "일식",
+    "부침",
+    "오코노미야끼"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "양배추", "amount": 400, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "부침가루", "amount": 150, "unit": "g", "note": "(12T)", "scalable": true },
+        { "name": "달걀", "amount": 2, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "물", "amount": 120, "unit": "ml", "note": "(8T)", "scalable": true },
+        { "name": "혼다시", "amount": 0.5, "unit": "TB", "note": "재료", "scalable": true },
+        { "name": "해물믹스", "amount": 175, "unit": "g", "note": "150~200g", "scalable": true },
+        { "name": "베이컨", "amount": 4.5, "unit": "줄", "note": "3~6줄", "scalable": true },
+        { "name": "후추", "amount": null, "unit": "", "note": "취향", "scalable": false },
+        { "name": "파슬리가루", "amount": null, "unit": "", "note": "취향", "scalable": false },
+        { "name": "마요네즈", "amount": null, "unit": "", "note": "토핑", "scalable": false },
+        { "name": "가쓰오부시", "amount": null, "unit": "", "note": "토핑", "scalable": false }
+      ]
+    },
+    {
+      "name": "소스",
+      "items": [
+        { "name": "케찹", "amount": 1.5, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "돈까스소스", "amount": 1.5, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "굴소스", "amount": 0.5, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "설탕", "amount": 0.25, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "매운굴소스", "amount": 0.25, "unit": "밥숟가락", "note": "옵션", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "해물믹스는 찬물에 씻고 소금+식초 물에 3~5분 담갔다가 헹궈 물기를 제거한다.", "timer_sec": null },
+    { "text": "부침가루+물+혼다시+계란을 섞고, 양배추+해물+후추+파슬리가루를 넣어 반죽한다.", "timer_sec": null },
+    { "text": "팬에 반죽을 얹고 베이컨을 올린 뒤 뚜껑을 덮고 중불 4~5분 굽는다.", "timer_sec": 300 },
+    { "text": "뒤집어서 4~5분 더 익힌다(젓가락으로 찔러 확인).", "timer_sec": 300 },
+    { "text": "베이컨이 위로 오게 담고 소스/마요/가쓰오/파슬리를 올린다.", "timer_sec": null }
+  ],
+  "memo": "소스: 케찹 1.5 + 돈까스소스 1.5 + 굴소스 1/2 + 설탕 1/4 (+매운굴소스 옵션)",
+  "source": ""
+}

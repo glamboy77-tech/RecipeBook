@@ -1,0 +1,48 @@
+{
+  "id": "갈비찜_500004",
+  "title": "갈비찜",
+  "time_total_min": 120,
+  "base_servings": 2,
+  "tags": [
+    "한식",
+    "찜",
+    "갈비"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "갈비", "amount": 1, "unit": "kg", "note": "재료(2인분)", "scalable": true },
+        { "name": "무", "amount": null, "unit": "", "note": "적당히", "scalable": false },
+        { "name": "감자", "amount": null, "unit": "", "note": "적당히", "scalable": false },
+        { "name": "당근", "amount": 1, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "대파", "amount": 1, "unit": "대", "note": "재료", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "노추", "amount": 2, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "간장", "amount": 10, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 5, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "맛술(청주)", "amount": 5, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "다진마늘", "amount": 2, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "굴소스", "amount": 3, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "물엿", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "참기름", "amount": 2, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "다진생강", "amount": null, "unit": "", "note": "약간", "scalable": false },
+        { "name": "다진파", "amount": null, "unit": "", "note": "송송", "scalable": false },
+        { "name": "태국고추", "amount": null, "unit": "", "note": "적당히", "scalable": false },
+        { "name": "물", "amount": 500, "unit": "ml", "note": "양념", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "갈비는 한 번 데쳐서 씻어 둔다.", "timer_sec": null },
+    { "text": "갈비에 양념을 끼얹고 물 500ml를 넣어 끓인다.", "timer_sec": null },
+    { "text": "팔팔 끓으면 무/감자/당근을 넣고 익힌다.", "timer_sec": null },
+    { "text": "물이 졸아들 때 태국고추를 넣고 마무리한다.", "timer_sec": null }
+  ],
+  "memo": "무/감자 양은 취향으로 조절.",
+  "source": ""
+}

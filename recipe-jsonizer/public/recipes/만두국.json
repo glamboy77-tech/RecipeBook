@@ -1,0 +1,33 @@
+{
+  "id": "만두국_500001",
+  "title": "만두국",
+  "time_total_min": 15,
+  "base_servings": 2,
+  "tags": [
+    "한식",
+    "국물",
+    "만두"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        { "name": "물", "amount": 720, "unit": "ml", "note": "메인", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "메인", "scalable": true },
+        { "name": "사골액기스", "amount": 0.75, "unit": "TB", "note": "메인 (1/2~1TB) 중간값", "scalable": true },
+        { "name": "다진파", "amount": null, "unit": "", "note": "송송", "scalable": false },
+        { "name": "다시다", "amount": 0.5, "unit": "TB", "note": "메인", "scalable": true },
+        { "name": "간장", "amount": 0.5, "unit": "TB", "note": "메인", "scalable": true },
+        { "name": "계란", "amount": 1, "unit": "개", "note": "풀기", "scalable": true },
+        { "name": "만두", "amount": null, "unit": "", "note": "3분", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "냄비에 물을 붓고 사골액기스, 다시다, 간장, 다진마늘을 넣어 끓인다.", "timer_sec": null },
+    { "text": "끓기 시작하면 만두를 넣고 약 3분간 끓인다.", "timer_sec": 180 },
+    { "text": "계란을 풀어 넣고 다진파를 올려 마무리한다.", "timer_sec": null }
+  ],
+  "memo": "사골액기스는 1/2~1TB 범위라 0.75TB로 저장(취향에 맞게 조절).",
+  "source": ""
+}

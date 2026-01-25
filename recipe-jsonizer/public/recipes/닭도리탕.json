@@ -1,0 +1,40 @@
+{
+  "id": "닭도리탕_500014",
+  "title": "닭도리탕",
+  "time_total_min": 30,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "탕",
+    "닭"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        { "name": "닭", "amount": 800, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "물", "amount": 1.5, "unit": "L", "note": "메인", "scalable": true },
+        { "name": "감자", "amount": 2, "unit": "개", "note": "메인", "scalable": true },
+        { "name": "당근", "amount": 0.3333333333333333, "unit": "개", "note": "메인", "scalable": true },
+        { "name": "고춧가루", "amount": 8, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "다시다", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "미원", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "진간장", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "미림", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "굴소스", "amount": 1, "unit": "TB", "note": "양념", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "닭은 물 500ml에 한 번 데친 후 씻어 둔다.", "timer_sec": null },
+    { "text": "찬물 1.5L에 감자/당근/양파를 넣고 끓인다.", "timer_sec": null },
+    { "text": "끓기 시작하면 닭과 양념을 넣고 10분 끓인다.", "timer_sec": 600 },
+    { "text": "대파를 넣고 8분 더 끓인다.", "timer_sec": 480 },
+    { "text": "떡/버섯이 있으면 넣고 중불에 5분 더 끓인다.", "timer_sec": 300 },
+    { "text": "마무리로 깻잎을 올린다.", "timer_sec": null }
+  ],
+  "memo": "감자는 반 자르고 1cm로 자른다.",
+  "source": ""
+}

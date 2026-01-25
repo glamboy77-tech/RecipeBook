@@ -1,0 +1,47 @@
+{
+  "id": "삼선우동_500008",
+  "title": "삼선우동",
+  "time_total_min": 35,
+  "base_servings": 2,
+  "tags": [
+    "중식",
+    "국물",
+    "면",
+    "우동"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "청경채", "amount": null, "unit": "", "note": "꽁지만 제거", "scalable": false },
+        { "name": "배추", "amount": null, "unit": "", "note": "1.5cm 폭", "scalable": false },
+        { "name": "대파", "amount": null, "unit": "", "note": "심지빼고 1cm", "scalable": false },
+        { "name": "양파", "amount": 0.5, "unit": "개", "note": "채썬다(추정)", "scalable": true },
+        { "name": "버섯", "amount": null, "unit": "", "note": "기둥만 1cm", "scalable": false },
+        { "name": "목이버섯", "amount": null, "unit": "", "note": "적당히", "scalable": false },
+        { "name": "애호박", "amount": 0.5, "unit": "개", "note": "1cm(추정)", "scalable": true },
+        { "name": "당근", "amount": 0.3333333333333333, "unit": "개", "note": "1cm(추정)", "scalable": true },
+        { "name": "해물(오징어 등)", "amount": null, "unit": "", "note": "오징어 벌집 1cm", "scalable": false },
+        { "name": "중화면", "amount": 2, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "물", "amount": 1, "unit": "L", "note": "육수", "scalable": true },
+        { "name": "짬뽕다시", "amount": 1, "unit": "밥숟가락", "note": "육수", "scalable": true },
+        { "name": "계란", "amount": 2, "unit": "개", "note": "풀어놓기", "scalable": true },
+        { "name": "미원/맛소금/다진마늘/치킨스톡", "amount": null, "unit": "", "note": "간맞추기", "scalable": false },
+        { "name": "후추", "amount": null, "unit": "", "note": "약간", "scalable": false },
+        { "name": "참기름", "amount": 2, "unit": "t", "note": "각 그릇 1t", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "채소들은 모두 적당한 크기로 손질해 둔다.", "timer_sec": null },
+    { "text": "계란 2개는 풀어 둔다.", "timer_sec": null },
+    { "text": "중화면은 삶아서 건져 둔다.", "timer_sec": null },
+    { "text": "냄비에 채소와 육수(물 1L+짬뽕다시)를 넣고 끓인다.", "timer_sec": null },
+    { "text": "채소가 숨이 죽으면 해산물을 넣는다.", "timer_sec": null },
+    { "text": "미원/맛소금/다진마늘/치킨스톡으로 간을 맞춘다.", "timer_sec": null },
+    { "text": "그릇에 면을 담고 후추/참기름을 뿌린다.", "timer_sec": null },
+    { "text": "면 위에 건더기를 올리고, 국물에 계란을 풀어 마무리한다.", "timer_sec": null }
+  ],
+  "memo": "물전분을 추가하면 울면 스타일로 가능.",
+  "source": ""
+}

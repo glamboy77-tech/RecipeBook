@@ -1,0 +1,51 @@
+{
+  "id": "안동찜닭_500003",
+  "title": "안동찜닭",
+  "time_total_min": 60,
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "찜",
+    "닭"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "닭(닭도리탕용)", "amount": 1, "unit": "마리", "note": "재료", "scalable": true },
+        { "name": "감자", "amount": 3, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "당근", "amount": 0.5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "양파", "amount": 0.5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "대파", "amount": 1, "unit": "대", "note": "재료", "scalable": true },
+        { "name": "중국당면", "amount": 8, "unit": "줄", "note": "1인당 2줄(4인 기준 추정)", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념(숟갈)",
+      "items": [
+        { "name": "노추", "amount": 2, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "진간장", "amount": 8, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 3, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "다진마늘", "amount": 2, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "굴소스", "amount": 3, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "물엿", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "맛술(청주/소주 대체 가능)", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "참기름", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "태국고추", "amount": null, "unit": "", "note": "옵션 - 조금만", "scalable": false },
+        { "name": "물", "amount": 500, "unit": "ml", "note": "양념", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "당면은 끓는 물에 10분 데친 뒤 찬물에 씻어 둔다.", "timer_sec": 600 },
+    { "text": "당면 데친 물에 닭을 살짝 데친 후 씻어 둔다.", "timer_sec": null },
+    { "text": "팬에 기름을 두르고 닭을 볶는다. (소금/후추 살짝)", "timer_sec": null },
+    { "text": "감자, 당근을 넣고 조금 더 볶는다.", "timer_sec": null },
+    { "text": "양념과 물을 붓고 끓인다.", "timer_sec": null },
+    { "text": "끓기 시작하면 양파, 대파를 넣는다.", "timer_sec": null },
+    { "text": "당면을 올리고 불을 줄여 졸인다.", "timer_sec": null },
+    { "text": "당근이 익으면 완성.", "timer_sec": null }
+  ],
+  "memo": "닭 데칠 때는 팔팔 끓는 물에 넣었다가 겉이 익어 코팅되면 건진다.",
+  "source": ""
+}

@@ -1,0 +1,40 @@
+{
+  "id": "감자짜글이_500009",
+  "title": "감자짜글이",
+  "time_total_min": 35,
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "찌개",
+    "짜글이",
+    "감자"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "감자", "amount": 2, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "양파", "amount": 0.5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "대파", "amount": 0.5, "unit": "뿌리", "note": "반뿌리", "scalable": true },
+        { "name": "스팸", "amount": 200, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "간마늘", "amount": 1, "unit": "밥숟가락", "note": "재료", "scalable": true },
+        { "name": "된장", "amount": 0.5, "unit": "밥숟가락", "note": "재료", "scalable": true },
+        { "name": "고추장", "amount": 1, "unit": "밥숟가락", "note": "재료", "scalable": true },
+        { "name": "굵은고춧가루", "amount": 2, "unit": "밥숟가락", "note": "재료", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "밥숟가락", "note": "재료", "scalable": true },
+        { "name": "진간장", "amount": 4, "unit": "밥숟가락", "note": "재료", "scalable": true },
+        { "name": "물", "amount": null, "unit": "", "note": "자박하게", "scalable": false },
+        { "name": "청양고추", "amount": 1, "unit": "개", "note": "너무 매우면 1개만", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "감자는 손가락 크기 정도로 잘라 냄비 바닥에 넣는다.", "timer_sec": null },
+    { "text": "양파/대파/고추도 비슷한 두께로 대충 잘라 넣는다.", "timer_sec": null },
+    { "text": "스팸은 비닐봉투에 넣고 으깨서 냄비에 넣는다.", "timer_sec": null },
+    { "text": "나머지 재료를 모두 넣고 물을 자박하게 붓는다.", "timer_sec": null },
+    { "text": "중불로 감자가 으깨질 정도로 졸인다.", "timer_sec": null }
+  ],
+  "memo": "청양고추는 너무 매우면 1개 정도만.",
+  "source": ""
+}

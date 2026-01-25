@@ -1,0 +1,44 @@
+{
+  "id": "갈비탕_500005",
+  "title": "갈비탕",
+  "time_total_min": 120,
+  "base_servings": 8,
+  "tags": [
+    "한식",
+    "국물",
+    "갈비"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        { "name": "갈비", "amount": 2.4, "unit": "kg", "note": "메인", "scalable": true },
+        { "name": "물", "amount": 4, "unit": "L", "note": "메인", "scalable": true },
+        { "name": "다시다", "amount": 1.5, "unit": "TB", "note": "메인", "scalable": true },
+        { "name": "왕소금", "amount": 1, "unit": "TB", "note": "메인", "scalable": true },
+        { "name": "국간장", "amount": 1.5, "unit": "TB", "note": "메인", "scalable": true },
+        { "name": "물추가", "amount": 1, "unit": "L", "note": "중간에 추가", "scalable": true }
+      ]
+    },
+    {
+      "name": "소스",
+      "items": [
+        { "name": "간장", "amount": 1, "unit": "밥숟가락", "note": "소스(1:1:1:1)", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "밥숟가락", "note": "소스(1:1:1:1)", "scalable": true },
+        { "name": "식초", "amount": 1, "unit": "밥숟가락", "note": "소스(1:1:1:1)", "scalable": true },
+        { "name": "파", "amount": 1, "unit": "밥숟가락", "note": "소스(1:1:1:1)", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "갈비는 3번 정도 씻어 뼛가루를 제거한다.", "timer_sec": null },
+    { "text": "끓는 물에 갈비를 넣는다. (갈비찜용 무가 있으면 이때 함께 넣고 끓임)", "timer_sec": null },
+    { "text": "40분간 끓인 후 물을 추가한다.", "timer_sec": 2400 },
+    { "text": "뜰채로 부유물을 걷어낸다.", "timer_sec": null },
+    { "text": "45분째에 다시다, 왕소금, 국간장으로 간을 한다.", "timer_sec": null },
+    { "text": "물 추가를 하면서 기름을 걷어낸다.", "timer_sec": null },
+    { "text": "추가로 20분 더 끓인다.", "timer_sec": 1200 }
+  ],
+  "memo": "소스 비율: 간장:설탕:식초:파 = 1:1:1:1",
+  "source": ""
+}

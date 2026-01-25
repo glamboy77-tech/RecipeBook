@@ -1,0 +1,69 @@
+{
+  "id": "백짬뽕_500012",
+  "title": "백짬뽕",
+  "time_total_min": 35,
+  "base_servings": 3,
+  "tags": [
+    "중식",
+    "국물",
+    "면",
+    "짬뽕",
+    "백짬뽕"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "채썬돼지고기", "amount": 100, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "배추", "amount": 200, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "양파", "amount": 300, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "청양고추", "amount": 2, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "해물", "amount": null, "unit": "", "note": "한줌", "scalable": false },
+        { "name": "대파", "amount": 1, "unit": "단", "note": "재료", "scalable": true },
+        { "name": "당근", "amount": 0.3333333333333333, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "애호박", "amount": 0.3333333333333333, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "태국고추", "amount": 15, "unit": "개", "note": "재료", "scalable": true }
+      ]
+    },
+    {
+      "name": "육수",
+      "items": [
+        { "name": "짬뽕다시", "amount": 2, "unit": "밥숟가락", "note": "육수", "scalable": true },
+        { "name": "찬물", "amount": 1.8, "unit": "L", "note": "육수", "scalable": true }
+      ]
+    },
+    {
+      "name": "볶음/양념",
+      "items": [
+        { "name": "식용유", "amount": 2, "unit": "밥숟가락", "note": "볶음", "scalable": true },
+        { "name": "라드유", "amount": 2, "unit": "밥숟가락", "note": "볶음", "scalable": true },
+        { "name": "간마늘", "amount": 1.5, "unit": "밥숟가락", "note": "볶음", "scalable": true },
+        { "name": "간장", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "청주", "amount": 2, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "미원", "amount": 2, "unit": "t", "note": "양념", "scalable": true },
+        { "name": "치킨스톡", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "굴소스", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "후추", "amount": null, "unit": "", "note": "약간", "scalable": false }
+      ]
+    },
+    {
+      "name": "면",
+      "items": [
+        { "name": "면", "amount": 3, "unit": "인분", "note": "끓는물에 풀어지면 바로 건짐(추정)", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "찬물 1.8L에 짬뽕다시 2숟갈을 풀어 육수를 만들어 둔다.", "timer_sec": null },
+    { "text": "팬에 식용유 2숟갈, 라드유 2숟갈을 중불로 예열한다.", "timer_sec": null },
+    { "text": "불 켜자마자 태국고추와 간마늘을 넣고 볶는다.", "timer_sec": null },
+    { "text": "마늘이 하얗게 일어나기 시작하면 돼지고기를 넣고 볶는다.", "timer_sec": null },
+    { "text": "고기가 익으면 배추/양파/대파/고추를 넣고 볶는다.", "timer_sec": null },
+    { "text": "간장/청주/육수로 물질을 하며 야채 국물이 진해질 때까지 볶는다.", "timer_sec": null },
+    { "text": "육수 1/3만 넣고 센불에 3분 끓인 뒤 나머지 육수를 넣는다.", "timer_sec": 180 },
+    { "text": "미원/치킨스톡/굴소스/후추로 간을 하고, 끓기 시작하면 당근/호박/해산물을 넣는다.", "timer_sec": null },
+    { "text": "호박이 익으면 간을 보고 소금/치킨스톡으로 맞춘다.", "timer_sec": null }
+  ],
+  "memo": "면은 별도로 삶아 말아먹는 방식으로 추정.",
+  "source": ""
+}

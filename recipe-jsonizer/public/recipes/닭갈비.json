@@ -1,0 +1,52 @@
+{
+  "id": "닭갈비_500015",
+  "title": "닭갈비",
+  "time_total_min": 40,
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "볶음",
+    "닭갈비"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "닭고기", "amount": 600, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "양파", "amount": 0.5, "unit": "개", "note": "큰거 반개", "scalable": true },
+        { "name": "고구마", "amount": 1, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "양배추", "amount": 500, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "깻잎", "amount": 10, "unit": "장", "note": "재료", "scalable": true },
+        { "name": "대파", "amount": 100, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "떡", "amount": null, "unit": "", "note": "원하는만큼", "scalable": false },
+        { "name": "식용유", "amount": 0.3333333333333333, "unit": "컵", "note": "재료", "scalable": true },
+        { "name": "참기름", "amount": 1, "unit": "밥숟가락", "note": "마무리", "scalable": true }
+      ]
+    },
+    {
+      "name": "소스(숙성)",
+      "items": [
+        { "name": "마늘", "amount": 6, "unit": "개", "note": "소스", "scalable": true },
+        { "name": "설탕", "amount": 3, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "고춧가루", "amount": 4, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "카레분", "amount": 1, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "다시다", "amount": 1, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "간장", "amount": 4, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "굴소스", "amount": 1, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "고추장", "amount": 2, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "배음료", "amount": 0.6666666666666666, "unit": "컵", "note": "소스(2/3컵)", "scalable": true },
+        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "닭을 해동한다.", "timer_sec": null },
+    { "text": "소스를 닭고기에 비벼 2시간 이상 상온 숙성한다.", "timer_sec": null },
+    { "text": "웍에 기름을 두르고 바닥에 고구마를 깔고, 야채와 고기를(깻잎 제외) 몽땅 올린다.", "timer_sec": null },
+    { "text": "중불에서 물 1/3컵 정도를 넣고 야채 숨을 죽인다.", "timer_sec": null },
+    { "text": "야채가 숨죽으면 강불로 볶아준다. (자꾸 뒤적이면 안 익음)", "timer_sec": null },
+    { "text": "마지막으로 깻잎과 참기름을 올리고 불을 끈다.", "timer_sec": null }
+  ],
+  "memo": "숙성 시간이 길어서 총 시간은 조리시간 기준(숙성 제외)으로 약 40분 추정.",
+  "source": ""
+}

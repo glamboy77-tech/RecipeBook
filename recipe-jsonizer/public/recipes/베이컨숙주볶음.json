@@ -1,0 +1,35 @@
+{
+  "id": "베이컨숙주볶음_500007",
+  "title": "베이컨숙주볶음",
+  "time_total_min": 10,
+  "base_servings": 2,
+  "tags": [
+    "볶음",
+    "베이컨",
+    "숙주"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        { "name": "베이컨", "amount": 0.5, "unit": "팩", "note": "메인", "scalable": true },
+        { "name": "숙주", "amount": 1, "unit": "한줌", "note": "메인", "scalable": true },
+        { "name": "양파", "amount": 0.5, "unit": "개", "note": "메인", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "밥숟가락", "note": "메인", "scalable": true },
+        { "name": "굴소스", "amount": 0.5, "unit": "밥숟가락", "note": "메인", "scalable": true },
+        { "name": "맛소금", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "미원", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "다진쪽파", "amount": null, "unit": "", "note": "조금", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "팬에 식용유를 두르고 다진마늘과 양파를 넣어 달달 볶는다.", "timer_sec": null },
+    { "text": "베이컨을 넣고 볶는다.", "timer_sec": null },
+    { "text": "숙주를 넣고 굴소스/맛소금/후추/미원으로 재빨리 간한 뒤 센불에 휘리릭 볶는다.", "timer_sec": null },
+    { "text": "숙주가 숨이 죽기 전에 불을 끄고 쪽파를 올린다.", "timer_sec": null }
+  ],
+  "memo": "숙주가 흐물해지기 전에 빠르게 마무리.",
+  "source": ""
+}

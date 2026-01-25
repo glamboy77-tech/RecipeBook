@@ -1,0 +1,46 @@
+{
+  "id": "순대야채볶음_500006",
+  "title": "순대야채볶음",
+  "time_total_min": 20,
+  "base_servings": 2,
+  "tags": [
+    "한식",
+    "볶음",
+    "순대"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "순대", "amount": 350, "unit": "g", "note": "300~400g", "scalable": true },
+        { "name": "야채(배추/당근/호박/양파/파 등)", "amount": null, "unit": "", "note": "취향", "scalable": false },
+        { "name": "깻잎", "amount": null, "unit": "", "note": "많이", "scalable": false },
+        { "name": "참기름/들기름/화유", "amount": null, "unit": "", "note": "선택", "scalable": false }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "고추장", "amount": 3, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "고춧가루", "amount": 2, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "간장", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "굴소스", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "맛술", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "물", "amount": 3, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "다시다/미원", "amount": null, "unit": "", "note": "적당히", "scalable": false },
+        { "name": "들깨가루", "amount": null, "unit": "", "note": "취향", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "순대는 봉지에 물 한 숟갈 넣고 전자렌지 2분30초 돌려 데운다.", "timer_sec": 150 },
+    { "text": "뜨거운 팬에 대파/깻잎을 제외한 야채들을 기름에 볶는다.", "timer_sec": null },
+    { "text": "야채가 숨이 죽으면 순대와 양념, 대파를 넣고 볶는다.", "timer_sec": null },
+    { "text": "깻잎을 넣고 가장자리에 참기름을 살짝 두른 뒤 센불에 후다닥 볶고 불을 끈다.", "timer_sec": null }
+  ],
+  "memo": "야채는 집에 있는 걸로 자유롭게.",
+  "source": ""
+}

@@ -1,0 +1,43 @@
+{
+  "id": "이삭토스트_500002",
+  "title": "이삭토스트",
+  "time_total_min": 15,
+  "base_servings": 1,
+  "tags": [
+    "토스트",
+    "간식",
+    "브런치"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "식빵", "amount": 2, "unit": "장", "note": "재료", "scalable": true },
+        { "name": "계란", "amount": 1, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "슬라이스햄", "amount": 1, "unit": "장", "note": "재료", "scalable": true },
+        { "name": "피클", "amount": 2.5, "unit": "개", "note": "채썬 (2~3개)", "scalable": true },
+        { "name": "치즈", "amount": 1, "unit": "장", "note": "재료", "scalable": true },
+        { "name": "양배추", "amount": null, "unit": "", "note": "채썬 적당히", "scalable": false },
+        { "name": "케찹", "amount": null, "unit": "", "note": "취향", "scalable": false },
+        { "name": "버터", "amount": null, "unit": "", "note": "취향", "scalable": false }
+      ]
+    },
+    {
+      "name": "소스(키위)",
+      "items": [
+        { "name": "키위드레싱", "amount": 2, "unit": "밥숟가락", "note": "소스", "scalable": true, "ingredient_type": "liquid", "approx_ml": 20 },
+        { "name": "마요네즈", "amount": 2, "unit": "밥숟가락", "note": "소스", "scalable": true, "ingredient_type": "paste", "approx_ml": 40 },
+        { "name": "설탕", "amount": 1, "unit": "밥숟가락", "note": "소스", "scalable": true, "ingredient_type": "semi_solid", "approx_ml": 15 },
+        { "name": "올리고당", "amount": 1, "unit": "밥숟가락", "note": "소스", "scalable": true, "ingredient_type": "liquid", "approx_ml": 10 }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "식빵에 버터를 바르고 노릇하게 굽는다.", "timer_sec": null },
+    { "text": "계란과 슬라이스햄도 팬에 굽는다.", "timer_sec": null },
+    { "text": "양배추는 감자칼로 가늘게 채썬다.", "timer_sec": null },
+    { "text": "빵-키위소스-계란-햄-다진피클-치즈-양배추-케찹-빵 순서로 쌓고, 마지막에 키위소스를 바른다.", "timer_sec": null }
+  ],
+  "memo": "소스 비율: 키위드레싱:마요:설탕:올리고당 = 2:2:1:1",
+  "source": ""
+}

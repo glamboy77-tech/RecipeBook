@@ -1,0 +1,52 @@
+{
+  "id": "짜장면_500010",
+  "title": "짜장면",
+  "time_total_min": 45,
+  "base_servings": 4,
+  "tags": [
+    "중식",
+    "면",
+    "짜장"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "식용유+라드", "amount": 6, "unit": "TB", "note": "재료", "scalable": true },
+        { "name": "돈다짐육", "amount": 300, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "돼지고기(큼직)", "amount": null, "unit": "", "note": "추가", "scalable": false },
+        { "name": "양파", "amount": 3, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "대파", "amount": 300, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "양배추", "amount": null, "unit": "", "note": "취향", "scalable": false },
+        { "name": "감자", "amount": 1.5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "생강가루", "amount": null, "unit": "", "note": "조금", "scalable": false },
+        { "name": "간장", "amount": 1.5, "unit": "TB", "note": "재료", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "밥숟가락", "note": "1스푼에서 조절", "scalable": true },
+        { "name": "굴소스", "amount": 1, "unit": "밥숟가락", "note": "재료", "scalable": true },
+        { "name": "미원", "amount": 0.5, "unit": "밥숟가락", "note": "재료", "scalable": true },
+        { "name": "치킨스톡", "amount": 1, "unit": "밥숟가락", "note": "재료", "scalable": true },
+        { "name": "볶은춘장", "amount": 3, "unit": "TB", "note": "재료", "scalable": true },
+        { "name": "물", "amount": 500, "unit": "ml", "note": "재료", "scalable": true },
+        { "name": "전분", "amount": 1.5, "unit": "TB", "note": "전분물", "scalable": true },
+        { "name": "물(전분물)", "amount": 1.5, "unit": "TB", "note": "전분물", "scalable": true },
+        { "name": "참기름", "amount": 1, "unit": "t", "note": "킥", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "재료는 크게 썬다.", "timer_sec": null },
+    { "text": "파기름+라드에 고기를 넣고 한참 볶아 바싹 구워준다.", "timer_sec": null },
+    { "text": "고기가 볶아졌을 때 간장을 넣어 장조림처럼 만들고(향), 생강(채/가루)을 넣는다.", "timer_sec": null },
+    { "text": "양파/대파 절반/감자를 넣고 1분간 볶으며 향을 낸다.", "timer_sec": 60 },
+    { "text": "양파/대파를 1분 간격으로 한 줌씩 3번 나눠 넣으며 볶는다. (호박은 적당할 때)", "timer_sec": null },
+    { "text": "설탕을 넣고 볶아 수분이 나오면 간을 한다(굴소스/미원/치킨스톡 등).", "timer_sec": null },
+    { "text": "볶은춘장을 넣고 3분 정도 볶는다.", "timer_sec": 180 },
+    { "text": "물을 넣고 물/기름이 합쳐지는 느낌이 날 때까지 빠글빠글 끓인다.", "timer_sec": null },
+    { "text": "끓기 시작하면 5분 정도 더 끓인다.", "timer_sec": 300 },
+    { "text": "간을 보고 전분물(전분:물=1:1)을 만든다.", "timer_sec": null },
+    { "text": "끓는 소스 가장자리부터 전분물을 돌려 붓고 바로 불을 끈다.", "timer_sec": null },
+    { "text": "흘러내릴 정도 농도가 베스트. 마지막에 참기름 1t.", "timer_sec": null }
+  ],
+  "memo": "전분물은 한 번에 붓고 바로 불을 끄기.",
+  "source": ""
+}

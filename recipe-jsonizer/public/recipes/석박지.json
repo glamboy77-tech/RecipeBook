@@ -1,0 +1,44 @@
+{
+  "id": "석박지_500018",
+  "title": "석박지",
+  "time_total_min": 40,
+  "base_servings": 20,
+  "tags": [
+    "김치",
+    "반찬",
+    "석박지"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "찬물", "amount": 240, "unit": "ml", "note": "찹쌀풀", "scalable": true },
+        { "name": "찹쌀가루", "amount": 1.5, "unit": "TB", "note": "찹쌀풀", "scalable": true },
+        { "name": "무", "amount": 2.5, "unit": "kg", "note": "재료", "scalable": true },
+        { "name": "김장봉투", "amount": 1, "unit": "개", "note": "도구", "scalable": false }
+      ]
+    },
+    {
+      "name": "소스",
+      "items": [
+        { "name": "고춧가루", "amount": 12, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "멸치액젓", "amount": 8, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "꽃소금", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 6, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "사이다", "amount": 4, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "다진마늘", "amount": 8, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "미원", "amount": 1, "unit": "t", "note": "양념", "scalable": true },
+        { "name": "대파", "amount": null, "unit": "", "note": "옵션 - 크게 썰어", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "찹쌀풀: 찬물에 찹쌀가루를 넣고 섞으며 불을 켠다. 가운데가 끓어오르면 10초 후 불을 끄고 식힌다.", "timer_sec": null },
+    { "text": "무는 1/4로, 두께 1cm로 잘라 김장봉투에 넣는다.", "timer_sec": null },
+    { "text": "양념과 찹쌀풀을 모두 넣고 골고루 비빈다.", "timer_sec": null },
+    { "text": "공기 없이 꽉 묶고 매일 한 번씩 조물조물한다.", "timer_sec": null },
+    { "text": "새콤한 냄새가 나기 시작하면 냉장 보관한다.", "timer_sec": null }
+  ],
+  "memo": "발효/숙성 기간은 환경에 따라 달라 총시간에는 포함하지 않음.",
+  "source": ""
+}

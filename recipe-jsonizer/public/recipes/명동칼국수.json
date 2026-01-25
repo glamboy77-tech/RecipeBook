@@ -1,0 +1,54 @@
+{
+  "id": "명동칼국수_500013",
+  "title": "명동칼국수",
+  "time_total_min": 35,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "국물",
+    "칼국수"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        { "name": "식용유", "amount": 2, "unit": "TB", "note": "메인", "scalable": true },
+        { "name": "양파", "amount": 150, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "호박", "amount": 100, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "간장", "amount": 1, "unit": "TB", "note": "메인", "scalable": true },
+        { "name": "돈다짐육", "amount": 100, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "메인", "scalable": true },
+        { "name": "감자(슬라이스)", "amount": 100, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "물", "amount": 2.2, "unit": "L", "note": "메인", "scalable": true },
+        { "name": "사골액기스", "amount": 1.5, "unit": "TB", "note": "메인", "scalable": true },
+        { "name": "칼국수면", "amount": 3, "unit": "개", "note": "메인", "scalable": true },
+        { "name": "만두(소)", "amount": 15, "unit": "개", "note": "메인", "scalable": true },
+        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "설탕", "amount": 0.5, "unit": "TB", "note": "메인", "scalable": true },
+        { "name": "다시다", "amount": 1, "unit": "TB", "note": "메인", "scalable": true },
+        { "name": "미원", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "치킨스톡", "amount": 0.5, "unit": "밥숟가락", "note": "메인(1/2)", "scalable": true },
+        { "name": "혼다시", "amount": 0.5, "unit": "밥숟가락", "note": "메인(1/2)", "scalable": true },
+        { "name": "청양고추", "amount": 1, "unit": "개", "note": "메인", "scalable": true },
+        { "name": "부추", "amount": 60, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "다진파", "amount": null, "unit": "", "note": "조금씩", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "웍에 식용유를 두르고 센불로 가열한다.", "timer_sec": null },
+    { "text": "열이 오르면 양파와 애호박을 넣는다.", "timer_sec": null },
+    { "text": "간장을 재료 위에 뿌리고 그대로 잠시 둔다.", "timer_sec": null },
+    { "text": "양파가 살짝 캐러멜라이즈 될 정도까지 볶는다.", "timer_sec": null },
+    { "text": "돈다짐육을 넣고 볶는다.", "timer_sec": null },
+    { "text": "다진마늘을 넣고 볶는다. (타지 않게)", "timer_sec": null },
+    { "text": "고기가 어느정도 풀어지면 감자를 넣고 섞은 뒤 물을 붓는다.", "timer_sec": null },
+    { "text": "사골액기스와 후추를 넣는다.", "timer_sec": null },
+    { "text": "끓기 시작하면 칼국수면 1개와 만두 5개를 넣고 4분 타이머.", "timer_sec": 240 },
+    { "text": "다시다를 넣고 소금으로 간을 맞춘다.", "timer_sec": null },
+    { "text": "타이머가 울리면 불을 끄고 부추를 넣는다.", "timer_sec": null },
+    { "text": "그릇에 담고 다진파와 깨소금을 조금씩 올린다.", "timer_sec": null }
+  ],
+  "memo": "면/만두는 1회 투입 기준이어서(총 3인분 재료) 끓이면서 나눠 넣는 방식으로 추정.",
+  "source": ""
+}

@@ -27,6 +27,18 @@ function formatAmountUnitForDisplay(amount, unit) {
   return `${amount}${u}`;
 }
 
+function formatTimeTotal(minutes) {
+  if (minutes === null || minutes === undefined) return "";
+  const m = Number(minutes);
+  if (!Number.isFinite(m) || m <= 0) return "";
+
+  const hours = Math.floor(m / 60);
+  const mins = Math.round(m % 60);
+  if (hours > 0 && mins > 0) return `약 ${hours}시간 ${mins}분`;
+  if (hours > 0) return `약 ${hours}시간`;
+  return `약 ${mins}분`;
+}
+
 function RecipeViewerEmbedded({ recipe }) {
   const isMobile = useMediaQuery("(max-width: 768px)");
   const [targetServings, setTargetServings] = useState(recipe?.base_servings || 4);
@@ -51,6 +63,9 @@ function RecipeViewerEmbedded({ recipe }) {
               <span style={styles.servingsText}>
                 기준 {base}인분 → {target}인분
               </span>
+              {formatTimeTotal(recipe?.time_total_min) ? (
+                <span style={styles.timeText}>조리시간: {formatTimeTotal(recipe?.time_total_min)}</span>
+              ) : null}
               <div style={styles.servingsControls}>
                 <button style={styles.servingsBtn} onClick={() => setTargetServings((s) => Math.max(1, s - 1))}>
                   -
@@ -371,6 +386,9 @@ function RecipeViewerApp() {
                   <div style={styles.recipeMeta}>
                     태그: {(selected.tags || []).join(", ") || "-"}
                   </div>
+                  {formatTimeTotal(selected?.time_total_min) ? (
+                    <div style={styles.recipeMeta}>조리시간: {formatTimeTotal(selected?.time_total_min)}</div>
+                  ) : null}
                 </div>
 
                 <div style={styles.servingsControl}>
@@ -537,6 +555,7 @@ const styles = {
   recipeHeader: { display: "flex", alignItems: "baseline", justifyContent: "space-between", gap: 12, marginBottom: 16 },
   recipeTitle: { fontSize: 20, fontWeight: 800, color: "#e8ecf3" },
   recipeMeta: { fontSize: 13, opacity: 0.8, marginTop: 6, color: "#e8ecf3" },
+  timeText: { marginLeft: 12, fontSize: 12, opacity: 0.85 },
   servingsControl: { minWidth: 220 },
   servingsLabel: { fontSize: 12, opacity: 0.8, color: "#e8ecf3" },
   servingsBtn: { padding: "4px 8px", borderRadius: 6, border: "1px solid #2a3566", background: "#151a2a", color: "#e8ecf3", cursor: "pointer", fontSize: 12 },

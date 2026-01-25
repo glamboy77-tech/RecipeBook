@@ -1,0 +1,36 @@
+{
+  "id": "닭곰탕_500016",
+  "title": "닭곰탕",
+  "time_total_min": 40,
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "국물",
+    "닭"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        { "name": "대파", "amount": 3, "unit": "대", "note": "메인", "scalable": true },
+        { "name": "닭다리", "amount": 10, "unit": "개", "note": "메인", "scalable": true },
+        { "name": "다진마늘", "amount": 2, "unit": "밥숟가락", "note": "메인", "scalable": true },
+        { "name": "물", "amount": 2, "unit": "L", "note": "메인", "scalable": true },
+        { "name": "마요네즈", "amount": null, "unit": "", "note": "팬에 볶을 때(추정)", "scalable": false },
+        { "name": "치킨스톡", "amount": null, "unit": "", "note": "팬에 볶을 때(추정)", "scalable": false },
+        { "name": "맛소금", "amount": null, "unit": "", "note": "간맞추기", "scalable": false },
+        { "name": "후추", "amount": null, "unit": "", "note": "마무리", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "물 2L를 냄비에 끓인다.", "timer_sec": null },
+    { "text": "팬에 식용유를 두르고 닭다리를 노릇하게 굽는다.", "timer_sec": null },
+    { "text": "닭다리를 냄비로 옮겨 끓인다.", "timer_sec": null },
+    { "text": "팬에 채썬 대파(일부), 마요네즈, 치킨스톡을 넣고 볶는다.", "timer_sec": null },
+    { "text": "볶은 대파와 다진마늘을 냄비에 넣고 15분 더 끓인다.", "timer_sec": 900 },
+    { "text": "맛소금/다진마늘로 간을 하고, 그릇에 담아 대파/후추를 올린다.", "timer_sec": null }
+  ],
+  "memo": "원문에 마요/치킨스톡 양이 없어 취향 재료로 저장.",
+  "source": ""
+}

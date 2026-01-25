@@ -1,0 +1,73 @@
+{
+  "id": "짬뽕_500011",
+  "title": "짬뽕",
+  "time_total_min": 35,
+  "base_servings": 3,
+  "tags": [
+    "중식",
+    "국물",
+    "면",
+    "짬뽕"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "생면", "amount": 3, "unit": "인분", "note": "재료", "scalable": true },
+        { "name": "돼지고기", "amount": 100, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "배추", "amount": 200, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "양파", "amount": 300, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "청양고추", "amount": 2, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "냉동새우+해물믹스", "amount": null, "unit": "", "note": "한줌", "scalable": false },
+        { "name": "대파", "amount": 1, "unit": "단", "note": "재료", "scalable": true },
+        { "name": "당근", "amount": 0.3333333333333333, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "애호박", "amount": 0.3333333333333333, "unit": "개", "note": "재료", "scalable": true }
+      ]
+    },
+    {
+      "name": "고추기름",
+      "items": [
+        { "name": "고추기름", "amount": 1, "unit": "TB", "note": "고추기름", "scalable": true },
+        { "name": "라드유", "amount": 1, "unit": "TB", "note": "고추기름", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "간마늘", "amount": 1.5, "unit": "TB", "note": "1~2TB", "scalable": true },
+        { "name": "고운고춧가루", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "간장", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "청주", "amount": 2, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "굴소스", "amount": null, "unit": "", "note": "적당히", "scalable": false },
+        { "name": "후추", "amount": 0.5, "unit": "밥숟가락", "note": "반스푼", "scalable": true },
+        { "name": "치킨스톡/맛소금/혼다시", "amount": 1, "unit": "TB", "note": "간맞추기", "scalable": true }
+      ]
+    },
+    {
+      "name": "육수",
+      "items": [
+        { "name": "사골육수", "amount": 500, "unit": "ml", "note": "육수", "scalable": true },
+        { "name": "물", "amount": 1, "unit": "L", "note": "육수", "scalable": true },
+        { "name": "짬뽕다시", "amount": 1, "unit": "TB", "note": "육수", "scalable": true },
+        { "name": "치킨스톡", "amount": 0.5, "unit": "TB", "note": "육수", "scalable": true },
+        { "name": "미원", "amount": 0.5, "unit": "t", "note": "육수", "scalable": true }
+      ]
+    },
+    {
+      "name": "면",
+      "items": [
+        { "name": "면 삶기", "amount": 5, "unit": "분", "note": "끓는물", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "팬에 고추기름+라드유를 두르고 돼지고기를 볶는다.", "timer_sec": null },
+    { "text": "마늘/고춧가루를 넣고 향을 낸다.", "timer_sec": null },
+    { "text": "배추/양파/대파/고추/당근/호박 등 야채를 넣고 볶는다.", "timer_sec": null },
+    { "text": "간장/청주로 물질 후 육수를 부어 끓인다.", "timer_sec": null },
+    { "text": "해물(새우/해물믹스)을 넣고 한소끔 끓인다.", "timer_sec": null },
+    { "text": "면은 끓는 물에 5분 삶아 건져 그릇에 담고, 국물을 부어 완성한다.", "timer_sec": 300 }
+  ],
+  "memo": "원문에 조리 순서가 일부 생략되어 있어 일반적인 짬뽕 흐름으로 정리.",
+  "source": ""
+}

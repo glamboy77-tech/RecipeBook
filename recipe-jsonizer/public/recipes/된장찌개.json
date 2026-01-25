@@ -1,0 +1,33 @@
+{
+  "id": "된장찌개_500019",
+  "title": "된장찌개",
+  "time_total_min": 15,
+  "base_servings": 2,
+  "tags": [
+    "한식",
+    "찌개",
+    "된장"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        { "name": "물", "amount": 500, "unit": "ml", "note": "메인", "scalable": true },
+        { "name": "다시다", "amount": 0.5, "unit": "밥숟가락", "note": "반스푼", "scalable": true },
+        { "name": "혼다시", "amount": 0.5, "unit": "밥숟가락", "note": "반스푼", "scalable": true },
+        { "name": "설탕", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "다진마늘", "amount": 0.5, "unit": "밥숟가락", "note": "0.5숟갈", "scalable": true },
+        { "name": "된장", "amount": 1.5, "unit": "밥숟가락", "note": "1.5숟갈", "scalable": true },
+        { "name": "미원", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "멸치가루", "amount": 1, "unit": "밥숟가락", "note": "1숟갈", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "물 500ml에 된장, 다시다, 혼다시, 멸치가루, 다진마늘을 풀어 끓인다.", "timer_sec": null },
+    { "text": "끓으면 설탕/미원/후추로 취향껏 간을 맞춘다.", "timer_sec": null }
+  ],
+  "memo": "재료(두부/호박/양파 등)는 없어서 기본 베이스만 기록.",
+  "source": ""
+}
