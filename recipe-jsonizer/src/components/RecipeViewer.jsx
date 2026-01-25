@@ -1,10 +1,15 @@
 import React, { useEffect, useMemo, useState } from "react";
-import { formatIngredientNote, normalizeIngredientAmountUnit, scaleIngredientAmount } from "../lib/recipe";
+import { formatIngredientNote, formatWeightAmountUnit, normalizeIngredientAmountUnit, scaleIngredientAmount } from "../lib/recipe";
 import { useMediaQuery } from "../lib/useMediaQuery";
 
 function formatAmountUnitForDisplay(amount, unit) {
   if (amount === null || amount === undefined) return "";
   const u = (unit || "").trim();
+
+  // g/kg 표기 개선(구간별 반올림 + kg 자동변환)
+  if (u === "g" || u === "kg") {
+    return formatWeightAmountUnit(amount, u);
+  }
 
   // 밥숟가락 표기 개선
   // - 1숟가락 이상: N숟가락

@@ -50,6 +50,75 @@ function roundByUnit(value, unit) {
   return Math.round(value * 100) / 100;
 }
 
+function roundStep(value, step, mode) {
+  if (!Number.isFinite(value)) return value;
+  if (!Number.isFinite(step) || step <= 0) return value;
+
+  const x = value / step;
+  if (mode === "floor") return Math.floor(x) * step;
+  if (mode === "ceil") return Math.ceil(x) * step;
+  return Math.round(x) * step;
+}
+
+function stripTrailingZeros(nStr) {
+  // "2.0" -> "2", "1.10" -> "1.1" (lookbehind 없이 구현)
+  const s = String(nStr);
+  if (!s.includes(".")) return s;
+  return s.replace(/0+$/g, "").replace(/\.$/g, "");
+}
+
+/**
+ * 표시용 g/kg 포맷터.
+ * - 내부 계산값은 유지하고 UI에서만 보기 좋게 반올림/단위 변환
+ *
+ * 규칙(사용자 합의):
+ * - unit=g 일 때
+ *   0~30g: 0.5g 단위 표준 반올림
+ *   30~100g: 1g 단위 표준 반올림
+ *   100~1000g: 10g 단위 표준 반올림
+ *   1000g~5000g: kg로 변환 후 0.1kg 단위 표준 반올림
+ *   5kg 이상: kg로 변환 후 1kg 단위 표준 반올림
+ * - unit=kg 일 때도 g 기준으로 구간 판단 후 kg 출력
+ */
+export function formatWeightAmountUnit(amount, unit) {
+  if (amount === null || amount === undefined) return "";
+  const u = (unit || "").trim();
+  const v = Number(amount);
+  if (!Number.isFinite(v)) return `${amount}${u}`;
+
+  // g/kg 외는 손대지 않음
+  if (u !== "g" && u !== "kg") {
+    return `${amount}${u}`;
+  }
+
+  const grams = u === "kg" ? v * 1000 : v;
+  const gAbs = Math.abs(grams);
+
+  // 0이면 그냥 0g
+  if (gAbs === 0) return "0g";
+
+  // 1kg 이상은 kg로 출력
+  if (gAbs >= 1000) {
+    const kg = grams / 1000;
+    const kgAbs = Math.abs(kg);
+    const step = kgAbs >= 5 ? 1 : 0.1;
+    const rounded = roundStep(kg, step, "round");
+    const pretty = stripTrailingZeros(rounded.toFixed(step === 1 ? 0 : 1));
+    return `${pretty}kg`;
+  }
+
+  // 1kg 미만은 g 출력
+  let step;
+  if (gAbs < 30) step = 0.5;
+  else if (gAbs < 100) step = 1;
+  else step = 10;
+
+  const rounded = roundStep(grams, step, "round");
+  // 0.5 단위면 소수점 1자리, 그 외는 정수
+  const pretty = stripTrailingZeros(rounded.toFixed(step === 0.5 ? 1 : 0));
+  return `${pretty}g`;
+}
+
 /**
  * unit 문자열에 숫자가 포함된 경우를 정규화한다.
  * 예)
