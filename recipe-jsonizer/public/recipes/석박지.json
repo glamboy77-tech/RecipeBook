@@ -28,7 +28,7 @@
         { "name": "사이다", "amount": 4, "unit": "TB", "note": "양념", "scalable": true },
         { "name": "다진마늘", "amount": 8, "unit": "TB", "note": "양념", "scalable": true },
         { "name": "미원", "amount": 1, "unit": "t", "note": "양념", "scalable": true },
-        { "name": "대파", "amount": null, "unit": "", "note": "옵션 - 크게 썰어", "scalable": false }
+        { "name": "대파", "amount": 1, "unit": "대", "note": "옵션 - 크게 썰어", "scalable": false }
       ]
     }
   ],

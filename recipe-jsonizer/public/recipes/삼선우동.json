@@ -13,9 +13,9 @@
     {
       "name": "재료",
       "items": [
-        { "name": "청경채", "amount": null, "unit": "", "note": "꽁지만 제거", "scalable": false },
-        { "name": "배추", "amount": null, "unit": "", "note": "1.5cm 폭", "scalable": false },
-        { "name": "대파", "amount": null, "unit": "", "note": "심지빼고 1cm", "scalable": false },
+        { "name": "청경채", "amount": 1, "unit": "줌", "note": "꽁지만 제거", "scalable": false },
+        { "name": "배추", "amount": 1, "unit": "줌", "note": "1.5cm 폭", "scalable": false },
+        { "name": "대파", "amount": 1, "unit": "대", "note": "심지빼고 1cm", "scalable": false },
         { "name": "양파", "amount": 0.5, "unit": "개", "note": "채썬다(추정)", "scalable": true },
         { "name": "버섯", "amount": null, "unit": "", "note": "기둥만 1cm", "scalable": false },
         { "name": "목이버섯", "amount": null, "unit": "", "note": "적당히", "scalable": false },

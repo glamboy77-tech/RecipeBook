@@ -15,7 +15,7 @@
       "items": [
         { "name": "감자", "amount": 2, "unit": "개", "note": "재료", "scalable": true },
         { "name": "양파", "amount": 0.5, "unit": "개", "note": "재료", "scalable": true },
-        { "name": "대파", "amount": 0.5, "unit": "뿌리", "note": "반뿌리", "scalable": true },
+        { "name": "대파", "amount": 0.5, "unit": "대", "note": "재료", "scalable": true },
         { "name": "스팸", "amount": 200, "unit": "g", "note": "재료", "scalable": true },
         { "name": "간마늘", "amount": 1, "unit": "밥숟가락", "note": "재료", "scalable": true },
         { "name": "된장", "amount": 0.5, "unit": "밥숟가락", "note": "재료", "scalable": true },

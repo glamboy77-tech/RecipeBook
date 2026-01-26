@@ -17,7 +17,7 @@
         {
           "name": "대파",
           "amount": 1,
-          "unit": "1뿌리",
+          "unit": "대",
           "note": "메인",
           "scalable": true,
           "ingredient_type": "semi_solid",
