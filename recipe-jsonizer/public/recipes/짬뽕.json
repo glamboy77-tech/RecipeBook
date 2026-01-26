@@ -19,7 +19,7 @@
         { "name": "양파", "amount": 300, "unit": "g", "note": "재료", "scalable": true },
         { "name": "청양고추", "amount": 2, "unit": "개", "note": "재료", "scalable": true },
         { "name": "냉동새우+해물믹스", "amount": null, "unit": "", "note": "한줌", "scalable": false },
-        { "name": "대파", "amount": 1, "unit": "단", "note": "재료", "scalable": true },
+        { "name": "대파", "amount": 1, "unit": "대", "note": "재료", "scalable": true },
         { "name": "당근", "amount": 0.3333333333333333, "unit": "개", "note": "재료", "scalable": true },
         { "name": "애호박", "amount": 0.3333333333333333, "unit": "개", "note": "재료", "scalable": true }
       ]
