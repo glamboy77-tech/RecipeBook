@@ -21,8 +21,8 @@
         },
         {
           "name": "다진양파",
-          "amount": 0.5,
-          "unit": "개",
+          "amount": 100,
+          "unit": "g",
           "note": "",
           "scalable": true
         },
@@ -116,8 +116,8 @@
     },
     {
       "name": "다진양파",
-      "amount": 0.5,
-      "unit": "개",
+      "amount": 100,
+      "unit": "g",
       "note": "",
       "scalable": true
     },
