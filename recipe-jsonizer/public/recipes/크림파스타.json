@@ -225,6 +225,10 @@
       "timer_sec": null
     }
   ],
+  "image": {
+    "src": "recipes/images/placeholder.svg",
+    "alt": "크림파스타"
+  },
   "memo": "",
   "source": ""
 }

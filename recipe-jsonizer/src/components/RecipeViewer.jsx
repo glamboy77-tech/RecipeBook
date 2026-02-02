@@ -44,6 +44,22 @@ function formatTimeTotal(minutes) {
   return `약 ${mins}분`;
 }
 
+const DEFAULT_IMAGE = "recipes/images/placeholder.svg";
+
+function getRecipeImage(recipe) {
+  const img = recipe?.image;
+  if (!img) return { src: DEFAULT_IMAGE, alt: recipe?.title || "레시피" };
+
+  if (typeof img === "string") {
+    return { src: img || DEFAULT_IMAGE, alt: recipe?.title || "레시피" };
+  }
+
+  return {
+    src: img?.src || DEFAULT_IMAGE,
+    alt: img?.alt || recipe?.title || "레시피",
+  };
+}
+
 function RecipeViewerEmbedded({ recipe }) {
   const isMobile = useMediaQuery("(max-width: 768px)");
   const [targetServings, setTargetServings] = useState(recipe?.base_servings || 4);
@@ -97,6 +113,15 @@ function RecipeViewerEmbedded({ recipe }) {
                 ))}
               </div>
             )}
+          </div>
+
+          <div style={styles.heroImageWrap}>
+            <img
+              src={getRecipeImage(recipe).src}
+              alt={getRecipeImage(recipe).alt}
+              style={styles.heroImage}
+              loading="lazy"
+            />
           </div>
 
           <div style={{ ...styles.grid2, gridTemplateColumns: isMobile ? "1fr" : styles.grid2.gridTemplateColumns }}>
@@ -368,6 +393,14 @@ function RecipeViewerApp() {
                     ...(selectedId === r.id ? styles.listItemActive : {}),
                   }}
                 >
+                  <div style={styles.listItemThumb}>
+                    <img
+                      src={getRecipeImage(r).src}
+                      alt={getRecipeImage(r).alt}
+                      style={styles.listItemImg}
+                      loading="lazy"
+                    />
+                  </div>
                   <div style={styles.listItemTitle}>{r.title}</div>
                   <div style={styles.listItemMeta}>
                     기준 {r.base_servings ?? "?"}인분 · 태그 {(r.tags || []).slice(0, 4).join(", ") || "-"}
@@ -423,6 +456,15 @@ function RecipeViewerApp() {
                     기준: {selected.base_servings}인분
                   </div>
                 </div>
+              </div>
+
+              <div style={styles.heroImageWrap}>
+                <img
+                  src={getRecipeImage(selected).src}
+                  alt={getRecipeImage(selected).alt}
+                  style={styles.heroImage}
+                  loading="lazy"
+                />
               </div>
 
               <div style={styles.sectionDivider} />
@@ -550,8 +592,10 @@ const styles = {
   emptyBox: { padding: 12, borderRadius: 14, border: "1px dashed #2a3566", opacity: 0.8, lineHeight: 1.4, textAlign: "center", color: "#e8ecf3" },
 
   // 목록 스타일
-  listItem: { padding: 10, borderRadius: 14, border: "1px solid #1f263a", background: "#0f1320", cursor: "pointer", marginBottom: 8, textAlign: "left", width: "100%" },
+  listItem: { padding: 10, borderRadius: 14, border: "1px solid #1f263a", background: "#0f1320", cursor: "pointer", marginBottom: 8, textAlign: "left", width: "100%", display: "grid", gridTemplateColumns: "52px 1fr", columnGap: 10, alignItems: "center" },
   listItemActive: { borderColor: "#3b4aa3", background: "#121a33" },
+  listItemThumb: { width: 52, height: 52, borderRadius: 12, overflow: "hidden", border: "1px solid #1f263a", background: "#0b0f1b", display: "grid", placeItems: "center" },
+  listItemImg: { width: "100%", height: "100%", objectFit: "cover", display: "block" },
   listItemTitle: { fontWeight: 800, fontSize: 14, color: "#e8ecf3" },
   listItemMeta: { opacity: 0.65, fontSize: 11, marginTop: 4, color: "#e8ecf3" },
 
@@ -566,6 +610,9 @@ const styles = {
   servingsBtn: { padding: "4px 8px", borderRadius: 6, border: "1px solid #2a3566", background: "#151a2a", color: "#e8ecf3", cursor: "pointer", fontSize: 12 },
   servingsInput: { width: 60, padding: "4px 6px", borderRadius: 6, border: "1px solid #2a3566", background: "#0b0f1b", color: "#e8ecf3", textAlign: "center", fontSize: 12 },
   servingsNote: { fontSize: 12, opacity: 0.75, marginTop: 6, color: "#e8ecf3" },
+
+  heroImageWrap: { marginBottom: 16, borderRadius: 18, overflow: "hidden", border: "1px solid #1f263a", background: "#0b0f1b" },
+  heroImage: { width: "100%", maxHeight: 240, objectFit: "cover", display: "block" },
 
   sectionDivider: { height: 1, background: "#1f263a", margin: "16px 0" },
   section: { marginBottom: 16 },
