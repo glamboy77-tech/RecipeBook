@@ -1,0 +1,55 @@
+{
+  "id": "잔치국수_840713",
+  "title": "잔치국수",
+  "time_total_min": 15,
+  "base_servings": 1,
+  "tags": [
+    "한식",
+    "국수"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "국물",
+      "items": [
+        { "name": "물", "amount": 500, "unit": "ml", "note": "국물", "scalable": true },
+        { "name": "멸치액젓", "amount": 1, "unit": "TB", "note": "국물", "scalable": true },
+        { "name": "멸치가루", "amount": 1, "unit": "수저", "note": "국물", "scalable": true },
+        { "name": "다시다", "amount": 1, "unit": "t", "note": "국물", "scalable": true },
+        { "name": "참기름", "amount": null, "unit": "", "note": "한방울", "scalable": false },
+        { "name": "고춧가루", "amount": null, "unit": "", "note": "조금", "scalable": false },
+        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "대파 흰부분", "amount": null, "unit": "", "note": "고명", "scalable": false },
+        { "name": "소면", "amount": 100, "unit": "g", "note": "면", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념장",
+      "items": [
+        { "name": "진간장", "amount": 6, "unit": "TB", "note": "양념장", "scalable": true },
+        { "name": "고춧가루", "amount": 1.5, "unit": "TB", "note": "양념장", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "TB", "note": "양념장", "scalable": true },
+        { "name": "참기름", "amount": 1, "unit": "TB", "note": "양념장", "scalable": true },
+        { "name": "흰대파", "amount": 1, "unit": "TB", "note": "양념장", "scalable": true },
+        { "name": "청량고추", "amount": 1, "unit": "개", "note": "양념장", "scalable": true }
+      ]
+    },
+    {
+      "name": "고명(옵션)",
+      "items": [
+        { "name": "부추무침", "amount": null, "unit": "", "note": "고명", "scalable": false },
+        { "name": "단무지채", "amount": null, "unit": "", "note": "고명", "scalable": false },
+        { "name": "유부채", "amount": null, "unit": "", "note": "고명", "scalable": false },
+        { "name": "김가루", "amount": null, "unit": "", "note": "고명", "scalable": false },
+        { "name": "숙주나물", "amount": null, "unit": "", "note": "고명", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "소면을 삶아 찬물에 헹군다.", "timer_sec": null },
+    { "text": "국물 재료를 끓여 간을 맞춘다.", "timer_sec": null },
+    { "text": "양념장 재료를 섞어 준비한다.", "timer_sec": null },
+    { "text": "그릇에 면, 국물, 고명을 담고 양념장을 곁들인다.", "timer_sec": null }
+  ],
+  "memo": "고명은 선택.",
+  "source": ""
+}

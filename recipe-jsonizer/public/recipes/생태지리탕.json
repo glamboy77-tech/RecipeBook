@@ -1,0 +1,55 @@
+{
+  "id": "생태지리탕_762394",
+  "title": "생태지리탕",
+  "time_total_min": 35,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "탕"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "생태", "amount": 2, "unit": "마리", "note": "1.4kg(알 포함)", "scalable": true },
+        { "name": "무", "amount": 300, "unit": "g", "note": "도톰 나박썰기", "scalable": true },
+        { "name": "콩나물", "amount": 200, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "두부", "amount": 0.5, "unit": "모", "note": "1.5~2cm", "scalable": true },
+        { "name": "양파", "amount": 0.5, "unit": "개", "note": "굵게 채", "scalable": true },
+        { "name": "대파", "amount": 1, "unit": "대", "note": "재료", "scalable": true },
+        { "name": "청양고추", "amount": 2, "unit": "개", "note": "재료", "scalable": true }
+      ]
+    },
+    {
+      "name": "육수",
+      "items": [
+        { "name": "물", "amount": 1.5, "unit": "L", "note": "육수", "scalable": true },
+        { "name": "북어머리", "amount": 0.5, "unit": "개", "note": "육수", "scalable": true },
+        { "name": "디포리", "amount": 4, "unit": "마리", "note": "육수", "scalable": true },
+        { "name": "다시마", "amount": 1, "unit": "장", "note": "10x10cm", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "전통양조간장", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "고춧가루", "amount": 1, "unit": "t", "note": "색만", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "t", "note": "양념", "scalable": true },
+        { "name": "소금", "amount": null, "unit": "", "note": "최종 간", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "찬물에 북어머리와 디포리를 넣고 10분 끓인다.", "timer_sec": 600 },
+    { "text": "다시마를 넣어 5분 더 끓인 뒤 모두 건진다.", "timer_sec": 300 },
+    { "text": "무를 넣고 10분 끓인다.", "timer_sec": 600 },
+    { "text": "콩나물을 넣고 5분 끓인다.", "timer_sec": 300 },
+    { "text": "간장과 고춧가루를 넣어 색만 낸다.", "timer_sec": null },
+    { "text": "생태를 넣고 7~8분 끓인다.", "timer_sec": 480 },
+    { "text": "2~3분 뒤 두부를 넣는다.", "timer_sec": null },
+    { "text": "거품을 걷고 소금으로 최종 간한다.", "timer_sec": null },
+    { "text": "마늘, 양파, 대파, 청양고추를 넣고 1~2분 끓인다.", "timer_sec": 90 }
+  ],
+  "memo": "생선이 잠기지 않아도 OK. 고춧가루는 색만, 청양고추는 끝에.",
+  "source": ""
+}

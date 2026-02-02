@@ -1,0 +1,26 @@
+{
+  "id": "캬라멜라떼_382641",
+  "title": "캬라멜라떼",
+  "time_total_min": 10,
+  "base_servings": 10,
+  "tags": [
+    "음료"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "맥심커피가루", "amount": 100, "unit": "ml", "note": "재료", "scalable": true },
+        { "name": "라떼가루", "amount": 250, "unit": "ml", "note": "재료", "scalable": true },
+        { "name": "뜨거운물", "amount": 1, "unit": "잔", "note": "재료", "scalable": true },
+        { "name": "우유", "amount": 1.8, "unit": "L", "note": "재료", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "뜨거운 물에 커피가루와 라떼가루를 녹인다.", "timer_sec": null },
+    { "text": "우유를 붓고 잘 섞는다.", "timer_sec": null }
+  ],
+  "memo": "약 10잔 기준 배치.",
+  "source": ""
+}

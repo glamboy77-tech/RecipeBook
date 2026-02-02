@@ -1,0 +1,50 @@
+{
+  "id": "김치겉절이_804296",
+  "title": "김치겉절이",
+  "time_total_min": 60,
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "김치"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "배추", "amount": 700, "unit": "g", "note": "한포기", "scalable": true },
+        { "name": "굵은소금", "amount": 3, "unit": "TB", "note": "절임", "scalable": true },
+        { "name": "물", "amount": 4, "unit": "TB", "note": "절임", "scalable": true },
+        { "name": "양파채", "amount": 50, "unit": "g", "note": "옵션", "scalable": true },
+        { "name": "당근채", "amount": 50, "unit": "g", "note": "옵션", "scalable": true },
+        { "name": "무채", "amount": 70, "unit": "g", "note": "옵션", "scalable": true },
+        { "name": "생강", "amount": 10, "unit": "g", "note": "옵션", "scalable": true },
+        { "name": "마늘", "amount": 10, "unit": "알", "note": "재료", "scalable": true },
+        { "name": "쪽파", "amount": 50, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "건고추", "amount": 30, "unit": "g", "note": "재료", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "고춧가루", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "액젓", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "새우젓", "amount": 0.5, "unit": "TB", "note": "새우만", "scalable": true },
+        { "name": "미원", "amount": 0.5, "unit": "t", "note": "양념", "scalable": true },
+        { "name": "사이다", "amount": 3, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "올리고당", "amount": 1, "unit": "TB", "note": "양념", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "건고추는 따뜻한 물에 불린다.", "timer_sec": null },
+    { "text": "배추에 칼집을 내고 찢어 믹싱볼에 담는다.", "timer_sec": null },
+    { "text": "소금과 물을 뿌리고 섞은 뒤 20분간 절인다.", "timer_sec": 1200 },
+    { "text": "양념 재료를 섞고 건고추는 믹서로 대충 갈아 넣는다.", "timer_sec": null },
+    { "text": "20분 후 배추를 뒤집어 다시 20분 절인다.", "timer_sec": 1200 },
+    { "text": "배추를 3번 씻고 물기를 뺀다.", "timer_sec": null },
+    { "text": "양념과 배추를 잘 섞는다.", "timer_sec": null }
+  ],
+  "memo": "배추를 구부려도 부러지지 않으면 절임 OK.",
+  "source": ""
+}

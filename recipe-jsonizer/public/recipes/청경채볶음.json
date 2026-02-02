@@ -1,0 +1,34 @@
+{
+  "id": "청경채볶음_615924",
+  "title": "청경채볶음",
+  "time_total_min": 15,
+  "base_servings": 1,
+  "tags": [
+    "중식",
+    "볶음"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "청경채", "amount": 6, "unit": "개", "note": "1/4 조각", "scalable": true },
+        { "name": "돼지고기", "amount": 1, "unit": "줄", "note": "재료", "scalable": true },
+        { "name": "버섯", "amount": null, "unit": "", "note": "조금", "scalable": false },
+        { "name": "식용유", "amount": 1, "unit": "TB", "note": "1숟갈", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "1숟갈", "scalable": true },
+        { "name": "청주", "amount": 1, "unit": "TB", "note": "1숟갈", "scalable": true },
+        { "name": "간장", "amount": 1, "unit": "TB", "note": "1숟갈", "scalable": true },
+        { "name": "굴소스", "amount": 1, "unit": "TB", "note": "1숟갈", "scalable": true },
+        { "name": "참기름", "amount": 1, "unit": "TB", "note": "1숟갈", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "청경채는 1/4 조각내고 버섯과 함께 데친다.", "timer_sec": null },
+    { "text": "팬에 식용유, 다진마늘을 넣고 고기를 볶다가 청주를 넣는다.", "timer_sec": null },
+    { "text": "나머지 재료를 넣고 볶다가 간장, 굴소스로 간을 맞춘다.", "timer_sec": null },
+    { "text": "불을 끄고 참기름을 두른다.", "timer_sec": null }
+  ],
+  "memo": "밥 없이 1인 1끼 충분한 양.",
+  "source": ""
+}

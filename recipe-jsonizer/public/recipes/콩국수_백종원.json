@@ -1,0 +1,37 @@
+{
+  "id": "콩국수_백종원_439215",
+  "title": "콩국수(백종원)",
+  "time_total_min": 15,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "국수"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "콩국",
+      "items": [
+        { "name": "두부", "amount": 200, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "물", "amount": 600, "unit": "ml", "note": "재료", "scalable": true },
+        { "name": "땅콩버터", "amount": 1, "unit": "TB", "note": "재료", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "TB", "note": "재료", "scalable": true },
+        { "name": "소금", "amount": 1, "unit": "TB", "note": "재료", "scalable": true },
+        { "name": "볶은깨", "amount": 5, "unit": "TB", "note": "재료", "scalable": true }
+      ]
+    },
+    {
+      "name": "고명",
+      "items": [
+        { "name": "삶은계란", "amount": null, "unit": "", "note": "고명", "scalable": false },
+        { "name": "오이", "amount": null, "unit": "", "note": "고명", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "믹서에 콩국 재료를 넣고 갈아 국물을 만든다.", "timer_sec": null },
+    { "text": "중면을 삶는다.", "timer_sec": null },
+    { "text": "면에 콩국을 붓고 삶은계란, 오이 등 고명을 올린다.", "timer_sec": null }
+  ],
+  "memo": "콩국은 차게 식혀서 사용하면 좋다.",
+  "source": ""
+}

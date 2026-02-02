@@ -1,0 +1,39 @@
+{
+  "id": "소고기해장국_614837",
+  "title": "소고기해장국",
+  "time_total_min": 35,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "국"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "소고기(등심)", "amount": 200, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "파", "amount": 50, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "다진마늘", "amount": 30, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "무", "amount": 200, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "콩나물", "amount": 100, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "다시다", "amount": 15, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "버섯", "amount": 50, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "양파", "amount": 60, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "국간장", "amount": 5, "unit": "g", "note": "간", "scalable": true },
+        { "name": "후추", "amount": 1, "unit": "g", "note": "간", "scalable": true },
+        { "name": "꽃소금", "amount": 5, "unit": "g", "note": "간", "scalable": true },
+        { "name": "미원", "amount": 1, "unit": "g", "note": "간", "scalable": true },
+        { "name": "물", "amount": 1.5, "unit": "L", "note": "육수", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "찬물에 무를 넣고 끓인다.", "timer_sec": null },
+    { "text": "물이 끓으면 고기와 다진마늘을 넣는다.", "timer_sec": null },
+    { "text": "다시 끓기 시작하면 센불로 15분 끓인다.", "timer_sec": 900 },
+    { "text": "줄어든 물을 보충하고 나머지 재료를 다 넣는다.", "timer_sec": null },
+    { "text": "다시 끓으면 3분 더 끓인다.", "timer_sec": 180 }
+  ],
+  "memo": "국물 농도는 물 보충으로 조절.",
+  "source": ""
+}

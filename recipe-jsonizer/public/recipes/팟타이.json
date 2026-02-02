@@ -1,0 +1,51 @@
+{
+  "id": "팟타이_619503",
+  "title": "팟타이",
+  "time_total_min": 25,
+  "base_servings": 2,
+  "tags": [
+    "동남아",
+    "볶음면"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "소스",
+      "items": [
+        { "name": "굴소스", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "스리라차", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "레몬쥬스", "amount": 0.5, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "매실액", "amount": 0.5, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "미원", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "설탕", "amount": 0.7, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "치킨스톡", "amount": 0.5, "unit": "t", "note": "소스", "scalable": true },
+        { "name": "멸치액젓", "amount": 0.5, "unit": "t", "note": "소스", "scalable": true }
+      ]
+    },
+    {
+      "name": "팟타이",
+      "items": [
+        { "name": "식용유", "amount": 2, "unit": "TB", "note": "볶음", "scalable": true },
+        { "name": "양파", "amount": null, "unit": "", "note": "채썰기", "scalable": false },
+        { "name": "브로콜리", "amount": null, "unit": "", "note": "채썰기", "scalable": false },
+        { "name": "쪽파", "amount": 1, "unit": "개", "note": "부추 대체", "scalable": true },
+        { "name": "숙주", "amount": 100, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "베트남고추", "amount": null, "unit": "", "note": "취향", "scalable": false },
+        { "name": "쌀국수면", "amount": 2, "unit": "덩이", "note": "재료", "scalable": true },
+        { "name": "새우", "amount": 5, "unit": "마리", "note": "재료", "scalable": true },
+        { "name": "계란", "amount": 1, "unit": "개", "note": "스크램블", "scalable": true },
+        { "name": "고수", "amount": null, "unit": "", "note": "왕창", "scalable": false },
+        { "name": "견과류 분태", "amount": null, "unit": "", "note": "한줌", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "중불에 식용유를 두르고 채소를 볶는다.", "timer_sec": null },
+    { "text": "채소가 숨죽으면 쌀국수면을 넣는다.", "timer_sec": null },
+    { "text": "면이 숨죽으면 새우를 넣는다.", "timer_sec": null },
+    { "text": "계란 스크램블을 만든다.", "timer_sec": null },
+    { "text": "소스 2TB를 넣고 잘 볶는다.", "timer_sec": null },
+    { "text": "접시에 담고 레몬쥬스, 땅콩분태, 고수를 올린다.", "timer_sec": null }
+  ],
+  "memo": "소스는 2TB 정도 사용.",
+  "source": ""
+}

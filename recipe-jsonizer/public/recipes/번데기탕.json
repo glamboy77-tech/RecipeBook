@@ -1,0 +1,32 @@
+{
+  "id": "번데기탕_684219",
+  "title": "번데기탕",
+  "time_total_min": 15,
+  "base_servings": 2,
+  "tags": [
+    "한식",
+    "탕"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "번데기", "amount": 1, "unit": "캔", "note": "재료", "scalable": true },
+        { "name": "고춧가루", "amount": null, "unit": "", "note": "간", "scalable": false },
+        { "name": "다진마늘", "amount": null, "unit": "", "note": "간", "scalable": false },
+        { "name": "간장", "amount": null, "unit": "", "note": "간", "scalable": false },
+        { "name": "다시다", "amount": null, "unit": "", "note": "간", "scalable": false },
+        { "name": "미원", "amount": null, "unit": "", "note": "간", "scalable": false },
+        { "name": "후추", "amount": null, "unit": "", "note": "간", "scalable": false },
+        { "name": "설탕", "amount": null, "unit": "", "note": "간", "scalable": false },
+        { "name": "물", "amount": null, "unit": "", "note": "국물", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "모든 재료를 넣고 끓인다.", "timer_sec": null },
+    { "text": "식힌 뒤 먹으면 더 맛있다.", "timer_sec": null }
+  ],
+  "memo": "식으면 더 맛있음.",
+  "source": ""
+}

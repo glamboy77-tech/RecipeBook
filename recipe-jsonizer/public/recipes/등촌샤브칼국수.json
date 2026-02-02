@@ -1,0 +1,81 @@
+{
+  "id": "등촌샤브칼국수_984215",
+  "title": "등촌샤브칼국수",
+  "time_total_min": 40,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "전골"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "샤브 부채살", "amount": 380, "unit": "g", "note": "350~400g", "scalable": true },
+        { "name": "배추", "amount": null, "unit": "", "note": "듬뿍", "scalable": false },
+        { "name": "버섯류", "amount": null, "unit": "", "note": "재료", "scalable": false },
+        { "name": "미나리/쑥갓", "amount": null, "unit": "", "note": "재료", "scalable": false },
+        { "name": "두부", "amount": null, "unit": "", "note": "재료", "scalable": false },
+        { "name": "칼국수면", "amount": 3, "unit": "인분", "note": "재료", "scalable": true },
+        { "name": "밥", "amount": 1.5, "unit": "공기", "note": "볶음밥", "scalable": true },
+        { "name": "계란", "amount": 1, "unit": "개", "note": "볶음밥", "scalable": true },
+        { "name": "김가루", "amount": null, "unit": "", "note": "볶음밥", "scalable": false }
+      ]
+    },
+    {
+      "name": "육수",
+      "items": [
+        { "name": "물", "amount": 2.2, "unit": "L", "note": "육수", "scalable": true },
+        { "name": "멸치디포리 코인육수", "amount": 3, "unit": "개", "note": "육수", "scalable": true }
+      ]
+    },
+    {
+      "name": "끓으면 추가",
+      "items": [
+        { "name": "혼다시", "amount": 0.5, "unit": "TB", "note": "육수", "scalable": true },
+        { "name": "쇠고기다시다", "amount": 0.5, "unit": "TB", "note": "육수", "scalable": true },
+        { "name": "미원", "amount": 0.25, "unit": "TB", "note": "육수", "scalable": true }
+      ]
+    },
+    {
+      "name": "매운맛 추가",
+      "items": [
+        { "name": "고춧가루", "amount": 2.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "고추장", "amount": 1.2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "된장", "amount": 1, "unit": "t", "note": "양념", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "국간장", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "참기름", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true }
+      ]
+    },
+    {
+      "name": "볶음밥",
+      "items": [
+        { "name": "치킨스톡", "amount": 0.05, "unit": "TB", "note": "아주 소량", "scalable": true },
+        { "name": "참기름", "amount": null, "unit": "", "note": "마무리", "scalable": false },
+        { "name": "미원", "amount": null, "unit": "", "note": "2~3알갱이", "scalable": false }
+      ]
+    },
+    {
+      "name": "참소스(선택)",
+      "items": [
+        { "name": "참소스", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "물", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "식초", "amount": 0.5, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "설탕", "amount": 0.5, "unit": "TB", "note": "소스", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "물과 코인육수를 끓인다.", "timer_sec": null },
+    { "text": "끓으면 혼다시, 쇠고기다시다, 미원을 넣는다.", "timer_sec": null },
+    { "text": "매운맛 양념을 넣고 센불에서 2~3분 끓인다.", "timer_sec": null },
+    { "text": "채소와 고기 70%를 넣고 끓이며 먹는다.", "timer_sec": null },
+    { "text": "칼국수면을 넣고 3~4분 끓인다.", "timer_sec": null },
+    { "text": "국물 3~4국자 남기고 밥, 김가루, 계란을 넣어 볶음밥을 만든다.", "timer_sec": null },
+    { "text": "불 끄고 참기름과 미원으로 마무리한다.", "timer_sec": null }
+  ],
+  "memo": "국물 부족 시 물 400ml + 코인육수 1개 추가.",
+  "source": ""
+}

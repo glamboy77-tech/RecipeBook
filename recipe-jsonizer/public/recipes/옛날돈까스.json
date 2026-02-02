@@ -1,0 +1,40 @@
+{
+  "id": "옛날돈까스_516498",
+  "title": "옛날돈까스",
+  "time_total_min": 40,
+  "base_servings": 1,
+  "tags": [
+    "한식",
+    "돈까스"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "돈까스용 등심", "amount": null, "unit": "", "note": "두들긴 것", "scalable": false },
+        { "name": "소금", "amount": null, "unit": "", "note": "밑간", "scalable": false },
+        { "name": "후추", "amount": null, "unit": "", "note": "밑간", "scalable": false },
+        { "name": "다진마늘", "amount": null, "unit": "", "note": "밑간", "scalable": false },
+        { "name": "밀가루", "amount": null, "unit": "", "note": "튀김", "scalable": false },
+        { "name": "계란", "amount": null, "unit": "", "note": "튀김", "scalable": false },
+        { "name": "빵가루", "amount": null, "unit": "", "note": "튀김", "scalable": false },
+        { "name": "식용유", "amount": null, "unit": "", "note": "튀김", "scalable": false },
+        { "name": "양상추", "amount": null, "unit": "", "note": "채썰기", "scalable": false },
+        { "name": "마요네즈", "amount": null, "unit": "", "note": "토핑", "scalable": false },
+        { "name": "케찹", "amount": null, "unit": "", "note": "토핑", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "고기에 소금, 후추, 다진마늘로 밑간을 한다.", "timer_sec": null },
+    { "text": "밀가루를 골고루 묻힌다.", "timer_sec": null },
+    { "text": "계란을 풀어 입힌다.", "timer_sec": null },
+    { "text": "빵가루에 분무기로 물을 살짝 뿌린다.", "timer_sec": null },
+    { "text": "빵가루를 입히고 냉동실에서 10분 숙성.", "timer_sec": 600 },
+    { "text": "고기가 반 잠기도록 기름을 넣고 중불에서 튀긴다.", "timer_sec": null },
+    { "text": "양상추를 5~8mm로 채썰어 접시에 담는다.", "timer_sec": null },
+    { "text": "돈까스를 올리고 마요네즈, 케찹을 뿌린다.", "timer_sec": null }
+  ],
+  "memo": "중불에 미디움웰던 정도로 튀김.",
+  "source": ""
+}

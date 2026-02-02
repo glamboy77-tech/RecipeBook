@@ -35,7 +35,10 @@
       "items": [
         { "name": "참깨", "amount": 1, "unit": "t", "note": "고명", "scalable": true },
         { "name": "갈은깨", "amount": 1, "unit": "t", "note": "고명", "scalable": true },
-        { "name": "김가루", "amount": 2, "unit": "TB", "note": "고명", "scalable": true }
+        { "name": "김가루", "amount": 2, "unit": "TB", "note": "고명", "scalable": true },
+        { "name": "익은김치", "amount": 100, "unit": "g", "note": "고명", "scalable": true },
+        { "name": "참기름", "amount": 5, "unit": "ml", "note": "고명", "scalable": true },
+        { "name": "다진마늘", "amount": 0.5, "unit": "TB", "note": "고명", "scalable": true }
       ]
     }
   ],

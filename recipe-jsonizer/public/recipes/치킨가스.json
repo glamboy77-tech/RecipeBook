@@ -1,0 +1,47 @@
+{
+  "id": "치킨가스_348561",
+  "title": "치킨가스",
+  "time_total_min": 45,
+  "base_servings": 2,
+  "tags": [
+    "양식",
+    "튀김"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "소스",
+      "items": [
+        { "name": "다진양파", "amount": 0.25, "unit": "개", "note": "소스", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "마요네즈", "amount": 2, "unit": "TB", "note": "소스", "scalable": true }
+      ]
+    },
+    {
+      "name": "염지",
+      "items": [
+        { "name": "닭가슴살", "amount": 370, "unit": "g", "note": "염지", "scalable": true },
+        { "name": "설탕", "amount": 0.5, "unit": "TB", "note": "염지", "scalable": true },
+        { "name": "소금", "amount": 1, "unit": "t", "note": "염지", "scalable": true },
+        { "name": "베이킹소다", "amount": 0.5, "unit": "TB", "note": "염지", "scalable": true },
+        { "name": "물", "amount": 4, "unit": "TB", "note": "염지", "scalable": true }
+      ]
+    },
+    {
+      "name": "튀김",
+      "items": [
+        { "name": "계란", "amount": 1, "unit": "개", "note": "튀김", "scalable": true },
+        { "name": "전분", "amount": 3, "unit": "TB", "note": "튀김", "scalable": true },
+        { "name": "빵가루", "amount": null, "unit": "", "note": "튀김", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "소스 재료(다진양파, 설탕, 마요네즈)를 섞는다.", "timer_sec": null },
+    { "text": "닭가슴살과 염지 재료를 비닐봉투에 넣고 30분간 염지한다.", "timer_sec": 1800 },
+    { "text": "계란, 전분, 빵가루 순으로 튀김옷을 입힌다.", "timer_sec": null },
+    { "text": "170도에서 5분간 튀긴다.", "timer_sec": 300 },
+    { "text": "사선으로 잘라 담는다.", "timer_sec": null }
+  ],
+  "memo": "염지는 30분. 튀김 온도 170도 유지.",
+  "source": ""
+}

@@ -1,0 +1,51 @@
+{
+  "id": "참치김치볶음밥_735182",
+  "title": "참치김치볶음밥",
+  "time_total_min": 20,
+  "base_servings": 2,
+  "tags": [
+    "한식",
+    "볶음밥"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "밥", "amount": 2, "unit": "공기", "note": "고슬할수록 좋음", "scalable": true },
+        { "name": "김치", "amount": 200, "unit": "g", "note": "잘 익은 것", "scalable": true },
+        { "name": "참치캔", "amount": 150, "unit": "g", "note": "기름은 반만", "scalable": true },
+        { "name": "양파", "amount": 0.25, "unit": "개", "note": "선택", "scalable": true },
+        { "name": "대파", "amount": 0.5, "unit": "대", "note": "재료", "scalable": true },
+        { "name": "김치국물", "amount": 2, "unit": "TB", "note": "재료", "scalable": true },
+        { "name": "고추장", "amount": 0.5, "unit": "TB", "note": "김치 상태 따라", "scalable": true },
+        { "name": "간장", "amount": 1, "unit": "TB", "note": "재료", "scalable": true },
+        { "name": "설탕", "amount": 0.5, "unit": "TB", "note": "재료", "scalable": true },
+        { "name": "후추", "amount": null, "unit": "", "note": "약간", "scalable": false },
+        { "name": "참기름", "amount": 1, "unit": "TB", "note": "마무리", "scalable": true },
+        { "name": "식용유", "amount": 1.5, "unit": "TB", "note": "재료", "scalable": true },
+        { "name": "미원", "amount": null, "unit": "", "note": "한 꼬집(옵션)", "scalable": false },
+        { "name": "고춧가루", "amount": 0.5, "unit": "TB", "note": "옵션", "scalable": true }
+      ]
+    },
+    {
+      "name": "업그레이드 옵션",
+      "items": [
+        { "name": "계란후라이", "amount": null, "unit": "", "note": "반숙", "scalable": false },
+        { "name": "버터", "amount": 10, "unit": "g", "note": "마지막에", "scalable": true },
+        { "name": "김가루", "amount": null, "unit": "", "note": "토핑", "scalable": false },
+        { "name": "깨", "amount": null, "unit": "", "note": "토핑", "scalable": false },
+        { "name": "스팸", "amount": 50, "unit": "g", "note": "참치 반캔 줄이고 사용", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "팬에 식용유 1.5T를 두르고 대파로 파기름을 낸다.", "timer_sec": null },
+    { "text": "김치와 김치국물을 넣고 2~3분 볶아 신맛을 날린 뒤 설탕을 넣는다.", "timer_sec": null },
+    { "text": "참치를 넣고 크게 으깨지 말고 살짝만 섞는다.", "timer_sec": null },
+    { "text": "간장과 고추장, 후추를 넣고 간장향을 낸다.", "timer_sec": null },
+    { "text": "센불에서 밥을 넣고 누르듯 펴 수분을 날리며 볶는다.", "timer_sec": null },
+    { "text": "불을 끄고 참기름을 두르고 간을 본다.", "timer_sec": null }
+  ],
+  "memo": "간장은 팬 가장자리에 둘러 불맛을 낸다.",
+  "source": ""
+}

@@ -1,0 +1,54 @@
+{
+  "id": "순두부찌개_913402",
+  "title": "순두부찌개",
+  "time_total_min": 25,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "찌개"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "다대기(3인분, 20분 이상 숙성)",
+      "items": [
+        { "name": "고춧가루", "amount": 1, "unit": "TB", "note": "다대기", "scalable": true },
+        { "name": "다시다", "amount": 0.5, "unit": "TB", "note": "다대기", "scalable": true },
+        { "name": "미원", "amount": 0.2, "unit": "TB", "note": "다대기", "scalable": true },
+        { "name": "소금", "amount": 0.5, "unit": "TB", "note": "다대기", "scalable": true },
+        { "name": "간장", "amount": 1, "unit": "TB", "note": "다대기", "scalable": true },
+        { "name": "굴소스", "amount": 0.5, "unit": "TB", "note": "다대기", "scalable": true },
+        { "name": "간마늘", "amount": 1, "unit": "TB", "note": "다대기", "scalable": true },
+        { "name": "청주", "amount": 2, "unit": "TB", "note": "다대기", "scalable": true },
+        { "name": "미림", "amount": 2, "unit": "TB", "note": "다대기", "scalable": true },
+        { "name": "고추기름", "amount": 3, "unit": "TB", "note": "다대기", "scalable": true }
+      ]
+    },
+    {
+      "name": "재료(3인분)",
+      "items": [
+        { "name": "청양고추", "amount": 2, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "양파", "amount": 0.5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "대파", "amount": 1, "unit": "뿌리", "note": "재료", "scalable": true },
+        { "name": "애호박", "amount": 0.5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "순두부", "amount": 1, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "재료", "scalable": true },
+        { "name": "해감 바지락", "amount": 1, "unit": "봉지", "note": "재료", "scalable": true },
+        { "name": "물", "amount": 650, "unit": "ml", "note": "국물", "scalable": true },
+        { "name": "계란", "amount": 1, "unit": "개", "note": "마무리", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "달군 팬에 식용유 3~4스푼을 넣고 고춧가루와 다진마늘로 고추기름을 만든다.", "timer_sec": null },
+    { "text": "약불에 파와 양파를 볶는다.", "timer_sec": null },
+    { "text": "바지락을 넣고 1분 볶는다.", "timer_sec": 60 },
+    { "text": "물 600~700ml를 넣는다.", "timer_sec": null },
+    { "text": "모든 재료와 다진마늘 1숟갈을 넣는다.", "timer_sec": null },
+    { "text": "다대기 3숟갈 정도 넣는다.", "timer_sec": null },
+    { "text": "끓기 시작하면 순두부를 넣고 숟가락으로 부순다.", "timer_sec": null },
+    { "text": "3~5분 끓인다.", "timer_sec": 240 },
+    { "text": "계란을 깨 넣고 국물을 끼얹어 반숙으로 만든다.", "timer_sec": null }
+  ],
+  "memo": "다대기는 미리 20분 이상 숙성.",
+  "source": ""
+}

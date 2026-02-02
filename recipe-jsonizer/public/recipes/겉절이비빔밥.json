@@ -1,0 +1,46 @@
+{
+  "id": "겉절이비빔밥_520748",
+  "title": "겉절이비빔밥",
+  "time_total_min": 15,
+  "base_servings": 1,
+  "tags": [
+    "한식",
+    "비빔밥"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "배추", "amount": 100, "unit": "g", "note": "채", "scalable": true },
+        { "name": "상추", "amount": 50, "unit": "g", "note": "채", "scalable": true },
+        { "name": "대패삼겹살", "amount": null, "unit": "", "note": "조금", "scalable": false },
+        { "name": "오이채", "amount": null, "unit": "", "note": "고명", "scalable": false }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "까나리액젓", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "진간장", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "환만식초", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "사과식초", "amount": 5, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "매실청", "amount": 1, "unit": "t", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "미원", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "볶은참깨", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "다진마늘", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "참기름", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "고추장", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "올리고당", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "고추가루", "amount": 1, "unit": "TB", "note": "양념", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "배추, 상추를 채썰어 그릇에 담는다.", "timer_sec": null },
+    { "text": "양념을 넣고 잘 섞어 겉절이를 만든다.", "timer_sec": null },
+    { "text": "밥 위에 삼겹살, 겉절이, 오이채, 계란후라이 등을 올린다.", "timer_sec": null }
+  ],
+  "memo": "삼겹살과 계란후라이는 옵션.",
+  "source": ""
+}

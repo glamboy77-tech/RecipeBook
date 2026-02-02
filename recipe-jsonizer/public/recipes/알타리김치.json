@@ -1,0 +1,35 @@
+{
+  "id": "알타리김치_295814",
+  "title": "알타리김치",
+  "time_total_min": 30,
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "김치"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "알타리", "amount": 2, "unit": "kg", "note": "재료", "scalable": true },
+        { "name": "양파분말", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "마늘분말", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "생강분말", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "찹쌀가루", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "미원", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "고운소금", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 3, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "고춧가루", "amount": 6, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "밥새우", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "갈아만든배", "amount": 240, "unit": "ml", "note": "양념", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "알타리를 깨끗이 손질한다.", "timer_sec": null },
+    { "text": "분말류와 가루류, 배즙을 넣어 양념을 만든다.", "timer_sec": null },
+    { "text": "알타리와 양념을 잘 버무린다.", "timer_sec": null }
+  ],
+  "memo": "절임 과정은 필요에 따라 추가.",
+  "source": ""
+}

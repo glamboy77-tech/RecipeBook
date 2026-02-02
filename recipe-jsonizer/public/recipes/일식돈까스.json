@@ -1,0 +1,44 @@
+{
+  "id": "일식돈까스_964372",
+  "title": "일식돈까스",
+  "time_total_min": 40,
+  "base_servings": 4,
+  "tags": [
+    "일식",
+    "돈까스"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "등심", "amount": 4, "unit": "장", "note": "두께 2cm", "scalable": true },
+        { "name": "물", "amount": 50, "unit": "ml", "note": "연육", "scalable": true },
+        { "name": "베이킹소다", "amount": 0.5, "unit": "TB", "note": "연육", "scalable": true },
+        { "name": "설탕", "amount": 0.5, "unit": "TB", "note": "연육", "scalable": true },
+        { "name": "소주", "amount": 2, "unit": "TB", "note": "연육", "scalable": true },
+        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "감자전분", "amount": 4.5, "unit": "TB", "note": "4~5T", "scalable": true },
+        { "name": "계란", "amount": 1, "unit": "개", "note": "튀김", "scalable": true },
+        { "name": "돈까스소스", "amount": null, "unit": "", "note": "서빙", "scalable": false },
+        { "name": "연겨자", "amount": null, "unit": "", "note": "서빙", "scalable": false },
+        { "name": "핑크소금", "amount": null, "unit": "", "note": "서빙", "scalable": false }
+      ]
+    },
+    {
+      "name": "빵가루",
+      "items": [
+        { "name": "생빵가루", "amount": null, "unit": "", "note": "분무기로 물뿌리면 됨", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "등심에 소금, 후추로 간을 한다.", "timer_sec": null },
+    { "text": "물+베이킹소다+설탕+소주+후추를 붓고 냉장 2시간 숙성.", "timer_sec": null },
+    { "text": "계란과 전분가루를 묻힌다(포크로).", "timer_sec": null },
+    { "text": "생빵가루를 올린다(분무기로 물을 살짝 뿌리면 좋다).", "timer_sec": null },
+    { "text": "기름 165~170도에서 5분 튀긴다.", "timer_sec": 300 },
+    { "text": "세워서 2분 레스팅 후 자른다.", "timer_sec": 120 }
+  ],
+  "memo": "돈까스소스/연겨자/핑크소금과 함께.",
+  "source": ""
+}

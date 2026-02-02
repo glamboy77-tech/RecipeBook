@@ -1,0 +1,31 @@
+{
+  "id": "명란계란말이_538142",
+  "title": "명란계란말이",
+  "time_total_min": 15,
+  "base_servings": 2,
+  "tags": [
+    "한식",
+    "계란"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "계란", "amount": 7, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "명란젓", "amount": 80, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "우유", "amount": 2, "unit": "TB", "note": "물 대체 가능", "scalable": true },
+        { "name": "파", "amount": 1, "unit": "TB", "note": "선택", "scalable": true },
+        { "name": "버터", "amount": 10, "unit": "g", "note": "또는 식용유", "scalable": true },
+        { "name": "후추", "amount": null, "unit": "", "note": "아주 약간", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "명란젓 껍질을 제거한다.", "timer_sec": null },
+    { "text": "알만 긁어 살짝 다지듯 풀어준다.", "timer_sec": null },
+    { "text": "계란을 풀고 우유, 명란, 후추, 파를 넣고 거품 없이 섞는다.", "timer_sec": null },
+    { "text": "중약불에서 천천히 말아 구워준다.", "timer_sec": null }
+  ],
+  "memo": "거품이 많으면 식감이 떨어짐. 버터+식용유 반반도 OK.",
+  "source": ""
+}
