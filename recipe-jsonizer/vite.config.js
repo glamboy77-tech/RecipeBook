@@ -51,6 +51,8 @@ export default defineConfig({
         // “전체 레시피 오프라인” 목적: 빌드 시점에 public/recipes 아래 JSON을 전부 precache
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
         globIgnores: ['**/node_modules/**/*'],
+        // 이미지 용량이 2MB를 넘어 precache에서 제외되면 build 실패하므로 한도를 상향
+        maximumFileSizeToCacheInBytes: 10 * 1024 * 1024,
       },
     }),
   ],
