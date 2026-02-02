@@ -672,7 +672,7 @@ const styles = {
   recipeTitle: { fontSize: 20, fontWeight: 800, color: "#e8ecf3" },
   recipeMeta: { fontSize: 13, opacity: 0.8, marginTop: 6, color: "#e8ecf3" },
   timeText: { marginLeft: 12, fontSize: 12, opacity: 0.85 },
-  servingsControl: { minWidth: 220 },
+  servingsControl: { whiteSpace: "nowrap" },
   servingsLabel: { fontSize: 12, opacity: 0.8, color: "#e8ecf3" },
   servingsBtn: { padding: "4px 8px", borderRadius: 6, border: "1px solid #2a3566", background: "#151a2a", color: "#e8ecf3", cursor: "pointer", fontSize: 12 },
   servingsInput: { width: 60, padding: "4px 6px", borderRadius: 6, border: "1px solid #2a3566", background: "#0b0f1b", color: "#e8ecf3", textAlign: "center", fontSize: 12 },
