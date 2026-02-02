@@ -1,0 +1,63 @@
+{
+  "id": "비빔물냉면_349771",
+  "title": "비빔물냉면",
+  "time_total_min": 30,
+  "base_servings": 1,
+  "tags": [
+    "한식",
+    "냉면"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "깍뚝썰어 믹서",
+      "items": [
+        { "name": "사과", "amount": 1, "unit": "컵", "note": "믹서", "scalable": true },
+        { "name": "양파", "amount": 1, "unit": "컵", "note": "믹서", "scalable": true },
+        { "name": "배", "amount": 1, "unit": "컵", "note": "믹서", "scalable": true },
+        { "name": "생강가루", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "진간장", "amount": 2.5, "unit": "TB", "note": "2~3스푼", "scalable": true },
+        { "name": "간마늘", "amount": 1, "unit": "TB", "note": "믹서", "scalable": true },
+        { "name": "사이다", "amount": null, "unit": "", "note": "냉면육수 조금", "scalable": false }
+      ]
+    },
+    {
+      "name": "추가 재료",
+      "items": [
+        { "name": "굵은고춧가루", "amount": 0.5, "unit": "컵", "note": "비빔장", "scalable": true },
+        { "name": "가는고춧가루", "amount": 0.5, "unit": "컵", "note": "비빔장", "scalable": true },
+        { "name": "올리고당", "amount": 0.5, "unit": "컵", "note": "비빔장", "scalable": true },
+        { "name": "물엿", "amount": 0.5, "unit": "컵", "note": "비빔장", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "TB", "note": "비빔장", "scalable": true },
+        { "name": "매실청", "amount": 2, "unit": "TB", "note": "비빔장", "scalable": true },
+        { "name": "소금", "amount": 0.5, "unit": "TB", "note": "비빔장", "scalable": true },
+        { "name": "미원", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "볶은깨", "amount": null, "unit": "", "note": "왕창", "scalable": false },
+        { "name": "식초", "amount": 2, "unit": "TB", "note": "비빔장", "scalable": true },
+        { "name": "레몬즙", "amount": 1, "unit": "TB", "note": "비빔장", "scalable": true },
+        { "name": "다시다", "amount": 0.5, "unit": "TB", "note": "비빔장", "scalable": true },
+        { "name": "비빔면장", "amount": null, "unit": "", "note": "조금씩 첨가", "scalable": false }
+      ]
+    },
+    {
+      "name": "마무리",
+      "items": [
+        { "name": "중면", "amount": 110, "unit": "g", "note": "면", "scalable": true },
+        { "name": "들기름", "amount": 1, "unit": "TB", "note": "마무리", "scalable": true },
+        { "name": "겨자", "amount": null, "unit": "", "note": "약간", "scalable": false },
+        { "name": "비빔장", "amount": null, "unit": "", "note": "1국자", "scalable": false },
+        { "name": "김가루", "amount": null, "unit": "", "note": "많이", "scalable": false },
+        { "name": "삶은계란", "amount": 1, "unit": "개", "note": "고명", "scalable": true },
+        { "name": "냉면육수", "amount": null, "unit": "", "note": "사이다/육수 섞기", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "사과, 양파, 배를 깍뚝 썰어 생강가루, 진간장, 간마늘, 사이다를 넣고 갈아준다.", "timer_sec": null },
+    { "text": "추가 재료를 넣고 잘 섞어 비빔장을 만든다.", "timer_sec": null },
+    { "text": "냉면장에 남은 사이다나 육수를 섞는다.", "timer_sec": null },
+    { "text": "중면 110g에 들기름 1스푼, 겨자 약간, 소스 1국자, 김가루, 삶은계란을 올리고 냉면육수를 붓는다.", "timer_sec": null },
+    { "text": "떡갈비와 함께 먹는다.", "timer_sec": null }
+  ],
+  "memo": "계란 약반숙: 끓는물 9분. 냉면육수: 별가식품 진사골육수 / 면: 맛찬들 백미막국수 / 비빔장: 칠갑농산 면 비빔장.",
+  "source": ""
+}

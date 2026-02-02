@@ -1,0 +1,86 @@
+{
+  "id": "유산슬_360584",
+  "title": "유산슬",
+  "time_total_min": 40,
+  "base_servings": 4,
+  "tags": [
+    "중식",
+    "볶음"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "죽순채", "amount": null, "unit": "", "note": "1줌, 채썬다", "scalable": false },
+        { "name": "표고버섯채", "amount": 4, "unit": "개", "note": "칼집 후 채썬다", "scalable": true },
+        { "name": "목이버섯", "amount": null, "unit": "", "note": "적당히", "scalable": false },
+        { "name": "새우", "amount": null, "unit": "", "note": "한줌", "scalable": false },
+        { "name": "돼지고기채", "amount": null, "unit": "", "note": "유슬용", "scalable": false },
+        { "name": "대파", "amount": 1, "unit": "대", "note": "사선채", "scalable": true },
+        { "name": "마늘", "amount": 4, "unit": "개", "note": "채나 편", "scalable": true },
+        { "name": "다진생강", "amount": null, "unit": "", "note": "조금", "scalable": false },
+        { "name": "옵션 재료", "amount": null, "unit": "", "note": "오징어채, 해삼채, 새송이, 팽이, 배추, 부추 등", "scalable": false }
+      ]
+    },
+    {
+      "name": "돼지고기 밑간",
+      "items": [
+        { "name": "계란노른자", "amount": 1, "unit": "개", "note": "밑간", "scalable": true },
+        { "name": "간장", "amount": 0.5, "unit": "TB", "note": "밑간", "scalable": true },
+        { "name": "노추", "amount": 0.5, "unit": "TB", "note": "밑간", "scalable": true },
+        { "name": "전분가루", "amount": 1.5, "unit": "TB", "note": "밑간", "scalable": true },
+        { "name": "식용유", "amount": 1, "unit": "TB", "note": "밑간", "scalable": true }
+      ]
+    },
+    {
+      "name": "튀김",
+      "items": [
+        { "name": "식용유", "amount": 0.5, "unit": "컵", "note": "튀김용", "scalable": true }
+      ]
+    },
+    {
+      "name": "볶음 양념",
+      "items": [
+        { "name": "식용유", "amount": 3, "unit": "TB", "note": "파기름", "scalable": true },
+        { "name": "간장", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "맛술", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "생강술", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "굴소스", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "치킨스톡", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "물", "amount": 0.5, "unit": "컵", "note": "자작하게", "scalable": true },
+        { "name": "설탕", "amount": null, "unit": "", "note": "살짝", "scalable": false },
+        { "name": "미원", "amount": null, "unit": "", "note": "약간", "scalable": false },
+        { "name": "계란", "amount": 1, "unit": "개", "note": "풀어 넣기", "scalable": true }
+      ]
+    },
+    {
+      "name": "전분물",
+      "items": [
+        { "name": "전분", "amount": 2, "unit": "TB", "note": "전분물", "scalable": true },
+        { "name": "물", "amount": 2, "unit": "TB", "note": "전분물", "scalable": true }
+      ]
+    },
+    {
+      "name": "마무리",
+      "items": [
+        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "참기름", "amount": 1, "unit": "TB", "note": "마무리", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "돼지고기채에 계란노른자, 간장 0.5, 노추 0.5, 전분 1.5, 식용유 1을 넣고 버무린다.", "timer_sec": null },
+    { "text": "식용유 반컵에 표고버섯채를 튀긴다.", "timer_sec": null },
+    { "text": "식용유 반컵에 약불로 돼지고기 유슬을 조금씩 튀긴다(70%만 익힘).", "timer_sec": null },
+    { "text": "식용유에 계란 흰자를 넣고 실처럼 만들어 채반에 올려둔다.", "timer_sec": null },
+    { "text": "해물과 야채를 끓는 물에 데친다(데친 물은 채소육수).", "timer_sec": null },
+    { "text": "식용유 3TB에 대파, 마늘, 생강을 넣어 파기름을 낸다.", "timer_sec": null },
+    { "text": "간장 1, 맛술 1, 생강술 1을 넣고 볶다가 해물과 야채를 넣어 볶는다.", "timer_sec": null },
+    { "text": "튀겨놓은 고기를 넣고 굴소스 2, 치킨스톡 1/2을 센 불에 볶는다.", "timer_sec": null },
+    { "text": "잘 볶아졌으면 물 반컵, 설탕 살짝, 미원 약간, 계란을 넣어 풀어준다.", "timer_sec": null },
+    { "text": "전분물(전분2+물2)을 조금씩 넣으며 섞는다.", "timer_sec": null },
+    { "text": "맛을 보고 후추 톡톡, 참기름 1스푼으로 마무리한다.", "timer_sec": null }
+  ],
+  "memo": "표고버섯/돼지고기는 미리 튀겨두면 식감이 좋다.",
+  "source": ""
+}

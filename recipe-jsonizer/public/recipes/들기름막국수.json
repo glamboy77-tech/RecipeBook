@@ -1,0 +1,40 @@
+{
+  "id": "들기름막국수_905087",
+  "title": "들기름막국수",
+  "time_total_min": 10,
+  "base_servings": 1,
+  "tags": [
+    "한식",
+    "국수"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "간장양념",
+      "items": [
+        { "name": "간장", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "참치액", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "올리고당", "amount": 1, "unit": "TB", "note": "양념", "scalable": true }
+      ]
+    },
+    {
+      "name": "기름",
+      "items": [
+        { "name": "들기름", "amount": 2, "unit": "TB", "note": "기름", "scalable": true },
+        { "name": "참기름", "amount": 0.5, "unit": "TB", "note": "기름", "scalable": true }
+      ]
+    },
+    {
+      "name": "김",
+      "items": [
+        { "name": "곱창김", "amount": null, "unit": "", "note": "팬에 구워 가루 만들기", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "곱창김을 팬에 구운 뒤 위생팩에 넣고 가루를 만든다.", "timer_sec": null },
+    { "text": "면에 간장양념과 들기름/참기름을 넣고 비빈다.", "timer_sec": null },
+    { "text": "김가루를 듬뿍 올려 완성한다.", "timer_sec": null }
+  ],
+  "memo": "간장양념 비율: 간장 2, 참치액 1, 올리고당 1.",
+  "source": ""
+}

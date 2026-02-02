@@ -1,0 +1,29 @@
+{
+  "id": "열무국수_398992",
+  "title": "열무국수",
+  "time_total_min": 5,
+  "base_servings": 1,
+  "tags": [
+    "한식",
+    "국수",
+    "냉국수"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "국물재료",
+      "items": [
+        { "name": "김치국물", "amount": 1, "unit": "컵", "note": "국물", "scalable": true },
+        { "name": "물", "amount": 4, "unit": "컵", "note": "국물", "scalable": true },
+        { "name": "갈아만든배", "amount": 0.5, "unit": "컵", "note": "국물", "scalable": true },
+        { "name": "식초", "amount": 2.5, "unit": "TB", "note": "2~3TB", "scalable": true },
+        { "name": "설탕", "amount": 0.5, "unit": "TB", "note": "국물", "scalable": true },
+        { "name": "소금", "amount": 0.7, "unit": "TB", "note": "국물", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "국물에 소면이나 냉면을 넣고 열무를 올려준다.", "timer_sec": null }
+  ],
+  "memo": "열무김치가 핵심.",
+  "source": ""
+}

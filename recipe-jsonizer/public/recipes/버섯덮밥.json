@@ -1,0 +1,44 @@
+{
+  "id": "버섯덮밥_657426",
+  "title": "버섯덮밥",
+  "time_total_min": 15,
+  "base_servings": 2,
+  "tags": [
+    "덮밥",
+    "한식"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "식용유", "amount": 1.5, "unit": "TB", "note": "1~2숟갈", "scalable": true },
+        { "name": "다진마늘", "amount": null, "unit": "", "note": "약간", "scalable": false },
+        { "name": "간장", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "청주", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "버섯", "amount": null, "unit": "", "note": "데친 버섯", "scalable": false },
+        { "name": "물", "amount": 200, "unit": "ml", "note": "육수", "scalable": true },
+        { "name": "굴소스", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "팜기름", "amount": 1, "unit": "TB", "note": "마무리", "scalable": true },
+        { "name": "깨", "amount": null, "unit": "", "note": "마무리", "scalable": false }
+      ]
+    },
+    {
+      "name": "전분물",
+      "items": [
+        { "name": "전분", "amount": 1, "unit": "TB", "note": "전분물", "scalable": true },
+        { "name": "물", "amount": 3, "unit": "TB", "note": "전분물", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "식용유 1~2숟갈에 다진마늘을 넣고 10~20초 볶는다.", "timer_sec": null },
+    { "text": "간장 1, 청주 1을 넣고 데친 버섯을 넣어 볶는다.", "timer_sec": null },
+    { "text": "물 200cc를 넣고 끓인다.", "timer_sec": null },
+    { "text": "굴소스 1로 간을 한다.", "timer_sec": null },
+    { "text": "전분물(전분1+물3)을 넣고 저어준다.", "timer_sec": null },
+    { "text": "걸죽해지면 팜기름 1을 넣고 마무리한다.", "timer_sec": null },
+    { "text": "깨를 뿌린다.", "timer_sec": null }
+  ],
+  "memo": "버섯은 취향껏 여러 종류 사용.",
+  "source": ""
+}

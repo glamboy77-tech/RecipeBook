@@ -1,0 +1,36 @@
+{
+  "id": "시금치샐러드_490812",
+  "title": "시금치샐러드",
+  "time_total_min": 15,
+  "base_servings": 2,
+  "tags": [
+    "샐러드",
+    "양식"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "생시금치", "amount": 200, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "발사믹식초", "amount": 100, "unit": "ml", "note": "드레싱", "scalable": true },
+        { "name": "볶은 베이컨", "amount": 50, "unit": "g", "note": "드레싱", "scalable": true },
+        { "name": "파마산 치즈가루", "amount": 30, "unit": "g", "note": "마무리", "scalable": true },
+        { "name": "소금", "amount": null, "unit": "", "note": "약간", "scalable": false },
+        { "name": "올리브유", "amount": 100, "unit": "ml", "note": "드레싱", "scalable": true },
+        { "name": "설탕", "amount": 20, "unit": "g", "note": "드레싱", "scalable": true },
+        { "name": "다진양파", "amount": null, "unit": "", "note": "조금", "scalable": false },
+        { "name": "다진마늘", "amount": null, "unit": "", "note": "조금", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "시금치는 줄기를 떼고 찬물에 담가 싱싱하게 한다.", "timer_sec": null },
+    { "text": "베이컨을 얇게 슬라이스하고, 양파와 마늘은 다진다.", "timer_sec": null },
+    { "text": "팬에 베이컨을 노릇하게 볶다가 마늘과 양파를 넣어 볶는다.", "timer_sec": null },
+    { "text": "설탕과 발사믹 식초를 넣고 살짝 졸인다.", "timer_sec": null },
+    { "text": "물기 뺀 시금치 위에 뜨거운 베이컨 드레싱을 붓는다.", "timer_sec": null },
+    { "text": "올리브오일과 파마산 치즈를 뿌려 섞는다.", "timer_sec": null }
+  ],
+  "memo": "드레싱은 뜨거울 때 바로 부어야 향이 산다.",
+  "source": ""
+}

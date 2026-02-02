@@ -1,0 +1,43 @@
+{
+  "id": "카레_520336",
+  "title": "카레",
+  "time_total_min": 60,
+  "base_servings": 10,
+  "tags": [
+    "한식",
+    "카레"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "카레", "amount": 200, "unit": "g", "note": "고형/가루", "scalable": true },
+        { "name": "물", "amount": 1.4, "unit": "L", "note": "재료", "scalable": true },
+        { "name": "양파", "amount": 540, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "고기", "amount": 260, "unit": "g", "note": "다짐육/대패/우삼겹", "scalable": true },
+        { "name": "감자", "amount": 200, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "당근", "amount": 120, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "올리브유", "amount": null, "unit": "", "note": "약간", "scalable": false },
+        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "설탕", "amount": null, "unit": "", "note": "조금", "scalable": false },
+        { "name": "치킨스톡", "amount": 1, "unit": "t", "note": "양념", "scalable": true },
+        { "name": "버터", "amount": 1, "unit": "조각", "note": "재료", "scalable": true },
+        { "name": "가나초콜렛", "amount": 3, "unit": "칸", "note": "옵션", "scalable": true },
+        { "name": "우유", "amount": null, "unit": "", "note": "옵션", "scalable": false },
+        { "name": "사과", "amount": null, "unit": "", "note": "옵션", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "양파를 얇게 썰어 전자레인지에 4분 돌려 수분을 날린다.", "timer_sec": null },
+    { "text": "중불 팬에 올리브유, 후추와 양파를 볶는다.", "timer_sec": null },
+    { "text": "5분 볶다가 설탕을 조금 넣고 4분 더 볶는다.", "timer_sec": null },
+    { "text": "고기를 넣어 볶는다.", "timer_sec": null },
+    { "text": "감자와 당근을 넣는다.", "timer_sec": null },
+    { "text": "소금, 후추, 치킨스톡(1t)으로 간하고 볶다가 물을 넣고 끓인다.", "timer_sec": null },
+    { "text": "카레를 넣고 버터 1조각, 초콜렛 3칸을 넣어 잘 풀어준다.", "timer_sec": null },
+    { "text": "중약불로 5분 정도 더 끓인다.", "timer_sec": null }
+  ],
+  "memo": "치킨스톡을 많이 넣으면 짜진다.",
+  "source": ""
+}

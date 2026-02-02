@@ -1,0 +1,46 @@
+{
+  "id": "규동_140891",
+  "title": "규동",
+  "time_total_min": 15,
+  "base_servings": 1,
+  "tags": [
+    "일식",
+    "덮밥",
+    "소고기"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "우삼겹", "amount": 200, "unit": "g", "note": "4등분", "scalable": true },
+        { "name": "대파", "amount": 20, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "양파", "amount": 0.25, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "계란", "amount": 1.5, "unit": "개", "note": "1~2개", "scalable": true }
+      ]
+    },
+    {
+      "name": "소스",
+      "items": [
+        { "name": "물", "amount": 6, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "다시다", "amount": 0.5, "unit": "t", "note": "소스", "scalable": true },
+        { "name": "미원", "amount": 0.25, "unit": "t", "note": "소스", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "간장", "amount": 1, "unit": "t", "note": "소스", "scalable": true },
+        { "name": "우동장국", "amount": 1, "unit": "t", "note": "소스", "scalable": true },
+        { "name": "미림", "amount": 1, "unit": "t", "note": "소스", "scalable": true },
+        { "name": "굴소스", "amount": 1, "unit": "t", "note": "소스", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "t", "note": "소스", "scalable": true },
+        { "name": "생강분말", "amount": 0.25, "unit": "t", "note": "소스", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "작은 팬에 물과 소스 재료, 모든 재료를 넣고 끓인다.", "timer_sec": null },
+    { "text": "고기를 펼쳐 넣는다.", "timer_sec": null },
+    { "text": "고기가 익으면 약불로 줄이고 계란을 살짝 풀어 돌린 뒤 뚜껑을 덮고 1분 익힌다.", "timer_sec": 60 },
+    { "text": "밥 위에 올려 완성한다.", "timer_sec": null }
+  ],
+  "memo": "계란은 살짝만 풀어 촉촉하게 익히면 좋다.",
+  "source": ""
+}

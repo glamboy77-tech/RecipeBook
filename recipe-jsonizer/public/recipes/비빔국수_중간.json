@@ -1,0 +1,33 @@
+{
+  "id": "비빔국수_중간_236607",
+  "title": "비빔국수(중간)",
+  "time_total_min": 10,
+  "base_servings": 6,
+  "tags": [
+    "한식",
+    "국수"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "소스(6인분)",
+      "items": [
+        { "name": "고추장", "amount": 6, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "고춧가루", "amount": 3, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "양조간장", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "사과식초", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "설탕", "amount": 1.5, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "올리고당", "amount": 4, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "매실액", "amount": 3, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "다진마늘", "amount": 3, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "다진대파", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "다진깨", "amount": 4, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "갈아만든배", "amount": 1, "unit": "캔", "note": "소스", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "면 위에 소스를 올린 뒤 참기름을 곁들인다.", "timer_sec": null }
+  ],
+  "memo": "소스는 미리 섞어 냉장 보관.",
+  "source": ""
+}

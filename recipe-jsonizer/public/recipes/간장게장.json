@@ -1,0 +1,59 @@
+{
+  "id": "간장게장_741537",
+  "title": "간장게장",
+  "time_total_min": 40,
+  "base_servings": 1,
+  "tags": [
+    "한식",
+    "게장",
+    "숙성"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "양념(꽃게 2~2.5kg 기준)",
+      "items": [
+        { "name": "대파", "amount": 50, "unit": "g", "note": "양념", "scalable": true },
+        { "name": "양파", "amount": 150, "unit": "g", "note": "양념", "scalable": true },
+        { "name": "통마늘", "amount": 30, "unit": "g", "note": "양념", "scalable": true },
+        { "name": "건대추", "amount": 15, "unit": "g", "note": "양념", "scalable": true },
+        { "name": "건표고", "amount": 15, "unit": "g", "note": "양념", "scalable": true },
+        { "name": "다시마", "amount": 10, "unit": "g", "note": "양념", "scalable": true },
+        { "name": "태국건고추", "amount": 5, "unit": "g", "note": "양념", "scalable": true },
+        { "name": "사과", "amount": 100, "unit": "g", "note": "씨 제거", "scalable": true },
+        { "name": "물", "amount": 3, "unit": "L", "note": "양념", "scalable": true },
+        { "name": "진간장", "amount": 720, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "국간장", "amount": 120, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 360, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "미림", "amount": 120, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "통후추", "amount": 15, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "생강분", "amount": 7.5, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "미원", "amount": 7.5, "unit": "ml", "note": "옵션", "scalable": false }
+      ]
+    },
+    {
+      "name": "꽃게",
+      "items": [
+        { "name": "꽃게", "amount": 2.5, "unit": "kg", "note": "2~2.5kg, 너무 크지 않은 것", "scalable": true },
+        { "name": "새우", "amount": null, "unit": "", "note": "옵션(냉동 흰다리새우)", "scalable": false },
+        { "name": "양파", "amount": null, "unit": "", "note": "고명", "scalable": false },
+        { "name": "쪽파", "amount": null, "unit": "", "note": "고명", "scalable": false },
+        { "name": "마늘", "amount": null, "unit": "", "note": "고명", "scalable": false },
+        { "name": "청양고추", "amount": null, "unit": "", "note": "고명", "scalable": false },
+        { "name": "레몬슬라이스", "amount": null, "unit": "", "note": "고명", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "물에 양념 재료를 모두 넣고 끓인다.", "timer_sec": null },
+    { "text": "물이 끓기 시작하면 다시마를 건져낸다.", "timer_sec": null },
+    { "text": "뽀글뽀글 올라올 정도로 20분간 끓인다.", "timer_sec": 1200 },
+    { "text": "체로 걸러낸 후 상온 이하로 식힌다.", "timer_sec": null },
+    { "text": "큰 통에 꽃게의 배가 보이게 차곡차곡 담는다.", "timer_sec": null },
+    { "text": "새우가 있으면 함께 넣는다.", "timer_sec": null },
+    { "text": "소스는 게가 딱 잠길 정도만 붓는다.", "timer_sec": null },
+    { "text": "양파, 쪽파, 마늘, 청양고추, 레몬슬라이스를 위에 올린다.", "timer_sec": null },
+    { "text": "게가 뜨지 않게 그릇 등으로 눌러 냉장 숙성한다.", "timer_sec": null }
+  ],
+  "memo": "생물 꽃게는 2시간 얼린 뒤 사용. 냉동 절단꽃게는 흐르는 물에 칫솔로 대충 씻어 분리될 정도만 닦기. 냉동은 3일, 생물은 5일 이상 숙성.",
+  "source": ""
+}

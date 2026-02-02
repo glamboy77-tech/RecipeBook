@@ -1,0 +1,26 @@
+{
+  "id": "바나나브륄레_975348",
+  "title": "바나나브륄레",
+  "time_total_min": 5,
+  "base_servings": 1,
+  "tags": [
+    "디저트"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "바나나", "amount": 1, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "설탕", "amount": null, "unit": "", "note": "솔솔", "scalable": false },
+        { "name": "시나몬가루", "amount": null, "unit": "", "note": "조금", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "바나나를 반으로 자른다.", "timer_sec": null },
+    { "text": "설탕을 솔솔 뿌린 후 토치로 그을린다.", "timer_sec": null },
+    { "text": "시나몬가루를 체에 내려 살짝 뿌린다.", "timer_sec": null }
+  ],
+  "memo": "토치가 없으면 달군 팬으로 표면을 살짝 눌러도 됨.",
+  "source": ""
+}

@@ -1,0 +1,31 @@
+{
+  "id": "탕수육소스_738469",
+  "title": "탕수육소스",
+  "time_total_min": 10,
+  "base_servings": 1,
+  "tags": [
+    "중식",
+    "소스"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "소스",
+      "items": [
+        { "name": "물", "amount": 240, "unit": "ml", "note": "소스", "scalable": true },
+        { "name": "환만식초", "amount": 3, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "설탕", "amount": 4, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "오렌지쥬스", "amount": 2, "unit": "TB", "note": "레몬즙 대체 가능", "scalable": true },
+        { "name": "전분", "amount": 1, "unit": "TB", "note": "전분물", "scalable": true },
+        { "name": "물", "amount": 1, "unit": "TB", "note": "전분물", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "물과 식초를 넣고 불을 켠다.", "timer_sec": null },
+    { "text": "설탕과 오렌지쥬스를 넣고 끓인다.", "timer_sec": null },
+    { "text": "전분물(전분 1TB + 물 1TB)을 넣어 농도를 맞춘다.", "timer_sec": null },
+    { "text": "야채는 마지막에 넣는다.", "timer_sec": null }
+  ],
+  "memo": "야채: 양파, 오이, 당근, 목이버섯 등은 마지막에 넣기.",
+  "source": ""
+}

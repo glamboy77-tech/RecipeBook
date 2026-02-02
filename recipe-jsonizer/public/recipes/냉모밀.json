@@ -1,0 +1,40 @@
+{
+  "id": "냉모밀_492184",
+  "title": "냉모밀",
+  "time_total_min": 20,
+  "base_servings": 6,
+  "tags": [
+    "일식",
+    "국수"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "모밀국수", "amount": 6, "unit": "개", "note": "면", "scalable": true },
+        { "name": "대파흰부분", "amount": null, "unit": "", "note": "고명", "scalable": false },
+        { "name": "간무", "amount": null, "unit": "", "note": "고명", "scalable": false },
+        { "name": "와사비", "amount": null, "unit": "", "note": "고명", "scalable": false },
+        { "name": "김가루", "amount": null, "unit": "", "note": "고명", "scalable": false }
+      ]
+    },
+    {
+      "name": "소스(6인분)",
+      "items": [
+        { "name": "진간장", "amount": 320, "unit": "ml", "note": "소스", "scalable": true },
+        { "name": "백화수복", "amount": 160, "unit": "ml", "note": "소스", "scalable": true },
+        { "name": "설탕", "amount": 240, "unit": "ml", "note": "소스", "scalable": true },
+        { "name": "혼다시", "amount": 4.5, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "물", "amount": 3, "unit": "L", "note": "소스", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "물을 제외한 소스 재료를 냄비에 잘 섞으며 끓으면 끈다.", "timer_sec": null },
+    { "text": "냉수를 섞어 1인당 500ml 기준으로 맞춘다.", "timer_sec": null },
+    { "text": "대파 흰부분, 간무, 와사비, 김가루를 올린다.", "timer_sec": null },
+    { "text": "비닐봉투에 소스를 반만 담아 얼린 후 부셔서 냉장 소스와 섞는다.", "timer_sec": null }
+  ],
+  "memo": "소스는 충분히 식힌 뒤 냉장 보관.",
+  "source": ""
+}

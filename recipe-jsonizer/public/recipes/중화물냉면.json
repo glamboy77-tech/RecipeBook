@@ -1,0 +1,58 @@
+{
+  "id": "중화물냉면_377909",
+  "title": "중화물냉면",
+  "time_total_min": 25,
+  "base_servings": 3,
+  "tags": [
+    "중식",
+    "냉면"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "장조림", "amount": 1, "unit": "캔", "note": "재료", "scalable": true },
+        { "name": "칵테일새우", "amount": 3, "unit": "개", "note": "1인당 1개", "scalable": true },
+        { "name": "계란지단", "amount": 1, "unit": "개", "note": "고명", "scalable": true },
+        { "name": "오이", "amount": null, "unit": "", "note": "적당히", "scalable": false },
+        { "name": "쌈무", "amount": null, "unit": "", "note": "적당히", "scalable": false }
+      ]
+    },
+    {
+      "name": "육수",
+      "items": [
+        { "name": "냉면육수", "amount": 2, "unit": "개", "note": "육수", "scalable": true },
+        { "name": "물", "amount": 370, "unit": "ml", "note": "육수", "scalable": true },
+        { "name": "간장", "amount": 1, "unit": "TB", "note": "육수", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "TB", "note": "육수", "scalable": true },
+        { "name": "식초", "amount": 2, "unit": "TB", "note": "육수", "scalable": true },
+        { "name": "장조림 국물", "amount": null, "unit": "", "note": "다", "scalable": false },
+        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false }
+      ]
+    },
+    {
+      "name": "땅콩소스",
+      "items": [
+        { "name": "땅콩버터", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "뜨거운물", "amount": null, "unit": "", "note": "조금", "scalable": false }
+      ]
+    },
+    {
+      "name": "겨자소스",
+      "items": [
+        { "name": "연겨자", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "쌈무국물", "amount": 1, "unit": "TB", "note": "소스", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "오이는 채 썰어 쌈무 국물에 담가둔다.", "timer_sec": null },
+    { "text": "쌈무는 채를 쳐 놓는다.", "timer_sec": null },
+    { "text": "뜨거운 물에 새우를 익혀 건져둔다.", "timer_sec": null },
+    { "text": "중화면을 삶는다.", "timer_sec": null },
+    { "text": "장조림은 건져놓고 국물은 육수에 넣는다.", "timer_sec": null },
+    { "text": "계란 지단을 만들어 채쳐놓는다.", "timer_sec": null }
+  ],
+  "memo": "땅콩소스는 땅콩버터에 뜨거운 물을 조금씩 섞어 농도 조절.",
+  "source": ""
+}
