@@ -45,19 +45,54 @@ function formatTimeTotal(minutes) {
 }
 
 const DEFAULT_IMAGE = "recipes/images/placeholder.svg";
+const IMAGE_EXTS = ["webp", "jpg", "png", "jpeg"];
 
-function getRecipeImage(recipe) {
+function getRecipeImageMeta(recipe) {
   const img = recipe?.image;
-  if (!img) return { src: DEFAULT_IMAGE, alt: recipe?.title || "레시피" };
+  if (img) {
+    if (typeof img === "string") {
+      return { src: img || DEFAULT_IMAGE, alt: recipe?.title || "레시피", candidates: [] };
+    }
 
-  if (typeof img === "string") {
-    return { src: img || DEFAULT_IMAGE, alt: recipe?.title || "레시피" };
+    return {
+      src: img?.src || DEFAULT_IMAGE,
+      alt: img?.alt || recipe?.title || "레시피",
+      candidates: [],
+    };
   }
 
+  const fileStem = recipe?.__file ? recipe.__file.replace(/\.json$/i, "") : null;
+  const candidates = fileStem
+    ? IMAGE_EXTS.map((ext) => `recipes/images/${fileStem}.${ext}`)
+    : [];
+
   return {
-    src: img?.src || DEFAULT_IMAGE,
-    alt: img?.alt || recipe?.title || "레시피",
+    src: candidates[0] || DEFAULT_IMAGE,
+    alt: recipe?.title || "레시피",
+    candidates,
   };
+}
+
+function RecipeImage({ recipe, style, className }) {
+  const meta = getRecipeImageMeta(recipe);
+  const [idx, setIdx] = useState(0);
+
+  const src = meta.candidates.length > 0 ? meta.candidates[idx] || DEFAULT_IMAGE : meta.src;
+  const alt = meta.alt;
+
+  const handleError = () => {
+    if (meta.candidates.length === 0) return;
+    const next = idx + 1;
+    if (next < meta.candidates.length) {
+      setIdx(next);
+      return;
+    }
+    if (src !== DEFAULT_IMAGE) {
+      setIdx(meta.candidates.length); // fallback 상태 표시
+    }
+  };
+
+  return <img src={src || DEFAULT_IMAGE} alt={alt} style={style} className={className} loading="lazy" onError={handleError} />;
 }
 
 function RecipeViewerEmbedded({ recipe }) {
@@ -116,12 +151,7 @@ function RecipeViewerEmbedded({ recipe }) {
           </div>
 
           <div style={styles.heroImageWrap}>
-            <img
-              src={getRecipeImage(recipe).src}
-              alt={getRecipeImage(recipe).alt}
-              style={styles.heroImage}
-              loading="lazy"
-            />
+            <RecipeImage recipe={recipe} style={styles.heroImage} />
           </div>
 
           <div style={{ ...styles.grid2, gridTemplateColumns: isMobile ? "1fr" : styles.grid2.gridTemplateColumns }}>
@@ -225,7 +255,7 @@ function RecipeViewerApp() {
             continue;
           }
           const obj = await r.json();
-          loaded.push(obj);
+          loaded.push({ ...obj, __file: file });
         }
 
         loaded.sort((a, b) => (a.title || "").localeCompare(b.title || "", "ko"));
@@ -394,12 +424,7 @@ function RecipeViewerApp() {
                   }}
                 >
                   <div style={styles.listItemThumb}>
-                    <img
-                      src={getRecipeImage(r).src}
-                      alt={getRecipeImage(r).alt}
-                      style={styles.listItemImg}
-                      loading="lazy"
-                    />
+                    <RecipeImage recipe={r} style={styles.listItemImg} />
                   </div>
                   <div style={styles.listItemTitle}>{r.title}</div>
                   <div style={styles.listItemMeta}>
@@ -459,12 +484,7 @@ function RecipeViewerApp() {
               </div>
 
               <div style={styles.heroImageWrap}>
-                <img
-                  src={getRecipeImage(selected).src}
-                  alt={getRecipeImage(selected).alt}
-                  style={styles.heroImage}
-                  loading="lazy"
-                />
+                <RecipeImage recipe={selected} style={styles.heroImage} />
               </div>
 
               <div style={styles.sectionDivider} />
