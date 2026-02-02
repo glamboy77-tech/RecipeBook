@@ -47,6 +47,32 @@ function formatTimeTotal(minutes) {
 const DEFAULT_IMAGE = "recipes/images/placeholder.svg";
 const IMAGE_EXTS = ["webp", "jpg", "png", "jpeg"];
 
+function normalizeAssetPath(src) {
+  if (!src) return src;
+  const trimmed = String(src).trim();
+  if (!trimmed) return trimmed;
+
+  // 절대 URL / data URL은 그대로 사용
+  if (/^(https?:)?\/\//i.test(trimmed) || /^data:/i.test(trimmed)) {
+    return trimmed;
+  }
+
+  const base = import.meta.env.BASE_URL || "/";
+
+  // 이미 base로 시작하면 그대로
+  if (trimmed.startsWith(base)) {
+    return trimmed;
+  }
+
+  // 루트(/) 시작이면 앞의 / 제거 후 base를 붙임
+  if (trimmed.startsWith("/")) {
+    return `${base}${trimmed.slice(1)}`;
+  }
+
+  // 나머지는 base 뒤에 붙임
+  return `${base}${trimmed}`;
+}
+
 function getRecipeImageMeta(recipe) {
   const img = recipe?.image;
   if (img) {
@@ -77,7 +103,8 @@ function RecipeImage({ recipe, style, className }) {
   const meta = getRecipeImageMeta(recipe);
   const [idx, setIdx] = useState(0);
 
-  const src = meta.candidates.length > 0 ? meta.candidates[idx] || DEFAULT_IMAGE : meta.src;
+  const rawSrc = meta.candidates.length > 0 ? meta.candidates[idx] || DEFAULT_IMAGE : meta.src;
+  const src = normalizeAssetPath(rawSrc || DEFAULT_IMAGE);
   const alt = meta.alt;
 
   const handleError = () => {
@@ -87,12 +114,29 @@ function RecipeImage({ recipe, style, className }) {
       setIdx(next);
       return;
     }
-    if (src !== DEFAULT_IMAGE) {
+    // 후보가 없거나 모두 실패하면 placeholder로 강제
+    if (src !== normalizeAssetPath(DEFAULT_IMAGE)) {
       setIdx(meta.candidates.length); // fallback 상태 표시
     }
   };
 
-  return <img src={src || DEFAULT_IMAGE} alt={alt} style={style} className={className} loading="lazy" onError={handleError} />;
+  const fallbackSrc = normalizeAssetPath(DEFAULT_IMAGE);
+
+  return (
+    <img
+      src={src || fallbackSrc}
+      alt={alt}
+      style={style}
+      className={className}
+      loading="lazy"
+      onError={(e) => {
+        handleError();
+        if (e?.currentTarget && e.currentTarget.src !== fallbackSrc) {
+          e.currentTarget.src = fallbackSrc;
+        }
+      }}
+    />
+  );
 }
 
 function RecipeViewerEmbedded({ recipe }) {
