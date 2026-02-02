@@ -470,9 +470,11 @@ function RecipeViewerApp() {
                   <div style={styles.listItemThumb}>
                     <RecipeImage recipe={r} style={styles.listItemImg} />
                   </div>
-                  <div style={styles.listItemTitle}>{r.title}</div>
-                  <div style={styles.listItemMeta}>
-                    기준 {r.base_servings ?? "?"}인분 · 태그 {(r.tags || []).slice(0, 4).join(", ") || "-"}
+                  <div style={styles.listItemMainRow}>
+                    <span style={styles.listItemTitle}>{r.title}</span>
+                    <span style={styles.listItemMeta}>
+                      · 기준 {r.base_servings ?? "?"}인분 · 태그 {(r.tags || []).slice(0, 3).join(", ") || "-"}
+                    </span>
                   </div>
                 </button>
               ))
@@ -656,12 +658,13 @@ const styles = {
   emptyBox: { padding: 12, borderRadius: 14, border: "1px dashed #2a3566", opacity: 0.8, lineHeight: 1.4, textAlign: "center", color: "#e8ecf3" },
 
   // 목록 스타일
-  listItem: { padding: 10, borderRadius: 14, border: "1px solid #1f263a", background: "#0f1320", cursor: "pointer", marginBottom: 8, textAlign: "left", width: "100%", display: "grid", gridTemplateColumns: "52px 1fr", columnGap: 10, alignItems: "center" },
+  listItem: { padding: "6px 8px", borderRadius: 12, border: "1px solid #1f263a", background: "#0f1320", cursor: "pointer", marginBottom: 6, textAlign: "left", width: "100%", display: "grid", gridTemplateColumns: "40px 1fr", columnGap: 8, alignItems: "center" },
   listItemActive: { borderColor: "#3b4aa3", background: "#121a33" },
-  listItemThumb: { width: 52, height: 52, borderRadius: 12, overflow: "hidden", border: "1px solid #1f263a", background: "#0b0f1b", display: "grid", placeItems: "center" },
+  listItemThumb: { width: 40, height: 40, borderRadius: 10, overflow: "hidden", border: "1px solid #1f263a", background: "#0b0f1b", display: "grid", placeItems: "center" },
   listItemImg: { width: "100%", height: "100%", objectFit: "cover", display: "block" },
-  listItemTitle: { fontWeight: 800, fontSize: 14, color: "#e8ecf3" },
-  listItemMeta: { opacity: 0.65, fontSize: 11, marginTop: 4, color: "#e8ecf3" },
+  listItemMainRow: { display: "flex", alignItems: "center", gap: 6, minWidth: 0, whiteSpace: "nowrap", overflow: "hidden" },
+  listItemTitle: { fontWeight: 800, fontSize: 13, color: "#e8ecf3", flexShrink: 0 },
+  listItemMeta: { opacity: 0.65, fontSize: 11, color: "#e8ecf3", overflow: "hidden", textOverflow: "ellipsis" },
 
   // 레시피 상세 스타일
   recipeDetail: { minHeight: 0 }, // overflow 제거, minHeight만 유지
