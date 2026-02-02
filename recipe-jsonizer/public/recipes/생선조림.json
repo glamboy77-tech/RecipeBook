@@ -1,0 +1,54 @@
+{
+  "id": "생선조림_917430",
+  "title": "생선조림",
+  "time_total_min": 30,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "조림",
+    "생선"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "무", "amount": 250, "unit": "g", "note": "바닥", "scalable": true },
+        { "name": "감자", "amount": 2.5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "생선(연어)", "amount": 450, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "양파", "amount": 0.5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "대파", "amount": 1.5, "unit": "대", "note": "재료", "scalable": true },
+        { "name": "청양고추", "amount": 2.5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "물", "amount": 550, "unit": "ml", "note": "육수", "scalable": true }
+      ]
+    },
+    {
+      "name": "소스",
+      "items": [
+        { "name": "고추가루", "amount": 4, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "맛술", "amount": 3, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "멸치액젓", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "참치액", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "간장", "amount": 3, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "굴소스", "amount": 0.5, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "설탕", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "올리고당", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "고추장", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "생강청", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "미원", "amount": 0.5, "unit": "t", "note": "톡톡", "scalable": false },
+        { "name": "맛소금", "amount": 0.5, "unit": "t", "note": "톡톡", "scalable": false },
+        { "name": "후추", "amount": 0.3, "unit": "t", "note": "톡톡", "scalable": false },
+        { "name": "참기름", "amount": 1, "unit": "t", "note": "옵션", "scalable": false },
+        { "name": "통깨", "amount": 1, "unit": "t", "note": "취향", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "팬에 무와 감자를 깔고 물 550ml를 끓인다.", "timer_sec": null },
+    { "text": "양념에 육수 2국자를 넣어 불려 놓는다.", "timer_sec": null },
+    { "text": "생선과 양파, 대파, 청양고추를 넣는다.", "timer_sec": null },
+    { "text": "소스를 끼얹고 무가 익을 때까지 조린다.", "timer_sec": null }
+  ],
+  "memo": "국물 양은 재료가 잠길 정도로 조절.",
+  "source": ""
+}

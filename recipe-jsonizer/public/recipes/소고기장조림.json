@@ -1,0 +1,45 @@
+{
+  "id": "소고기장조림_481536",
+  "title": "소고기장조림",
+  "time_total_min": 70,
+  "base_servings": 6,
+  "tags": [
+    "한식",
+    "반찬",
+    "장조림"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "홍두깨살", "amount": 1, "unit": "kg", "note": "메인", "scalable": true },
+        { "name": "대파", "amount": 1, "unit": "대", "note": "삶기", "scalable": true },
+        { "name": "양파", "amount": 0.5, "unit": "개", "note": "삶기", "scalable": true },
+        { "name": "꽈리고추", "amount": 150, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "메추리알", "amount": 20, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "통마늘", "amount": 15, "unit": "개", "note": "재료", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "물", "amount": 1, "unit": "L", "note": "양념", "scalable": true },
+        { "name": "국간장", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "진간장", "amount": 6, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "올리고당", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "후추", "amount": 0.5, "unit": "t", "note": "간", "scalable": false },
+        { "name": "소고기다시다", "amount": 1, "unit": "TB", "note": "양념", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "압력솥에 홍두깨살, 대파, 양파를 넣고 삶는다.", "timer_sec": null },
+    { "text": "강불 5분, 중불 15분, 뜸 5분 후 고기를 찢는다.", "timer_sec": null },
+    { "text": "팬에 고기와 재료, 물 1L를 넣고 양념을 더한다.", "timer_sec": null },
+    { "text": "센불에 10분 빠글빠글 끓여 졸인다.", "timer_sec": null }
+  ],
+  "memo": "삶은 육수는 재활용 가능.",
+  "source": ""
+}

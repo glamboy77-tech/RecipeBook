@@ -1,0 +1,32 @@
+{
+  "id": "호박감자전_557118",
+  "title": "호박감자전",
+  "time_total_min": 20,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "전",
+    "채소"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "애호박/주키니", "amount": 180, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "감자", "amount": 180, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "홍고추", "amount": 2, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "청양고추", "amount": 2, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "감자전분", "amount": 40, "unit": "g", "note": "반죽", "scalable": true },
+        { "name": "튀김가루", "amount": 40, "unit": "g", "note": "반죽", "scalable": true },
+        { "name": "가는소금", "amount": 2, "unit": "g", "note": "간", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "호박과 감자를 가늘게 채쳐 전분, 튀김가루, 소금에 버무린다.", "timer_sec": null },
+    { "text": "고추를 넣고 반죽을 만든다.", "timer_sec": null },
+    { "text": "약불에서 반죽을 조금씩 동그랗게 부친다.", "timer_sec": null }
+  ],
+  "memo": "채소 수분이 많으면 전분을 조금 추가.",
+  "source": ""
+}

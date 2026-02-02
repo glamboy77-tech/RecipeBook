@@ -1,0 +1,44 @@
+{
+  "id": "굴국밥_230615",
+  "title": "굴국밥",
+  "time_total_min": 30,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "국밥",
+    "굴"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "무채", "amount": 100, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "호박", "amount": 80, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "대파", "amount": 1, "unit": "대", "note": "재료", "scalable": true },
+        { "name": "청양고추", "amount": 0.5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "표고버섯", "amount": 3, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "미니두부", "amount": 0.5, "unit": "모", "note": "재료", "scalable": true },
+        { "name": "마른미역", "amount": 5, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "부추", "amount": 1, "unit": "줌", "note": "재료", "scalable": true },
+        { "name": "새우젓", "amount": 1, "unit": "TB", "note": "간", "scalable": true },
+        { "name": "멸치액젓", "amount": 1, "unit": "TB", "note": "간", "scalable": true },
+        { "name": "다진마늘", "amount": 0.5, "unit": "TB", "note": "간", "scalable": true },
+        { "name": "식초", "amount": 0.5, "unit": "TB", "note": "마무리", "scalable": false },
+        { "name": "굴", "amount": 300, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "밥", "amount": 3, "unit": "공기", "note": "국밥", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "다시마 멸치 육수에 무채, 호박, 대파, 표고버섯을 넣고 끓인다.", "timer_sec": null },
+    { "text": "굴은 밀가루로 살살 씻은 후 망에 헹궈둔다.", "timer_sec": null },
+    { "text": "멸치액젓, 새우젓으로 간을 하고 굴을 넣는다.", "timer_sec": null },
+    { "text": "뚝배기에 대파, 미니두부, 미역, 육수를 넣고 끓인다.", "timer_sec": null },
+    { "text": "육수가 끓으면 굴을 넣고 다진마늘을 조금만 넣는다.", "timer_sec": null },
+    { "text": "부추를 넣고 불을 끈다.", "timer_sec": null },
+    { "text": "대파와 청양고추, 후추를 취향껏 올린다.", "timer_sec": null },
+    { "text": "식초 반 스푼을 넣는다.", "timer_sec": null }
+  ],
+  "memo": "굴은 알이 큰 것이 맛있음.",
+  "source": ""
+}

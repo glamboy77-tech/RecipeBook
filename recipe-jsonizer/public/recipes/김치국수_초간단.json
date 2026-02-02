@@ -1,0 +1,32 @@
+{
+  "id": "김치국수_초간단_704112",
+  "title": "김치국수(초간단)",
+  "time_total_min": 10,
+  "base_servings": 1,
+  "tags": [
+    "한식",
+    "국수",
+    "간단"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "소면", "amount": 100, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "김치국물", "amount": 200, "unit": "ml", "note": "소스", "scalable": true },
+        { "name": "물", "amount": 100, "unit": "ml", "note": "소스", "scalable": true },
+        { "name": "매실액", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "깨", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "참기름", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "오이채", "amount": 30, "unit": "g", "note": "옵션", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "소면을 삶아 찬물에 헹구고 물기를 뺀다.", "timer_sec": null },
+    { "text": "김치국물, 물, 매실액, 깨, 참기름을 섞어 소스를 만든다.", "timer_sec": null },
+    { "text": "면 위에 소스를 올리고 오이채를 곁들인다.", "timer_sec": null }
+  ],
+  "memo": "김치국물의 간에 따라 물/매실액을 조절.",
+  "source": ""
+}

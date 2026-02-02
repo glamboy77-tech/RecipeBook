@@ -1,0 +1,40 @@
+{
+  "id": "매운탕_서더리탕_459701",
+  "title": "매운탕/서더리탕",
+  "time_total_min": 45,
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "탕",
+    "해장"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "뼈/서더리", "amount": 1, "unit": "kg", "note": "메인", "scalable": true },
+        { "name": "물", "amount": 2, "unit": "L", "note": "육수", "scalable": true },
+        { "name": "다시마", "amount": 1, "unit": "장", "note": "육수", "scalable": true },
+        { "name": "멸치", "amount": 10, "unit": "마리", "note": "육수", "scalable": true },
+        { "name": "무", "amount": 200, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "국간장", "amount": 1, "unit": "TB", "note": "간", "scalable": true },
+        { "name": "참치액", "amount": 1, "unit": "TB", "note": "간", "scalable": true },
+        { "name": "소금", "amount": 0.25, "unit": "t", "note": "간", "scalable": false },
+        { "name": "고춧가루", "amount": 3, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "대파", "amount": 1, "unit": "대", "note": "재료", "scalable": true },
+        { "name": "청양고추", "amount": 2, "unit": "개", "note": "재료", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "끓는 물에 뼈를 넣고 1분 후 물을 버린다.", "timer_sec": null },
+    { "text": "새 물을 끓이고 뼈를 넣는다.", "timer_sec": null },
+    { "text": "불순물을 걷어낸다.", "timer_sec": null },
+    { "text": "다시마, 멸치, 무를 넣고 국간장/참치액/소금을 넣어 끓인다.", "timer_sec": null },
+    { "text": "고춧가루, 다진마늘, 대파, 청양고추를 넣는다.", "timer_sec": null },
+    { "text": "30분가량 끓인다.", "timer_sec": null }
+  ],
+  "memo": "뼈 양에 따라 물 양을 조절.",
+  "source": ""
+}

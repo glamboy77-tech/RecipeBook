@@ -1,0 +1,42 @@
+{
+  "id": "비빔밥_539106",
+  "title": "비빔밥",
+  "time_total_min": 25,
+  "base_servings": 2,
+  "tags": [
+    "한식",
+    "비빔밥",
+    "밥"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "밥", "amount": 2, "unit": "공기", "note": "메인", "scalable": true },
+        { "name": "콩나물", "amount": 200, "unit": "g", "note": "국/나물", "scalable": true },
+        { "name": "당근", "amount": 60, "unit": "g", "note": "채", "scalable": true },
+        { "name": "부추", "amount": 50, "unit": "g", "note": "채", "scalable": true },
+        { "name": "상추", "amount": 60, "unit": "g", "note": "채", "scalable": true },
+        { "name": "무생채", "amount": 100, "unit": "g", "note": "채", "scalable": true },
+        { "name": "김가루", "amount": 2, "unit": "TB", "note": "고명", "scalable": true },
+        { "name": "계란", "amount": 2, "unit": "개", "note": "옵션", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "고추장", "amount": 2, "unit": "TB", "note": "비빔", "scalable": true },
+        { "name": "참기름", "amount": 1, "unit": "TB", "note": "비빔", "scalable": true },
+        { "name": "깨", "amount": 1, "unit": "t", "note": "비빔", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "맑은 콩나물국을 끓이고 건더기는 비빔밥 재료로 사용한다.", "timer_sec": null },
+    { "text": "당근채를 볶고, 부추/상추/김가루 등을 손질한다.", "timer_sec": null },
+    { "text": "무생채와 각종 나물을 준비한다.", "timer_sec": null },
+    { "text": "밥 위에 재료를 올리고 고추장, 참기름, 깨를 넣어 비빈다.", "timer_sec": null }
+  ],
+  "memo": "취향에 따라 각종 나물을 추가.",
+  "source": ""
+}

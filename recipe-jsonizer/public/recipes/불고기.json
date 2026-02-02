@@ -1,0 +1,43 @@
+{
+  "id": "불고기_644805",
+  "title": "불고기",
+  "time_total_min": 40,
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "불고기",
+    "소고기"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "소불고기", "amount": 600, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "양파", "amount": 100, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "대파", "amount": 100, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "표고버섯", "amount": 100, "unit": "g", "note": "재료", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념소스",
+      "items": [
+        { "name": "물", "amount": 450, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "진간장", "amount": 60, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 60, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "다진마늘", "amount": 15, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "다시다", "amount": 7.5, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "미원", "amount": 0.5, "unit": "t", "note": "톡톡", "scalable": false },
+        { "name": "후추", "amount": 0.3, "unit": "t", "note": "톡톡", "scalable": false },
+        { "name": "볶은참깨", "amount": 7.5, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "참기름", "amount": 7.5, "unit": "ml", "note": "양념", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "양념에 고기, 양파, 대파, 버섯 등을 넣고 재운다.", "timer_sec": null },
+    { "text": "냉장고에서 하루 이상 숙성시킨다.", "timer_sec": null },
+    { "text": "불고기판에 양파, 파, 당근, 떡, 불린당면 등을 넣고 끓여 완성한다.", "timer_sec": null }
+  ],
+  "memo": "숙성 시간이 길수록 맛이 깊어짐.",
+  "source": ""
+}

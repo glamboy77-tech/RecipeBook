@@ -1,0 +1,47 @@
+{
+  "id": "장터국밥_915603",
+  "title": "장터국밥",
+  "time_total_min": 90,
+  "base_servings": 8,
+  "tags": [
+    "한식",
+    "국밥",
+    "소고기"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "대파", "amount": 150, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "배추", "amount": 150, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "콩나물", "amount": 150, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "양파", "amount": 150, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "무", "amount": 250, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "소고기 양지", "amount": 600, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "물", "amount": 3, "unit": "L", "note": "육수", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "다진마늘", "amount": 4, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "된장", "amount": 4, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "참치액", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "고춧가루", "amount": 5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "다시다", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "미원", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "물 3L를 팔팔 끓인다(물 높이를 기억).", "timer_sec": null },
+    { "text": "배추를 30초 정도 데쳐 찬물에 씻어둔다.", "timer_sec": null },
+    { "text": "고기와 무를 넣고 뚜껑을 덮어 중약불로 1시간 끓인다.", "timer_sec": null },
+    { "text": "처음 물양만큼 물을 보충한다.", "timer_sec": null },
+    { "text": "고기를 찢어 다시 넣고 대파, 양파, 콩나물, 배추를 넣는다.", "timer_sec": null },
+    { "text": "센불에 끓기 시작하면 중불~중약불로 20분 끓인다.", "timer_sec": null },
+    { "text": "양념을 넣어 간을 맞춘다.", "timer_sec": null }
+  ],
+  "memo": "전날 끓여놓으면 진국이 된다.",
+  "source": ""
+}

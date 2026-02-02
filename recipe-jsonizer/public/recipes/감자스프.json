@@ -1,0 +1,30 @@
+{
+  "id": "감자스프_771209",
+  "title": "감자스프",
+  "time_total_min": 30,
+  "base_servings": 4,
+  "tags": [
+    "양식",
+    "스프",
+    "감자"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "양파", "amount": 300, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "감자", "amount": 600, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "생크림", "amount": 180, "unit": "ml", "note": "재료", "scalable": true },
+        { "name": "우유", "amount": 270, "unit": "ml", "note": "재료", "scalable": true },
+        { "name": "맛소금", "amount": 0.5, "unit": "TB", "note": "간", "scalable": true },
+        { "name": "치킨스톡", "amount": 1, "unit": "TB", "note": "간", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "재료를 모두 잘게 썰어 압력솥에 넣는다.", "timer_sec": null },
+    { "text": "취사 모드로 익힌 뒤 갈아 스프 형태로 만든다.", "timer_sec": null }
+  ],
+  "memo": "농도는 우유로 조절.",
+  "source": ""
+}

@@ -1,0 +1,49 @@
+{
+  "id": "우삼겹쫄면_204598",
+  "title": "우삼겹쫄면",
+  "time_total_min": 20,
+  "base_servings": 1,
+  "tags": [
+    "한식",
+    "면",
+    "비빔"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "쫄면", "amount": 200, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "우삼겹", "amount": 100, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "t", "note": "볶음", "scalable": true },
+        { "name": "돈가스소스", "amount": 1, "unit": "TB", "note": "볶음", "scalable": true }
+      ]
+    },
+    {
+      "name": "소스",
+      "items": [
+        { "name": "설탕", "amount": 1, "unit": "t", "note": "소스", "scalable": true },
+        { "name": "초장", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "사이다", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "돈가스소스", "amount": 2.5, "unit": "ml", "note": "소스", "scalable": true },
+        { "name": "고춧가루", "amount": 1, "unit": "t", "note": "옵션", "scalable": false },
+        { "name": "참기름", "amount": 1, "unit": "t", "note": "소스", "scalable": false }
+      ]
+    },
+    {
+      "name": "고명",
+      "items": [
+        { "name": "오이", "amount": 30, "unit": "g", "note": "고명", "scalable": true },
+        { "name": "김가루", "amount": 1, "unit": "TB", "note": "고명", "scalable": true },
+        { "name": "깨소금", "amount": 1, "unit": "t", "note": "고명", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "팬에 우삼겹, 설탕 1t, 돈가스소스 1TB를 넣고 볶는다.", "timer_sec": null },
+    { "text": "쫄면은 7분간 삶아 찬물에 헹군다.", "timer_sec": null },
+    { "text": "쫄면에 소스를 섞으며 간을 본다.", "timer_sec": null },
+    { "text": "쫄면을 담고 고기, 김가루, 깨소금, 오이를 올린다.", "timer_sec": null }
+  ],
+  "memo": "면 삶는 물 양은 면무게 × 10.",
+  "source": ""
+}

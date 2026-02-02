@@ -1,0 +1,58 @@
+{
+  "id": "해물찜_658400",
+  "title": "해물찜",
+  "time_total_min": 30,
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "찜",
+    "해물"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "오징어", "amount": 3, "unit": "마리", "note": "해산물", "scalable": true },
+        { "name": "알+이리", "amount": 1, "unit": "팩", "note": "해산물", "scalable": true },
+        { "name": "새우", "amount": 300, "unit": "g", "note": "해산물", "scalable": true },
+        { "name": "조개", "amount": 500, "unit": "g", "note": "해산물", "scalable": true },
+        { "name": "파", "amount": 1, "unit": "단", "note": "재료", "scalable": true },
+        { "name": "콩나물", "amount": 750, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "미나리", "amount": 200, "unit": "g", "note": "재료", "scalable": true }
+      ]
+    },
+    {
+      "name": "소스",
+      "items": [
+        { "name": "물", "amount": 240, "unit": "ml", "note": "소스", "scalable": true },
+        { "name": "굵은고춧가루", "amount": 8, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "진간장", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "멸치액젓", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "후추", "amount": 1, "unit": "t", "note": "간", "scalable": false },
+        { "name": "설탕", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "청주", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "다진마늘", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "다시다", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "혼다시", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "미원", "amount": 0.5, "unit": "TB", "note": "소스", "scalable": true }
+      ]
+    },
+    {
+      "name": "전분물",
+      "items": [
+        { "name": "전분", "amount": 2, "unit": "TB", "note": "전분물", "scalable": true },
+        { "name": "물", "amount": 3, "unit": "TB", "note": "전분물", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "물과 소스를 넣고 파, 양파, 해물, 고추를 넣어 끓인다.", "timer_sec": null },
+    { "text": "끓기 시작하면 간을 본다.", "timer_sec": null },
+    { "text": "중불로 줄이고 콩나물을 넣는다.", "timer_sec": null },
+    { "text": "콩나물 위에 고춧가루 1TB를 뿌린다.", "timer_sec": null },
+    { "text": "뚜껑을 덮고 7분간 익힌다.", "timer_sec": null },
+    { "text": "콩나물을 먹어보고 아삭하면 참기름 1TB와 전분물을 넣어 섞는다.", "timer_sec": null }
+  ],
+  "memo": "간은 중간에 한 번 더 체크.",
+  "source": ""
+}

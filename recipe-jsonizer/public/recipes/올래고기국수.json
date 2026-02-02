@@ -1,0 +1,44 @@
+{
+  "id": "올래고기국수_502774",
+  "title": "올래고기국수",
+  "time_total_min": 60,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "국수",
+    "국물"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "육수",
+      "items": [
+        { "name": "앞다리살", "amount": 300, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "물", "amount": 1.5, "unit": "L", "note": "육수", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "육수", "scalable": true },
+        { "name": "사골엑기스", "amount": 1, "unit": "TB", "note": "육수", "scalable": true },
+        { "name": "된장", "amount": 0.5, "unit": "TB", "note": "육수", "scalable": true },
+        { "name": "치킨스톡", "amount": 1, "unit": "t", "note": "간맞추기", "scalable": true },
+        { "name": "다시다", "amount": 0.5, "unit": "TB", "note": "간맞추기", "scalable": true },
+        { "name": "미원", "amount": 0.5, "unit": "t", "note": "간맞추기", "scalable": false },
+        { "name": "소금", "amount": 1, "unit": "t", "note": "간맞추기", "scalable": false },
+        { "name": "후추", "amount": 0.3, "unit": "t", "note": "간맞추기", "scalable": false },
+        { "name": "새우젓", "amount": 1, "unit": "TB", "note": "간맞추기", "scalable": true }
+      ]
+    },
+    {
+      "name": "면/고명",
+      "items": [
+        { "name": "소면", "amount": 300, "unit": "g", "note": "면", "scalable": true },
+        { "name": "다진파", "amount": 30, "unit": "g", "note": "고명", "scalable": true },
+        { "name": "김가루", "amount": 2, "unit": "TB", "note": "고명", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "재료를 넣고 물이 끓으면 뚜껑을 덮어 약불에서 40분 끓인다.", "timer_sec": null },
+    { "text": "고기는 꺼내 썰어 간을 하고, 육수는 간을 맞춘다.", "timer_sec": null },
+    { "text": "면을 삶아 그릇에 담고 육수를 부은 뒤 고기, 다진파, 김가루를 올린다.", "timer_sec": null }
+  ],
+  "memo": "간맞추기 재료는 기호에 따라 조절.",
+  "source": ""
+}

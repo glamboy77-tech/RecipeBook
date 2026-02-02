@@ -1,0 +1,65 @@
+{
+  "id": "등뼈김치찜_812634",
+  "title": "등뼈김치찜",
+  "time_total_min": 120,
+  "base_servings": 8,
+  "tags": [
+    "한식",
+    "찜",
+    "김치",
+    "돼지고기"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "돼지 등뼈", "amount": 2.3, "unit": "kg", "note": "메인", "scalable": true },
+        { "name": "묵은지(김치)", "amount": 1.5, "unit": "kg", "note": "메인", "scalable": true },
+        { "name": "양파", "amount": 1.5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "청양고추", "amount": 5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "대파", "amount": 2, "unit": "대", "note": "재료", "scalable": true }
+      ]
+    },
+    {
+      "name": "초벌삶기",
+      "items": [
+        { "name": "물", "amount": 1.5, "unit": "L", "note": "초벌", "scalable": true },
+        { "name": "된장", "amount": 1, "unit": "TB", "note": "초벌", "scalable": true },
+        { "name": "소주", "amount": 100, "unit": "ml", "note": "초벌", "scalable": true },
+        { "name": "월계수잎", "amount": 2, "unit": "장", "note": "초벌", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념장",
+      "items": [
+        { "name": "식용유", "amount": 1.5, "unit": "TB", "note": "냄비 코팅", "scalable": true },
+        { "name": "고추장", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "된장", "amount": 1.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "진간장", "amount": 3, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "다진 마늘", "amount": 3, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 3, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "미림", "amount": 3, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "고춧가루", "amount": 5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "카레가루", "amount": 1.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "참치액", "amount": 1.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "미원", "amount": 0.5, "unit": "t", "note": "간", "scalable": true },
+        { "name": "쇠고기 다시다", "amount": 1, "unit": "TB", "note": "간", "scalable": true },
+        { "name": "물", "amount": 1.8, "unit": "L", "note": "양념", "scalable": true },
+        { "name": "사골육수", "amount": 1, "unit": "팩", "note": "육수", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "압력솥에 등뼈, 물 1.5L, 된장 1TB, 소주, 월계수잎을 넣는다.", "timer_sec": null },
+    { "text": "센불에서 압력이 차면 약불로 줄여 40분 익힌다.", "timer_sec": null },
+    { "text": "불을 끄고 김이 빠질 때까지 기다린 후 등뼈를 꺼낸다.", "timer_sec": null },
+    { "text": "냄비에 식용유를 두르고 김치를 중불에 3분간 볶는다.", "timer_sec": null },
+    { "text": "양념장을 넣고 2분 더 볶는다.", "timer_sec": null },
+    { "text": "압력솥 육수와 사골육수를 넣고 끓인다.", "timer_sec": null },
+    { "text": "끓기 시작하면 중약불에서 20분 끓인다.", "timer_sec": null },
+    { "text": "등뼈를 합치고 뚜껑을 덮어 중약불에 30분 더 끓인다.", "timer_sec": null },
+    { "text": "마무리 10분 전에 청양고추와 대파를 넣는다.", "timer_sec": null }
+  ],
+  "memo": "국물이 자작하게 잠기도록 물 양을 조절.",
+  "source": ""
+}

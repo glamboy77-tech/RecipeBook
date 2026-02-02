@@ -1,0 +1,49 @@
+{
+  "id": "메추리알꽈리고추장조림_508317",
+  "title": "메추리알꽈리고추장조림",
+  "time_total_min": 40,
+  "base_servings": 6,
+  "tags": [
+    "한식",
+    "반찬",
+    "장조림"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "메추리알", "amount": 1, "unit": "kg", "note": "메인", "scalable": true },
+        { "name": "통마늘", "amount": 25, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "꽈리고추", "amount": 150, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "청양고추", "amount": 2, "unit": "개", "note": "옵션", "scalable": true }
+      ]
+    },
+    {
+      "name": "육수",
+      "items": [
+        { "name": "물", "amount": 1.5, "unit": "L", "note": "육수", "scalable": true },
+        { "name": "대파", "amount": 1, "unit": "대", "note": "육수", "scalable": true },
+        { "name": "다시마", "amount": 1, "unit": "장", "note": "육수", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "물", "amount": 1.2, "unit": "L", "note": "양념", "scalable": true },
+        { "name": "진간장", "amount": 12, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "국간장", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "생강즙", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "물엿", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "소주", "amount": 4, "unit": "TB", "note": "양념", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "물에 대파와 다시마를 넣고 15분간 끓여 육수를 만든다.", "timer_sec": null },
+    { "text": "양념을 넣고 메추리알과 통마늘을 넣어 졸인다.", "timer_sec": null },
+    { "text": "꽈리고추는 마지막에 3~5분만 넣는다.", "timer_sec": null }
+  ],
+  "memo": "냉장고에 두면 간이 배어 더 맛있다.",
+  "source": ""
+}

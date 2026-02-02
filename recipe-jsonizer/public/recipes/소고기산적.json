@@ -1,0 +1,40 @@
+{
+  "id": "소고기산적_692540",
+  "title": "소고기산적",
+  "time_total_min": 40,
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "구이",
+    "소고기"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "소고기", "amount": 600, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "양파", "amount": 0.25, "unit": "개", "note": "양념", "scalable": true },
+        { "name": "배즙", "amount": 100, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "물", "amount": 100, "unit": "ml", "note": "양념", "scalable": true },
+        { "name": "간장", "amount": 6, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "다진파", "amount": 5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "미림", "amount": 3, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "올리고당", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "참기름", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "후추", "amount": 0.3, "unit": "t", "note": "양념", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "양파와 배즙을 갈아 나머지 재료와 섞어 양념장을 만든다.", "timer_sec": null },
+    { "text": "양념장에 고기를 하루 정도 재운다.", "timer_sec": null },
+    { "text": "팬에 기름을 두르고 고기와 양념장 반을 넣는다.", "timer_sec": null },
+    { "text": "뚜껑을 덮고 끓으면 약불에서 양념을 끼얹으며 5분 익힌다.", "timer_sec": null },
+    { "text": "뒤집고 양념을 끼얹으며 졸인다.", "timer_sec": null },
+    { "text": "양념이 너무 빨리 졸면 물을 조금 추가한다.", "timer_sec": null },
+    { "text": "양념이 졸아들면 완성.", "timer_sec": null }
+  ],
+  "memo": "숙성 시간은 취향에 따라 조절.",
+  "source": ""
+}

@@ -1,0 +1,53 @@
+{
+  "id": "고등어무조림_통조림_987410",
+  "title": "고등어무조림(통조림)",
+  "time_total_min": 35,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "조림",
+    "생선"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "고등어 통조림", "amount": 2, "unit": "개", "note": "메인", "scalable": true },
+        { "name": "통조림 국물", "amount": 1, "unit": "캔", "note": "육수", "scalable": true },
+        { "name": "물", "amount": 500, "unit": "ml", "note": "육수", "scalable": true },
+        { "name": "무", "amount": 300, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "감자", "amount": 2, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "양파", "amount": 0.5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "대파", "amount": 1, "unit": "대", "note": "재료", "scalable": true },
+        { "name": "청양고추", "amount": 2, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "식용유", "amount": 2, "unit": "TB", "note": "바닥", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "진간장", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "굴소스", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "된장", "amount": 1, "unit": "t", "note": "양념", "scalable": true },
+        { "name": "미림", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "고추가루", "amount": 2.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "요리당", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "매실액", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "고추장", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "생강가루", "amount": 0.5, "unit": "t", "note": "양념", "scalable": true },
+        { "name": "후추", "amount": 0.5, "unit": "t", "note": "간", "scalable": false },
+        { "name": "미원", "amount": 0.5, "unit": "t", "note": "옵션", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "냄비 바닥에 식용유를 두르고 무, 감자, 양파를 깐다.", "timer_sec": null },
+    { "text": "통조림 국물, 물, 양념장을 넣고 10분간 끓인다.", "timer_sec": null },
+    { "text": "무가 익으면 고등어, 청양고추, 대파를 넣는다.", "timer_sec": null },
+    { "text": "국물을 끼얹으며 6~8분 졸인다.", "timer_sec": null },
+    { "text": "미원은 옵션이므로 간을 보고 추가한다.", "timer_sec": null }
+  ],
+  "memo": "감자/무는 두께감 있게 썰기.",
+  "source": ""
+}

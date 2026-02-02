@@ -1,0 +1,43 @@
+{
+  "id": "봉골레파스타_834512",
+  "title": "봉골레파스타",
+  "time_total_min": 25,
+  "base_servings": 1,
+  "tags": [
+    "양식",
+    "파스타",
+    "봉골레"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "파스타면", "amount": 100, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "바지락", "amount": 300, "unit": "g", "note": "메인", "scalable": true },
+        { "name": "올리브오일", "amount": 1.5, "unit": "TB", "note": "볶음", "scalable": true },
+        { "name": "크러시드 페퍼", "amount": 0.5, "unit": "t", "note": "볶음", "scalable": false },
+        { "name": "편마늘", "amount": 5, "unit": "쪽", "note": "볶음", "scalable": true },
+        { "name": "방울토마토", "amount": 5, "unit": "개", "note": "재료", "scalable": true },
+        { "name": "화이트와인", "amount": 50, "unit": "ml", "note": "조개", "scalable": true },
+        { "name": "참치액", "amount": 0.5, "unit": "TB", "note": "간", "scalable": true },
+        { "name": "치킨스톡", "amount": 0.5, "unit": "t", "note": "간", "scalable": true },
+        { "name": "조개다시다", "amount": 0.5, "unit": "t", "note": "간", "scalable": true },
+        { "name": "후추", "amount": 0.3, "unit": "t", "note": "간", "scalable": false },
+        { "name": "파슬리", "amount": 1, "unit": "t", "note": "마무리", "scalable": false },
+        { "name": "레몬쥬스", "amount": 1, "unit": "t", "note": "마무리", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "조개를 찬물에 10~15분 해동 후 흐르는 물에 씻는다.", "timer_sec": null },
+    { "text": "소금물에 면을 삶아 면수는 따로 보관한다.", "timer_sec": null },
+    { "text": "팬에 올리브오일, 크러시드 페퍼, 편마늘을 약불에서 볶는다.", "timer_sec": null },
+    { "text": "방울토마토를 넣어 살짝 익힌다.", "timer_sec": null },
+    { "text": "조개와 화이트와인을 넣고 센불에서 4~5분 익혀 입을 연다.", "timer_sec": null },
+    { "text": "조개 육수를 걸러 팬에 넣고 면과 함께 볶는다.", "timer_sec": null },
+    { "text": "면수를 추가하며 참치액, 치킨스톡, 조개다시다, 후추로 간을 맞춘다.", "timer_sec": null },
+    { "text": "불을 끄고 올리브오일, 레몬쥬스, 파슬리를 뿌려 마무리한다.", "timer_sec": null }
+  ],
+  "memo": "면은 포장 시간보다 1분 덜 익히기.",
+  "source": ""
+}
