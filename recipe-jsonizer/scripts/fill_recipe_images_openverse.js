@@ -11,8 +11,6 @@ const IMAGE_EXTS = ["png", "webp", "jpg", "jpeg"];
 const MAX_BYTES = 2 * 1024 * 1024;
 const RESIZE_STEPS = [1600, 1200, 1000];
 
-const KOREAN_REGEX = /[\u3131-\u318E\uAC00-\uD7A3]/;
-
 const RESULTS_SAMPLE_SIZE = 5;
 
 function isBlank(value) {
@@ -62,13 +60,27 @@ function fileExists(filePath) {
   }
 }
 
-function toQuery(title, withFoodSuffix = true) {
-  if (!title) return "";
-  const trimmed = String(title).trim();
-  if (!trimmed) return "";
-  const isKorean = KOREAN_REGEX.test(trimmed);
-  if (!withFoodSuffix) return trimmed;
-  return isKorean ? `${trimmed} 요리` : `${trimmed} food`;
+function cleanTitle(raw) {
+  if (!raw) return "";
+  let text = String(raw).trim();
+  if (!text) return "";
+
+  // 괄호 안 제거: "감자샐러드(100인분)" -> "감자샐러드"
+  text = text.replace(/\s*\([^)]*\)\s*/g, " ");
+
+  // 구분자/특수문자는 공백으로
+  text = text.replace(/[\/+&:;·ㆍ,_-]+/g, " ");
+
+  // 연속 공백 정리
+  text = text.replace(/\s{2,}/g, " ").trim();
+
+  return text;
+}
+
+function toQueries(title) {
+  const cleaned = cleanTitle(title);
+  if (!cleaned) return [];
+  return [cleaned, `${cleaned} food`];
 }
 
 function scoreResult(result) {
@@ -107,9 +119,7 @@ function selectBestResult(results) {
 }
 
 async function searchOpenverse(title) {
-  const firstQuery = toQuery(title, true);
-  const secondQuery = toQuery(title, false);
-  const attempts = [firstQuery, secondQuery].filter(Boolean);
+  const attempts = toQueries(title);
 
   for (const query of attempts) {
     const url = `https://api.openverse.org/v1/images/?q=${encodeURIComponent(query)}&per_page=20`;

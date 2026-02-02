@@ -12,44 +12,166 @@
     {
       "name": "재료",
       "items": [
-        { "name": "감자(껍질제거)", "amount": 10, "unit": "kg", "note": "재료", "scalable": true },
-        { "name": "당근", "amount": 1.5, "unit": "kg", "note": "재료", "scalable": true },
-        { "name": "양파", "amount": 2, "unit": "kg", "note": "재료", "scalable": true },
-        { "name": "오이", "amount": 2, "unit": "kg", "note": "재료", "scalable": true },
-        { "name": "스위트콘", "amount": 2, "unit": "kg", "note": "재료", "scalable": true },
-        { "name": "크래미", "amount": 1, "unit": "kg", "note": "재료", "scalable": true }
+        {
+          "name": "감자(껍질제거)",
+          "amount": 10,
+          "unit": "kg",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "당근",
+          "amount": 1.5,
+          "unit": "kg",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "양파",
+          "amount": 2,
+          "unit": "kg",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "오이",
+          "amount": 2,
+          "unit": "kg",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "스위트콘",
+          "amount": 2,
+          "unit": "kg",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "크래미",
+          "amount": 1,
+          "unit": "kg",
+          "note": "재료",
+          "scalable": true
+        }
       ]
     },
     {
       "name": "양념",
       "items": [
-        { "name": "마요네즈(+타르타르)", "amount": 3.4, "unit": "kg", "note": "양념", "scalable": true },
-        { "name": "설탕", "amount": 480, "unit": "g", "note": "양념", "scalable": true },
-        { "name": "꽃소금", "amount": 68, "unit": "g", "note": "양념", "scalable": true },
-        { "name": "후추가루", "amount": 20, "unit": "g", "note": "양념", "scalable": true },
-        { "name": "생크림", "amount": 500, "unit": "ml", "note": "양념", "scalable": true },
-        { "name": "식초", "amount": 160, "unit": "ml", "note": "양념", "scalable": true }
+        {
+          "name": "마요네즈(+타르타르)",
+          "amount": 3.4,
+          "unit": "kg",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "설탕",
+          "amount": 480,
+          "unit": "g",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "꽃소금",
+          "amount": 68,
+          "unit": "g",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "후추가루",
+          "amount": 20,
+          "unit": "g",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "생크림",
+          "amount": 500,
+          "unit": "ml",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "식초",
+          "amount": 160,
+          "unit": "ml",
+          "note": "양념",
+          "scalable": true
+        }
       ]
     },
     {
       "name": "절임용 소금",
       "items": [
-        { "name": "꽃소금(오이절임용)", "amount": 40, "unit": "g", "note": "절임", "scalable": true },
-        { "name": "꽃소금(양파절임용)", "amount": 40, "unit": "g", "note": "절임", "scalable": true },
-        { "name": "꽃소금(감자삶는용)", "amount": 40, "unit": "g", "note": "절임", "scalable": true }
+        {
+          "name": "꽃소금(오이절임용)",
+          "amount": 40,
+          "unit": "g",
+          "note": "절임",
+          "scalable": true
+        },
+        {
+          "name": "꽃소금(양파절임용)",
+          "amount": 40,
+          "unit": "g",
+          "note": "절임",
+          "scalable": true
+        },
+        {
+          "name": "꽃소금(감자삶는용)",
+          "amount": 40,
+          "unit": "g",
+          "note": "절임",
+          "scalable": true
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "감자 2cm, 당근 1.5cm 깍둑썰기 한다.", "timer_sec": null },
-    { "text": "오이는 반달썰기, 양파는 얇게 채썬다.", "timer_sec": null },
-    { "text": "물에 소금을 넣고 끓으면 감자를 넣고 끓이다가 당근을 넣고 2~3분 더 끓인다.", "timer_sec": null },
-    { "text": "감자가 익으면 넓은 쟁반에 식힌다.", "timer_sec": null },
-    { "text": "오이와 양파는 각각 절여놓는다.", "timer_sec": null },
-    { "text": "큰 양푼에 감자/당근/오이/양파를 넣고 식초, 설탕, 꽃소금을 버무린다.", "timer_sec": null },
-    { "text": "생크림과 마요네즈를 넣고 손으로 버무린다.", "timer_sec": null },
-    { "text": "스위트콘은 물기를 충분히 빼고 넣는다.", "timer_sec": null }
+    {
+      "text": "감자 2cm, 당근 1.5cm 깍둑썰기 한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "오이는 반달썰기, 양파는 얇게 채썬다.",
+      "timer_sec": null
+    },
+    {
+      "text": "물에 소금을 넣고 끓으면 감자를 넣고 끓이다가 당근을 넣고 2~3분 더 끓인다.",
+      "timer_sec": null
+    },
+    {
+      "text": "감자가 익으면 넓은 쟁반에 식힌다.",
+      "timer_sec": null
+    },
+    {
+      "text": "오이와 양파는 각각 절여놓는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "큰 양푼에 감자/당근/오이/양파를 넣고 식초, 설탕, 꽃소금을 버무린다.",
+      "timer_sec": null
+    },
+    {
+      "text": "생크림과 마요네즈를 넣고 손으로 버무린다.",
+      "timer_sec": null
+    },
+    {
+      "text": "스위트콘은 물기를 충분히 빼고 넣는다.",
+      "timer_sec": null
+    }
   ],
   "memo": "주걱으로 버무리면 으깨지니 손으로 섞기.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/감자샐러드.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "CAYL_PHOTO",
+    "license": "by-nd",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/"
+  }
 }

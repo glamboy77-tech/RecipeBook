@@ -12,20 +12,76 @@
     {
       "name": "재료",
       "items": [
-        { "name": "냉면육수", "amount": null, "unit": "", "note": "별가식품 진사골육수", "scalable": false },
-        { "name": "냉면면", "amount": null, "unit": "", "note": "함흥냉면면", "scalable": false },
-        { "name": "쌈무", "amount": null, "unit": "", "note": "하선정 한입쌈무", "scalable": false },
-        { "name": "삶은계란", "amount": null, "unit": "", "note": "고명", "scalable": false },
-        { "name": "오이", "amount": null, "unit": "", "note": "고명", "scalable": false },
-        { "name": "김가루", "amount": null, "unit": "", "note": "조금", "scalable": false },
-        { "name": "갈은깨", "amount": null, "unit": "", "note": "많이", "scalable": false }
+        {
+          "name": "냉면육수",
+          "amount": null,
+          "unit": "",
+          "note": "별가식품 진사골육수",
+          "scalable": false
+        },
+        {
+          "name": "냉면면",
+          "amount": null,
+          "unit": "",
+          "note": "함흥냉면면",
+          "scalable": false
+        },
+        {
+          "name": "쌈무",
+          "amount": null,
+          "unit": "",
+          "note": "하선정 한입쌈무",
+          "scalable": false
+        },
+        {
+          "name": "삶은계란",
+          "amount": null,
+          "unit": "",
+          "note": "고명",
+          "scalable": false
+        },
+        {
+          "name": "오이",
+          "amount": null,
+          "unit": "",
+          "note": "고명",
+          "scalable": false
+        },
+        {
+          "name": "김가루",
+          "amount": null,
+          "unit": "",
+          "note": "조금",
+          "scalable": false
+        },
+        {
+          "name": "갈은깨",
+          "amount": null,
+          "unit": "",
+          "note": "많이",
+          "scalable": false
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "면을 삶아 찬물에 헹군다.", "timer_sec": null },
-    { "text": "그릇에 면을 담고 냉면육수와 고명을 올린다.", "timer_sec": null }
+    {
+      "text": "면을 삶아 찬물에 헹군다.",
+      "timer_sec": null
+    },
+    {
+      "text": "그릇에 면을 담고 냉면육수와 고명을 올린다.",
+      "timer_sec": null
+    }
   ],
   "memo": "브랜드는 메모 참고용.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/물냉면_초간단.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "pieliny",
+    "license": "by-nd",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/"
+  }
 }

@@ -12,40 +12,153 @@
     {
       "name": "믹서에 갈기",
       "items": [
-        { "name": "양파", "amount": 600, "unit": "g", "note": "2개", "scalable": true },
-        { "name": "배", "amount": 300, "unit": "g", "note": "반개", "scalable": true },
-        { "name": "식초", "amount": 4, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "냉면육수", "amount": 1, "unit": "컵", "note": "소스", "scalable": true }
+        {
+          "name": "양파",
+          "amount": 600,
+          "unit": "g",
+          "note": "2개",
+          "scalable": true
+        },
+        {
+          "name": "배",
+          "amount": 300,
+          "unit": "g",
+          "note": "반개",
+          "scalable": true
+        },
+        {
+          "name": "식초",
+          "amount": 4,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "냉면육수",
+          "amount": 1,
+          "unit": "컵",
+          "note": "소스",
+          "scalable": true
+        }
       ]
     },
     {
       "name": "소스 추가",
       "items": [
-        { "name": "다시다", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "미원", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "고춧가루", "amount": 1, "unit": "컵", "note": "소스", "scalable": true },
-        { "name": "설탕", "amount": 4, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "알룰로스", "amount": 15, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "다진마늘", "amount": 5, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "진간장", "amount": 8, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "물엿", "amount": 1, "unit": "컵", "note": "소스", "scalable": true },
-        { "name": "냉면육수", "amount": 1, "unit": "컵", "note": "소스", "scalable": true }
+        {
+          "name": "다시다",
+          "amount": 1,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "미원",
+          "amount": 2,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 1,
+          "unit": "컵",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "설탕",
+          "amount": 4,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "알룰로스",
+          "amount": 15,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 5,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "진간장",
+          "amount": 8,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "물엿",
+          "amount": 1,
+          "unit": "컵",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "냉면육수",
+          "amount": 1,
+          "unit": "컵",
+          "note": "소스",
+          "scalable": true
+        }
       ]
     },
     {
       "name": "고명",
       "items": [
-        { "name": "삶은계란", "amount": null, "unit": "", "note": "고명", "scalable": false },
-        { "name": "오이채", "amount": null, "unit": "", "note": "고명", "scalable": false },
-        { "name": "쌈무", "amount": null, "unit": "", "note": "고명", "scalable": false }
+        {
+          "name": "삶은계란",
+          "amount": null,
+          "unit": "",
+          "note": "고명",
+          "scalable": false
+        },
+        {
+          "name": "오이채",
+          "amount": null,
+          "unit": "",
+          "note": "고명",
+          "scalable": false
+        },
+        {
+          "name": "쌈무",
+          "amount": null,
+          "unit": "",
+          "note": "고명",
+          "scalable": false
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "소스는 최소 3시간 이상 숙성한다.", "timer_sec": null },
-    { "text": "면 위에 참기름 1스푼, 소스 2TB, 빻은깨를 뿌린다.", "timer_sec": null },
-    { "text": "삶은계란, 오이채, 쌈무, 배채를 올리고 식초/겨자는 옵션으로 곁들인다.", "timer_sec": null }
+    {
+      "text": "소스는 최소 3시간 이상 숙성한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "면 위에 참기름 1스푼, 소스 2TB, 빻은깨를 뿌린다.",
+      "timer_sec": null
+    },
+    {
+      "text": "삶은계란, 오이채, 쌈무, 배채를 올리고 식초/겨자는 옵션으로 곁들인다.",
+      "timer_sec": null
+    }
   ],
   "memo": "배 대신 갈아만든배 1캔 사용 가능.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/비빔국수_대용량.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "kiyong2",
+    "license": "by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+  }
 }

@@ -12,19 +12,69 @@
     {
       "name": "소스",
       "items": [
-        { "name": "초장", "amount": 1, "unit": "컵", "note": "3인분", "scalable": true },
-        { "name": "진간장", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "굴소스", "amount": 0.2, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "설탕", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "고춧가루", "amount": 1.5, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "소스", "scalable": true }
+        {
+          "name": "초장",
+          "amount": 1,
+          "unit": "컵",
+          "note": "3인분",
+          "scalable": true
+        },
+        {
+          "name": "진간장",
+          "amount": 1,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "굴소스",
+          "amount": 0.2,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "설탕",
+          "amount": 1,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 1.5,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 1,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "소면을 삶아 찬물에 헹구고 물기를 뺀다.", "timer_sec": null },
-    { "text": "소스와 김치, 참기름을 넣고 비빈다.", "timer_sec": null }
+    {
+      "text": "소면을 삶아 찬물에 헹구고 물기를 뺀다.",
+      "timer_sec": null
+    },
+    {
+      "text": "소스와 김치, 참기름을 넣고 비빈다.",
+      "timer_sec": null
+    }
   ],
   "memo": "옵션: 오이, 계란, 김가루, 깨소금.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/비빔국수_간단.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "kiyong2",
+    "license": "by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+  }
 }
