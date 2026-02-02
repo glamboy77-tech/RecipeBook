@@ -1,0 +1,138 @@
+{
+  "id": "참치전_910247",
+  "title": "참치전",
+  "time_total_min": 20,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "전",
+    "부침"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "메인",
+      "items": [
+        {
+          "name": "참치",
+          "amount": 150,
+          "unit": "g",
+          "note": "물기 제거 (캔 용량은 보유한 제품 기준으로 조절)",
+          "scalable": true
+        },
+        {
+          "name": "계란",
+          "amount": 2,
+          "unit": "개",
+          "note": "",
+          "scalable": true
+        },
+        {
+          "name": "양파",
+          "amount": 0.25,
+          "unit": "개",
+          "note": "잘게 다짐",
+          "scalable": true
+        },
+        {
+          "name": "부침가루 또는 밀가루",
+          "amount": 2,
+          "unit": "큰술",
+          "note": "질면 약간 더 추가",
+          "scalable": true
+        },
+        {
+          "name": "소금",
+          "amount": null,
+          "unit": "",
+          "note": "한 꼬집",
+          "scalable": false
+        },
+        {
+          "name": "후추",
+          "amount": null,
+          "unit": "",
+          "note": "약간",
+          "scalable": false
+        },
+        {
+          "name": "식용유",
+          "amount": null,
+          "unit": "",
+          "note": "팬에 넉넉히",
+          "scalable": false
+        }
+      ]
+    }
+  ],
+  "ingredients": [
+    {
+      "name": "참치",
+      "amount": 150,
+      "unit": "g",
+      "note": "물기 제거 (캔 용량은 보유한 제품 기준으로 조절)",
+      "scalable": true
+    },
+    {
+      "name": "계란",
+      "amount": 2,
+      "unit": "개",
+      "note": "",
+      "scalable": true
+    },
+    {
+      "name": "양파",
+      "amount": 0.25,
+      "unit": "개",
+      "note": "잘게 다짐",
+      "scalable": true
+    },
+    {
+      "name": "부침가루 또는 밀가루",
+      "amount": 2,
+      "unit": "큰술",
+      "note": "질면 약간 더 추가",
+      "scalable": true
+    },
+    {
+      "name": "소금",
+      "amount": null,
+      "unit": "",
+      "note": "한 꼬집",
+      "scalable": false
+    },
+    {
+      "name": "후추",
+      "amount": null,
+      "unit": "",
+      "note": "약간",
+      "scalable": false
+    },
+    {
+      "name": "식용유",
+      "amount": null,
+      "unit": "",
+      "note": "팬에 넉넉히",
+      "scalable": false
+    }
+  ],
+  "steps": [
+    {
+      "text": "참치는 캔에서 꾹 눌러 기름/물기를 최대한 제거한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "볼에 참치, 다진 양파, 계란, 부침가루(또는 밀가루), 소금, 후추를 넣고 섞는다. 반죽이 질면 가루를 조금 더 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "중불로 달군 팬에 식용유를 넉넉히 두르고 숟가락으로 반죽을 떠서 동그랗게 올린다.",
+      "timer_sec": null
+    },
+    {
+      "text": "한 면당 2~3분씩 노릇하게 굽고 뒤집어 마저 굽는다.",
+      "timer_sec": null
+    }
+  ],
+  "memo": "업그레이드 옵션: 1) 고소하게: 마요네즈 1큰술 추가. 2) 아이용: 양파를 줄이고 설탕 한 꼬집 또는 우유 1큰술. 3) 술안주: 다진 청양고추 1/2개 + 간장 1작은술. 4) 바삭하게: 부침가루 대신 튀김가루 + 기름 넉넉히.",
+  "source": ""
+}
