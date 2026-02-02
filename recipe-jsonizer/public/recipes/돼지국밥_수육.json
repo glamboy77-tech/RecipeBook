@@ -12,41 +12,175 @@
     {
       "name": "재료",
       "items": [
-        { "name": "한돈 앞다리살", "amount": 1, "unit": "kg", "note": "재료", "scalable": true },
-        { "name": "물", "amount": 3, "unit": "L", "note": "육수", "scalable": true },
-        { "name": "대파", "amount": 1, "unit": "대", "note": "육수", "scalable": true },
-        { "name": "통후추", "amount": 10, "unit": "알", "note": "육수", "scalable": true },
-        { "name": "생강", "amount": 2, "unit": "조각", "note": "옵션", "scalable": true },
-        { "name": "밥", "amount": null, "unit": "", "note": "국밥", "scalable": false },
-        { "name": "새우젓", "amount": null, "unit": "", "note": "간 맞춤", "scalable": false },
-        { "name": "소금", "amount": null, "unit": "", "note": "간 맞춤", "scalable": false },
-        { "name": "후추", "amount": null, "unit": "", "note": "간 맞춤", "scalable": false },
-        { "name": "부추", "amount": null, "unit": "", "note": "한줌", "scalable": false },
-        { "name": "파송송", "amount": null, "unit": "", "note": "고명", "scalable": false }
+        {
+          "name": "한돈 앞다리살",
+          "amount": 1,
+          "unit": "kg",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "물",
+          "amount": 3,
+          "unit": "L",
+          "note": "육수",
+          "scalable": true
+        },
+        {
+          "name": "대파",
+          "amount": 1,
+          "unit": "대",
+          "note": "육수",
+          "scalable": true
+        },
+        {
+          "name": "통후추",
+          "amount": 10,
+          "unit": "알",
+          "note": "육수",
+          "scalable": true
+        },
+        {
+          "name": "생강",
+          "amount": 2,
+          "unit": "조각",
+          "note": "옵션",
+          "scalable": true
+        },
+        {
+          "name": "밥",
+          "amount": null,
+          "unit": "",
+          "note": "국밥",
+          "scalable": false
+        },
+        {
+          "name": "새우젓",
+          "amount": null,
+          "unit": "",
+          "note": "간 맞춤",
+          "scalable": false
+        },
+        {
+          "name": "소금",
+          "amount": null,
+          "unit": "",
+          "note": "간 맞춤",
+          "scalable": false
+        },
+        {
+          "name": "후추",
+          "amount": null,
+          "unit": "",
+          "note": "간 맞춤",
+          "scalable": false
+        },
+        {
+          "name": "부추",
+          "amount": null,
+          "unit": "",
+          "note": "한줌",
+          "scalable": false
+        },
+        {
+          "name": "파송송",
+          "amount": null,
+          "unit": "",
+          "note": "고명",
+          "scalable": false
+        }
       ]
     },
     {
       "name": "다대기",
       "items": [
-        { "name": "고춧가루", "amount": 3, "unit": "TB", "note": "다대기", "scalable": true },
-        { "name": "다진마늘", "amount": 2, "unit": "TB", "note": "다대기", "scalable": true },
-        { "name": "쇠고기 다시다", "amount": 0.5, "unit": "TB", "note": "다대기", "scalable": true },
-        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
-        { "name": "고추기름", "amount": 2, "unit": "TB", "note": "다대기", "scalable": true },
-        { "name": "뜨거운 국밥 육수", "amount": 2, "unit": "TB", "note": "다대기", "scalable": true }
+        {
+          "name": "고춧가루",
+          "amount": 3,
+          "unit": "TB",
+          "note": "다대기",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 2,
+          "unit": "TB",
+          "note": "다대기",
+          "scalable": true
+        },
+        {
+          "name": "쇠고기 다시다",
+          "amount": 0.5,
+          "unit": "TB",
+          "note": "다대기",
+          "scalable": true
+        },
+        {
+          "name": "후추",
+          "amount": null,
+          "unit": "",
+          "note": "톡톡",
+          "scalable": false
+        },
+        {
+          "name": "고추기름",
+          "amount": 2,
+          "unit": "TB",
+          "note": "다대기",
+          "scalable": true
+        },
+        {
+          "name": "뜨거운 국밥 육수",
+          "amount": 2,
+          "unit": "TB",
+          "note": "다대기",
+          "scalable": true
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "냄비에 물, 대파, 통후추(옵션 생강)를 넣고 찬물에서 불을 켠다.", "timer_sec": null },
-    { "text": "끓기 시작하면 거품을 1회 제거한다.", "timer_sec": null },
-    { "text": "뚜껑을 열고 중약불을 유지한다.", "timer_sec": null },
-    { "text": "총 60분 끓인다.", "timer_sec": 3600 },
-    { "text": "불을 끄고 뚜껑을 덮어 10분간 뜸을 들인다.", "timer_sec": 600 },
-    { "text": "고기를 건져 20분 식힌 뒤 썰어 수육을 준비한다.", "timer_sec": 1200 },
-    { "text": "국물을 체에 한번 거르고, 위에 뜬 기름 10~20%만 제거한다.", "timer_sec": null },
-    { "text": "밥에 국물을 붓고 수육, 새우젓, 소금, 후추, 부추, 파송송을 올린다.", "timer_sec": null }
+    {
+      "text": "냄비에 물, 대파, 통후추(옵션 생강)를 넣고 찬물에서 불을 켠다.",
+      "timer_sec": null
+    },
+    {
+      "text": "끓기 시작하면 거품을 1회 제거한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "뚜껑을 열고 중약불을 유지한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "총 60분 끓인다.",
+      "timer_sec": 3600
+    },
+    {
+      "text": "불을 끄고 뚜껑을 덮어 10분간 뜸을 들인다.",
+      "timer_sec": 600
+    },
+    {
+      "text": "고기를 건져 20분 식힌 뒤 썰어 수육을 준비한다.",
+      "timer_sec": 1200
+    },
+    {
+      "text": "국물을 체에 한번 거르고, 위에 뜬 기름 10~20%만 제거한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "밥에 국물을 붓고 수육, 새우젓, 소금, 후추, 부추, 파송송을 올린다.",
+      "timer_sec": null
+    }
   ],
   "memo": "수육은 국밥용은 얇게, 반찬용은 도톰하게 썬다.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/돼지국밥_수육.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "TFurban",
+    "license": "by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+  }
 }

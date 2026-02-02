@@ -13,40 +13,153 @@
     {
       "name": "면",
       "items": [
-        { "name": "소면", "amount": 200, "unit": "g", "note": "메인", "scalable": true }
+        {
+          "name": "소면",
+          "amount": 200,
+          "unit": "g",
+          "note": "메인",
+          "scalable": true
+        }
       ]
     },
     {
       "name": "국물",
       "items": [
-        { "name": "김치(석박지)국물", "amount": 300, "unit": "ml", "note": "국물", "scalable": true },
-        { "name": "스프라이트제로", "amount": 300, "unit": "ml", "note": "국물", "scalable": true },
-        { "name": "물", "amount": 400, "unit": "ml", "note": "국물", "scalable": true },
-        { "name": "소고기다시다", "amount": 1, "unit": "t", "note": "간", "scalable": true },
-        { "name": "설탕", "amount": 1, "unit": "TB", "note": "간", "scalable": true },
-        { "name": "사과식초", "amount": 2, "unit": "TB", "note": "간", "scalable": true },
-        { "name": "겨자", "amount": 0.5, "unit": "t", "note": "간", "scalable": true },
-        { "name": "진간장", "amount": 1, "unit": "TB", "note": "간", "scalable": true },
-        { "name": "고추가루", "amount": 1, "unit": "t", "note": "간", "scalable": true }
+        {
+          "name": "김치(석박지)국물",
+          "amount": 300,
+          "unit": "ml",
+          "note": "국물",
+          "scalable": true
+        },
+        {
+          "name": "스프라이트제로",
+          "amount": 300,
+          "unit": "ml",
+          "note": "국물",
+          "scalable": true
+        },
+        {
+          "name": "물",
+          "amount": 400,
+          "unit": "ml",
+          "note": "국물",
+          "scalable": true
+        },
+        {
+          "name": "소고기다시다",
+          "amount": 1,
+          "unit": "t",
+          "note": "간",
+          "scalable": true
+        },
+        {
+          "name": "설탕",
+          "amount": 1,
+          "unit": "TB",
+          "note": "간",
+          "scalable": true
+        },
+        {
+          "name": "사과식초",
+          "amount": 2,
+          "unit": "TB",
+          "note": "간",
+          "scalable": true
+        },
+        {
+          "name": "겨자",
+          "amount": 0.5,
+          "unit": "t",
+          "note": "간",
+          "scalable": true
+        },
+        {
+          "name": "진간장",
+          "amount": 1,
+          "unit": "TB",
+          "note": "간",
+          "scalable": true
+        },
+        {
+          "name": "고추가루",
+          "amount": 1,
+          "unit": "t",
+          "note": "간",
+          "scalable": true
+        }
       ]
     },
     {
       "name": "고명",
       "items": [
-        { "name": "참깨", "amount": 1, "unit": "t", "note": "고명", "scalable": true },
-        { "name": "갈은깨", "amount": 1, "unit": "t", "note": "고명", "scalable": true },
-        { "name": "김가루", "amount": 2, "unit": "TB", "note": "고명", "scalable": true },
-        { "name": "익은김치", "amount": 100, "unit": "g", "note": "고명", "scalable": true },
-        { "name": "참기름", "amount": 5, "unit": "ml", "note": "고명", "scalable": true },
-        { "name": "다진마늘", "amount": 0.5, "unit": "TB", "note": "고명", "scalable": true }
+        {
+          "name": "참깨",
+          "amount": 1,
+          "unit": "t",
+          "note": "고명",
+          "scalable": true
+        },
+        {
+          "name": "갈은깨",
+          "amount": 1,
+          "unit": "t",
+          "note": "고명",
+          "scalable": true
+        },
+        {
+          "name": "김가루",
+          "amount": 2,
+          "unit": "TB",
+          "note": "고명",
+          "scalable": true
+        },
+        {
+          "name": "익은김치",
+          "amount": 100,
+          "unit": "g",
+          "note": "고명",
+          "scalable": true
+        },
+        {
+          "name": "참기름",
+          "amount": 5,
+          "unit": "ml",
+          "note": "고명",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 0.5,
+          "unit": "TB",
+          "note": "고명",
+          "scalable": true
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "국물 재료를 모두 섞어 맛을 보고, 냉장고에 차게 보관한다.", "timer_sec": null },
-    { "text": "소면을 삶아 찬물에 헹군 뒤 물기를 뺀다.", "timer_sec": null },
-    { "text": "면 위에 차가운 국물을 붓고 고명을 올린다.", "timer_sec": null }
+    {
+      "text": "국물 재료를 모두 섞어 맛을 보고, 냉장고에 차게 보관한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "소면을 삶아 찬물에 헹군 뒤 물기를 뺀다.",
+      "timer_sec": null
+    },
+    {
+      "text": "면 위에 차가운 국물을 붓고 고명을 올린다.",
+      "timer_sec": null
+    }
   ],
   "memo": "김치국물의 신맛에 따라 설탕/식초 양을 조절.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/김치말이국수.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "candypower",
+    "license": "by-nd",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/"
+  }
 }

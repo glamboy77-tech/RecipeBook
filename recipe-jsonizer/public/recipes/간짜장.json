@@ -11,28 +11,120 @@
     {
       "name": "재료",
       "items": [
-        { "name": "돼지고기", "amount": 80, "unit": "g", "note": "곱빼기 기준", "scalable": true },
-        { "name": "양파", "amount": 250, "unit": "g", "note": "1cm 큐브", "scalable": true },
-        { "name": "대파", "amount": 10, "unit": "g", "note": "재료", "scalable": true },
-        { "name": "다진마늘", "amount": 0.5, "unit": "t", "note": "재료", "scalable": true },
-        { "name": "식용유", "amount": 1, "unit": "TB", "note": "1차", "scalable": true },
-        { "name": "진간장", "amount": 0.5, "unit": "t", "note": "향내기", "scalable": true },
-        { "name": "식용유", "amount": 1, "unit": "TB", "note": "2차", "scalable": true },
-        { "name": "춘장", "amount": 1, "unit": "TB", "note": "재료", "scalable": true },
-        { "name": "미원", "amount": 0.5, "unit": "t", "note": "재료", "scalable": true },
-        { "name": "설탕", "amount": 0.5, "unit": "t", "note": "재료", "scalable": true },
-        { "name": "올리고당", "amount": 0.5, "unit": "TB", "note": "재료", "scalable": true }
+        {
+          "name": "돼지고기",
+          "amount": 80,
+          "unit": "g",
+          "note": "곱빼기 기준",
+          "scalable": true
+        },
+        {
+          "name": "양파",
+          "amount": 250,
+          "unit": "g",
+          "note": "1cm 큐브",
+          "scalable": true
+        },
+        {
+          "name": "대파",
+          "amount": 10,
+          "unit": "g",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 0.5,
+          "unit": "t",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "식용유",
+          "amount": 1,
+          "unit": "TB",
+          "note": "1차",
+          "scalable": true
+        },
+        {
+          "name": "진간장",
+          "amount": 0.5,
+          "unit": "t",
+          "note": "향내기",
+          "scalable": true
+        },
+        {
+          "name": "식용유",
+          "amount": 1,
+          "unit": "TB",
+          "note": "2차",
+          "scalable": true
+        },
+        {
+          "name": "춘장",
+          "amount": 1,
+          "unit": "TB",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "미원",
+          "amount": 0.5,
+          "unit": "t",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "설탕",
+          "amount": 0.5,
+          "unit": "t",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "올리고당",
+          "amount": 0.5,
+          "unit": "TB",
+          "note": "재료",
+          "scalable": true
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "팬에 불을 올려 연기가 나기 시작하면 불을 끈다.", "timer_sec": null },
-    { "text": "식용유를 넣고 대파, 마늘을 5초 정도 섞어준다.", "timer_sec": null },
-    { "text": "다시 불을 켜고 고기와 양파를 넣고 1분 볶아준다.", "timer_sec": null },
-    { "text": "진간장을 넣고 간장향을 입혀준다.", "timer_sec": null },
-    { "text": "식용유를 다시 넣고 섞다가 춘장을 넣고 섞으며 불을 끈다.", "timer_sec": null },
-    { "text": "미원, 설탕, 올리고당을 넣고 섞는다.", "timer_sec": null }
+    {
+      "text": "팬에 불을 올려 연기가 나기 시작하면 불을 끈다.",
+      "timer_sec": null
+    },
+    {
+      "text": "식용유를 넣고 대파, 마늘을 5초 정도 섞어준다.",
+      "timer_sec": null
+    },
+    {
+      "text": "다시 불을 켜고 고기와 양파를 넣고 1분 볶아준다.",
+      "timer_sec": null
+    },
+    {
+      "text": "진간장을 넣고 간장향을 입혀준다.",
+      "timer_sec": null
+    },
+    {
+      "text": "식용유를 다시 넣고 섞다가 춘장을 넣고 섞으며 불을 끈다.",
+      "timer_sec": null
+    },
+    {
+      "text": "미원, 설탕, 올리고당을 넣고 섞는다.",
+      "timer_sec": null
+    }
   ],
   "memo": "면은 취향대로 곁들임.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/간짜장.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "TFurban",
+    "license": "by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+  }
 }

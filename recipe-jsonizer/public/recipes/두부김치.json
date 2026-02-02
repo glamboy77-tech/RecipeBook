@@ -12,33 +12,128 @@
     {
       "name": "재료",
       "items": [
-        { "name": "두부", "amount": 1, "unit": "모", "note": "메인", "scalable": true },
-        { "name": "삼겹살", "amount": 200, "unit": "g", "note": "메인", "scalable": true },
-        { "name": "김치", "amount": 300, "unit": "g", "note": "메인", "scalable": true },
-        { "name": "식용유", "amount": 1, "unit": "TB", "note": "볶음", "scalable": true },
-        { "name": "설탕", "amount": 0.5, "unit": "TB", "note": "간", "scalable": true },
-        { "name": "간장", "amount": 1, "unit": "TB", "note": "간", "scalable": true },
-        { "name": "물", "amount": 100, "unit": "ml", "note": "볶음", "scalable": true },
-        { "name": "고춧가루", "amount": 1.5, "unit": "TB", "note": "볶음", "scalable": true },
-        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "볶음", "scalable": true }
+        {
+          "name": "두부",
+          "amount": 1,
+          "unit": "모",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "삼겹살",
+          "amount": 200,
+          "unit": "g",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "김치",
+          "amount": 300,
+          "unit": "g",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "식용유",
+          "amount": 1,
+          "unit": "TB",
+          "note": "볶음",
+          "scalable": true
+        },
+        {
+          "name": "설탕",
+          "amount": 0.5,
+          "unit": "TB",
+          "note": "간",
+          "scalable": true
+        },
+        {
+          "name": "간장",
+          "amount": 1,
+          "unit": "TB",
+          "note": "간",
+          "scalable": true
+        },
+        {
+          "name": "물",
+          "amount": 100,
+          "unit": "ml",
+          "note": "볶음",
+          "scalable": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 1.5,
+          "unit": "TB",
+          "note": "볶음",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 1,
+          "unit": "TB",
+          "note": "볶음",
+          "scalable": true
+        }
       ]
     },
     {
       "name": "옵션",
       "items": [
-        { "name": "양파", "amount": 0.5, "unit": "개", "note": "옵션", "scalable": true },
-        { "name": "대파", "amount": 0.5, "unit": "대", "note": "옵션", "scalable": true },
-        { "name": "고추", "amount": 1, "unit": "개", "note": "옵션", "scalable": true }
+        {
+          "name": "양파",
+          "amount": 0.5,
+          "unit": "개",
+          "note": "옵션",
+          "scalable": true
+        },
+        {
+          "name": "대파",
+          "amount": 0.5,
+          "unit": "대",
+          "note": "옵션",
+          "scalable": true
+        },
+        {
+          "name": "고추",
+          "amount": 1,
+          "unit": "개",
+          "note": "옵션",
+          "scalable": true
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "두부는 끓는 물에 데친 뒤 먹기 좋은 크기로 썬다.", "timer_sec": null },
-    { "text": "팬에 삼겹살을 노릇하게 굽고 식용유를 두른다.", "timer_sec": null },
-    { "text": "설탕과 간장을 넣어 카라멜화되기 전에 물과 고춧가루, 김치를 넣는다.", "timer_sec": null },
-    { "text": "볶다가 다진마늘을 넣고, 필요하면 양파/대파/고추를 넣는다.", "timer_sec": null },
-    { "text": "두부 위에 볶은 김치를 곁들여 담는다.", "timer_sec": null }
+    {
+      "text": "두부는 끓는 물에 데친 뒤 먹기 좋은 크기로 썬다.",
+      "timer_sec": null
+    },
+    {
+      "text": "팬에 삼겹살을 노릇하게 굽고 식용유를 두른다.",
+      "timer_sec": null
+    },
+    {
+      "text": "설탕과 간장을 넣어 카라멜화되기 전에 물과 고춧가루, 김치를 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "볶다가 다진마늘을 넣고, 필요하면 양파/대파/고추를 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "두부 위에 볶은 김치를 곁들여 담는다.",
+      "timer_sec": null
+    }
   ],
   "memo": "두부는 데친 후 찬물에 헹구면 단단해짐.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/두부김치.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "KFoodaddict",
+    "license": "by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
 }

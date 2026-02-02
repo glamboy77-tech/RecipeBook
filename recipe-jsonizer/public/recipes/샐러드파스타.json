@@ -11,26 +11,85 @@
     {
       "name": "샐러드",
       "items": [
-        { "name": "샐러드믹스", "amount": null, "unit": "", "note": "샐러드", "scalable": false },
-        { "name": "토마토", "amount": null, "unit": "", "note": "샐러드", "scalable": false },
-        { "name": "드레싱", "amount": null, "unit": "", "note": "샐러드", "scalable": false }
+        {
+          "name": "샐러드믹스",
+          "amount": null,
+          "unit": "",
+          "note": "샐러드",
+          "scalable": false
+        },
+        {
+          "name": "토마토",
+          "amount": null,
+          "unit": "",
+          "note": "샐러드",
+          "scalable": false
+        },
+        {
+          "name": "드레싱",
+          "amount": null,
+          "unit": "",
+          "note": "샐러드",
+          "scalable": false
+        }
       ]
     },
     {
       "name": "샐러드드레싱",
       "items": [
-        { "name": "올리브유", "amount": null, "unit": "", "note": "드레싱", "scalable": false },
-        { "name": "레몬즙", "amount": null, "unit": "", "note": "드레싱", "scalable": false },
-        { "name": "소금", "amount": null, "unit": "", "note": "드레싱", "scalable": false },
-        { "name": "후추", "amount": null, "unit": "", "note": "드레싱", "scalable": false }
+        {
+          "name": "올리브유",
+          "amount": null,
+          "unit": "",
+          "note": "드레싱",
+          "scalable": false
+        },
+        {
+          "name": "레몬즙",
+          "amount": null,
+          "unit": "",
+          "note": "드레싱",
+          "scalable": false
+        },
+        {
+          "name": "소금",
+          "amount": null,
+          "unit": "",
+          "note": "드레싱",
+          "scalable": false
+        },
+        {
+          "name": "후추",
+          "amount": null,
+          "unit": "",
+          "note": "드레싱",
+          "scalable": false
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "알리오올리오를 만든다(소금 대신 파마산으로 간한다).", "timer_sec": null },
-    { "text": "샐러드(샐러드믹스+토마토+드레싱)를 섞어준다.", "timer_sec": null },
-    { "text": "파스타 위에 샐러드를 올려 마무리한다.", "timer_sec": null }
+    {
+      "text": "알리오올리오를 만든다(소금 대신 파마산으로 간한다).",
+      "timer_sec": null
+    },
+    {
+      "text": "샐러드(샐러드믹스+토마토+드레싱)를 섞어준다.",
+      "timer_sec": null
+    },
+    {
+      "text": "파스타 위에 샐러드를 올려 마무리한다.",
+      "timer_sec": null
+    }
   ],
   "memo": "알리오올리오 기본 레시피 위에 샐러드를 올리는 구성.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/샐러드파스타.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "wikimedia",
+    "creator": "Haam819",
+    "license": "by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
 }

@@ -11,27 +11,113 @@
     {
       "name": "재료",
       "items": [
-        { "name": "영계", "amount": 3, "unit": "마리", "note": "400~450g", "scalable": true },
-        { "name": "물", "amount": 2.5, "unit": "L", "note": "육수", "scalable": true },
-        { "name": "통마늘", "amount": null, "unit": "", "note": "재료", "scalable": false },
-        { "name": "찹쌀", "amount": null, "unit": "", "note": "재료", "scalable": false },
-        { "name": "한방재료", "amount": null, "unit": "", "note": "재료", "scalable": false },
-        { "name": "대추", "amount": null, "unit": "", "note": "재료", "scalable": false },
-        { "name": "수삼", "amount": null, "unit": "", "note": "재료", "scalable": false },
-        { "name": "전복", "amount": null, "unit": "", "note": "옵션(마지막 10분)", "scalable": false },
-        { "name": "파뿌리", "amount": null, "unit": "", "note": "재료", "scalable": false },
-        { "name": "대파", "amount": null, "unit": "", "note": "재료", "scalable": false }
+        {
+          "name": "영계",
+          "amount": 3,
+          "unit": "마리",
+          "note": "400~450g",
+          "scalable": true
+        },
+        {
+          "name": "물",
+          "amount": 2.5,
+          "unit": "L",
+          "note": "육수",
+          "scalable": true
+        },
+        {
+          "name": "통마늘",
+          "amount": null,
+          "unit": "",
+          "note": "재료",
+          "scalable": false
+        },
+        {
+          "name": "찹쌀",
+          "amount": null,
+          "unit": "",
+          "note": "재료",
+          "scalable": false
+        },
+        {
+          "name": "한방재료",
+          "amount": null,
+          "unit": "",
+          "note": "재료",
+          "scalable": false
+        },
+        {
+          "name": "대추",
+          "amount": null,
+          "unit": "",
+          "note": "재료",
+          "scalable": false
+        },
+        {
+          "name": "수삼",
+          "amount": null,
+          "unit": "",
+          "note": "재료",
+          "scalable": false
+        },
+        {
+          "name": "전복",
+          "amount": null,
+          "unit": "",
+          "note": "옵션(마지막 10분)",
+          "scalable": false
+        },
+        {
+          "name": "파뿌리",
+          "amount": null,
+          "unit": "",
+          "note": "재료",
+          "scalable": false
+        },
+        {
+          "name": "대파",
+          "amount": null,
+          "unit": "",
+          "note": "재료",
+          "scalable": false
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "찹쌀은 1시간 정도 불린다.", "timer_sec": 3600 },
-    { "text": "닭 손질 전에 한방재료를 넣고 육수를 낸다.", "timer_sec": null },
-    { "text": "손질한 닭 속에 찹쌀, 대추, 마늘 등을 넣는다.", "timer_sec": null },
-    { "text": "바닥에 찹쌀을 깔고 닭, 대추, 마늘, 파뿌리, 대파를 넣고 끓인다.", "timer_sec": null },
-    { "text": "센불로 10분, 중불로 1시간 끓인다.", "timer_sec": 4200 },
-    { "text": "전복은 마지막 10분 전에 넣는다.", "timer_sec": 600 }
+    {
+      "text": "찹쌀은 1시간 정도 불린다.",
+      "timer_sec": 3600
+    },
+    {
+      "text": "닭 손질 전에 한방재료를 넣고 육수를 낸다.",
+      "timer_sec": null
+    },
+    {
+      "text": "손질한 닭 속에 찹쌀, 대추, 마늘 등을 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "바닥에 찹쌀을 깔고 닭, 대추, 마늘, 파뿌리, 대파를 넣고 끓인다.",
+      "timer_sec": null
+    },
+    {
+      "text": "센불로 10분, 중불로 1시간 끓인다.",
+      "timer_sec": 4200
+    },
+    {
+      "text": "전복은 마지막 10분 전에 넣는다.",
+      "timer_sec": 600
+    }
   ],
   "memo": "큰 닭일 경우 1인당 반마리 기준.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/삼계탕.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "Matt@PEK",
+    "license": "by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+  }
 }

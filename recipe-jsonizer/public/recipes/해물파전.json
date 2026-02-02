@@ -12,20 +12,70 @@
     {
       "name": "재료",
       "items": [
-        { "name": "해물믹스", "amount": 300, "unit": "g", "note": "메인", "scalable": true },
-        { "name": "대파", "amount": 100, "unit": "g", "note": "메인", "scalable": true },
-        { "name": "부침가루", "amount": 200, "unit": "g", "note": "반죽", "scalable": true },
-        { "name": "물", "amount": 300, "unit": "ml", "note": "반죽", "scalable": true },
-        { "name": "식용유", "amount": 3, "unit": "TB", "note": "부침용", "scalable": true }
+        {
+          "name": "해물믹스",
+          "amount": 300,
+          "unit": "g",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "대파",
+          "amount": 100,
+          "unit": "g",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "부침가루",
+          "amount": 200,
+          "unit": "g",
+          "note": "반죽",
+          "scalable": true
+        },
+        {
+          "name": "물",
+          "amount": 300,
+          "unit": "ml",
+          "note": "반죽",
+          "scalable": true
+        },
+        {
+          "name": "식용유",
+          "amount": 3,
+          "unit": "TB",
+          "note": "부침용",
+          "scalable": true
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "해물을 찬물에 10~15분 담가 해동한 뒤 물기를 뺀다.", "timer_sec": null },
-    { "text": "부침가루와 물을 섞어 반죽을 만든다.", "timer_sec": null },
-    { "text": "손질한 대파와 해물을 넣고 섞는다.", "timer_sec": null },
-    { "text": "중불에서 노릇하게 부친다.", "timer_sec": null }
+    {
+      "text": "해물을 찬물에 10~15분 담가 해동한 뒤 물기를 뺀다.",
+      "timer_sec": null
+    },
+    {
+      "text": "부침가루와 물을 섞어 반죽을 만든다.",
+      "timer_sec": null
+    },
+    {
+      "text": "손질한 대파와 해물을 넣고 섞는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "중불에서 노릇하게 부친다.",
+      "timer_sec": null
+    }
   ],
   "memo": "반죽 농도는 되직하게 조절.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/해물파전.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "Matt@PEK",
+    "license": "by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+  }
 }

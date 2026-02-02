@@ -11,45 +11,197 @@
     {
       "name": "재료",
       "items": [
-        { "name": "닭", "amount": 0.5, "unit": "마리", "note": "재료", "scalable": true },
-        { "name": "사과", "amount": 3, "unit": "조각", "note": "슬라이스", "scalable": true },
-        { "name": "버터", "amount": 1, "unit": "조각", "note": "재료", "scalable": true },
-        { "name": "식초", "amount": null, "unit": "", "note": "가니쉬", "scalable": false },
-        { "name": "설탕", "amount": null, "unit": "", "note": "가니쉬", "scalable": false },
-        { "name": "감자", "amount": null, "unit": "", "note": "가니쉬", "scalable": false },
-        { "name": "양파", "amount": null, "unit": "", "note": "가니쉬", "scalable": false },
-        { "name": "통마늘", "amount": null, "unit": "", "note": "가니쉬", "scalable": false },
-        { "name": "브로콜리", "amount": null, "unit": "", "note": "가니쉬", "scalable": false }
+        {
+          "name": "닭",
+          "amount": 0.5,
+          "unit": "마리",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "사과",
+          "amount": 3,
+          "unit": "조각",
+          "note": "슬라이스",
+          "scalable": true
+        },
+        {
+          "name": "버터",
+          "amount": 1,
+          "unit": "조각",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "식초",
+          "amount": null,
+          "unit": "",
+          "note": "가니쉬",
+          "scalable": false
+        },
+        {
+          "name": "설탕",
+          "amount": null,
+          "unit": "",
+          "note": "가니쉬",
+          "scalable": false
+        },
+        {
+          "name": "감자",
+          "amount": null,
+          "unit": "",
+          "note": "가니쉬",
+          "scalable": false
+        },
+        {
+          "name": "양파",
+          "amount": null,
+          "unit": "",
+          "note": "가니쉬",
+          "scalable": false
+        },
+        {
+          "name": "통마늘",
+          "amount": null,
+          "unit": "",
+          "note": "가니쉬",
+          "scalable": false
+        },
+        {
+          "name": "브로콜리",
+          "amount": null,
+          "unit": "",
+          "note": "가니쉬",
+          "scalable": false
+        }
       ]
     },
     {
       "name": "소스(3인분)",
       "items": [
-        { "name": "버터", "amount": 0.5, "unit": "조각", "note": "소스", "scalable": true },
-        { "name": "간마늘", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "간장", "amount": 1.5, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "우스타소스", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "식초", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "레몬즙", "amount": null, "unit": "", "note": "한번 쭈욱", "scalable": false },
-        { "name": "물", "amount": 0.5, "unit": "컵", "note": "120ml", "scalable": true },
-        { "name": "발사믹소스", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
-        { "name": "설탕", "amount": 1, "unit": "TB", "note": "간보면서", "scalable": true }
+        {
+          "name": "버터",
+          "amount": 0.5,
+          "unit": "조각",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "간마늘",
+          "amount": 1,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "간장",
+          "amount": 1.5,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "우스타소스",
+          "amount": 1,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "식초",
+          "amount": 1,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "레몬즙",
+          "amount": null,
+          "unit": "",
+          "note": "한번 쭈욱",
+          "scalable": false
+        },
+        {
+          "name": "물",
+          "amount": 0.5,
+          "unit": "컵",
+          "note": "120ml",
+          "scalable": true
+        },
+        {
+          "name": "발사믹소스",
+          "amount": 1,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "후추",
+          "amount": null,
+          "unit": "",
+          "note": "톡톡",
+          "scalable": false
+        },
+        {
+          "name": "설탕",
+          "amount": 1,
+          "unit": "TB",
+          "note": "간보면서",
+          "scalable": true
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "닭은 반으로 잘라 물기를 닦고 냉장고에 둬 수분을 뺀다.", "timer_sec": null },
-    { "text": "소금, 후추, 올리브유로 밑간을 한다.", "timer_sec": null },
-    { "text": "팬에 중불로 껍질쪽부터 굽는다.", "timer_sec": null },
-    { "text": "버터 한 숟갈과 로즈마리를 넣고 기름을 끼얹는다.", "timer_sec": null },
-    { "text": "팬에 기름 두르고 사과 슬라이스를 강불에 굽는다.", "timer_sec": null },
-    { "text": "가니쉬 재료를 굽는다.", "timer_sec": null },
-    { "text": "팬에 남은 기름으로 소스를 만든다.", "timer_sec": null },
-    { "text": "버터에 간마늘을 볶고 간장, 식초, 레몬즙, 우스타소스, 물, 설탕을 넣는다.", "timer_sec": null },
-    { "text": "불을 끄고 발사믹소스를 추가한다.", "timer_sec": null },
-    { "text": "접시에 소스를 깔고 치킨을 올려 크리스피를 유지한다.", "timer_sec": null }
+    {
+      "text": "닭은 반으로 잘라 물기를 닦고 냉장고에 둬 수분을 뺀다.",
+      "timer_sec": null
+    },
+    {
+      "text": "소금, 후추, 올리브유로 밑간을 한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "팬에 중불로 껍질쪽부터 굽는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "버터 한 숟갈과 로즈마리를 넣고 기름을 끼얹는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "팬에 기름 두르고 사과 슬라이스를 강불에 굽는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "가니쉬 재료를 굽는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "팬에 남은 기름으로 소스를 만든다.",
+      "timer_sec": null
+    },
+    {
+      "text": "버터에 간마늘을 볶고 간장, 식초, 레몬즙, 우스타소스, 물, 설탕을 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "불을 끄고 발사믹소스를 추가한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "접시에 소스를 깔고 치킨을 올려 크리스피를 유지한다.",
+      "timer_sec": null
+    }
   ],
   "memo": "소스는 접시 바닥에 깔아야 크리스피 유지.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/치킨스테이크.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "CAYL_PHOTO",
+    "license": "by-nd",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nd/2.0/"
+  }
 }

@@ -11,33 +11,131 @@
     {
       "name": "재료",
       "items": [
-        { "name": "동원 을지로 골뱅이", "amount": 300, "unit": "g", "note": "재료", "scalable": true },
-        { "name": "소면", "amount": 200, "unit": "g", "note": "재료", "scalable": true },
-        { "name": "오이채", "amount": null, "unit": "", "note": "고명", "scalable": false },
-        { "name": "파채", "amount": null, "unit": "", "note": "고명", "scalable": false },
-        { "name": "양파채", "amount": null, "unit": "", "note": "고명", "scalable": false },
-        { "name": "황태채", "amount": null, "unit": "", "note": "골뱅이 국물에 담가둠", "scalable": false }
+        {
+          "name": "동원 을지로 골뱅이",
+          "amount": 300,
+          "unit": "g",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "소면",
+          "amount": 200,
+          "unit": "g",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "오이채",
+          "amount": null,
+          "unit": "",
+          "note": "고명",
+          "scalable": false
+        },
+        {
+          "name": "파채",
+          "amount": null,
+          "unit": "",
+          "note": "고명",
+          "scalable": false
+        },
+        {
+          "name": "양파채",
+          "amount": null,
+          "unit": "",
+          "note": "고명",
+          "scalable": false
+        },
+        {
+          "name": "황태채",
+          "amount": null,
+          "unit": "",
+          "note": "골뱅이 국물에 담가둠",
+          "scalable": false
+        }
       ]
     },
     {
       "name": "양념장(숟갈)",
       "items": [
-        { "name": "초장", "amount": 3, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "식초", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "골뱅이 국물", "amount": 4, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "고춧가루", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "참기름", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "올리고당", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "깨소금", "amount": null, "unit": "", "note": "적당히", "scalable": false }
+        {
+          "name": "초장",
+          "amount": 3,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "식초",
+          "amount": 2,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "골뱅이 국물",
+          "amount": 4,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "고춧가루",
+          "amount": 1,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "참기름",
+          "amount": 1,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "올리고당",
+          "amount": 1,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "깨소금",
+          "amount": null,
+          "unit": "",
+          "note": "적당히",
+          "scalable": false
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "골뱅이 국물에 황태채를 담가둔다.", "timer_sec": null },
-    { "text": "오이채, 파채, 양파채를 준비한다.", "timer_sec": null },
-    { "text": "소면을 2분 30초 삶아 헹군다.", "timer_sec": 150 },
-    { "text": "양념장을 위에 뿌려 버무린다.", "timer_sec": null }
+    {
+      "text": "골뱅이 국물에 황태채를 담가둔다.",
+      "timer_sec": null
+    },
+    {
+      "text": "오이채, 파채, 양파채를 준비한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "소면을 2분 30초 삶아 헹군다.",
+      "timer_sec": 150
+    },
+    {
+      "text": "양념장을 위에 뿌려 버무린다.",
+      "timer_sec": null
+    }
   ],
   "memo": "면은 먹기 직전에 버무리기.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/골뱅이소면.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "aka_maya",
+    "license": "by-nc-nd",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/"
+  }
 }

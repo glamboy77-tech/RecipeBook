@@ -12,50 +12,208 @@
     {
       "name": "재료",
       "items": [
-        { "name": "청양고추", "amount": 5, "unit": "개", "note": "재료", "scalable": true },
-        { "name": "양파", "amount": 150, "unit": "g", "note": "재료", "scalable": true },
-        { "name": "쪽파", "amount": 50, "unit": "g", "note": "재료", "scalable": true },
-        { "name": "냉동아귀", "amount": 2, "unit": "kg", "note": "메인", "scalable": true },
-        { "name": "콩나물", "amount": 1, "unit": "kg", "note": "메인", "scalable": true },
-        { "name": "버터", "amount": 50, "unit": "g", "note": "재료", "scalable": true },
-        { "name": "식용유", "amount": 6, "unit": "TB", "note": "볶음", "scalable": true },
-        { "name": "물", "amount": 190, "unit": "ml", "note": "조리용", "scalable": true }
+        {
+          "name": "청양고추",
+          "amount": 5,
+          "unit": "개",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "양파",
+          "amount": 150,
+          "unit": "g",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "쪽파",
+          "amount": 50,
+          "unit": "g",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "냉동아귀",
+          "amount": 2,
+          "unit": "kg",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "콩나물",
+          "amount": 1,
+          "unit": "kg",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "버터",
+          "amount": 50,
+          "unit": "g",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "식용유",
+          "amount": 6,
+          "unit": "TB",
+          "note": "볶음",
+          "scalable": true
+        },
+        {
+          "name": "물",
+          "amount": 190,
+          "unit": "ml",
+          "note": "조리용",
+          "scalable": true
+        }
       ]
     },
     {
       "name": "소스",
       "items": [
-        { "name": "굵은고춧가루", "amount": 12, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "고운고춧가루", "amount": 4, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "다진마늘", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "굴소스", "amount": 4, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "미림", "amount": 4, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "매실액", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "간장", "amount": 4, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "설탕", "amount": 6, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "고추장", "amount": 4, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "다시다", "amount": 4, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "미원", "amount": 1, "unit": "TB", "note": "소스", "scalable": true }
+        {
+          "name": "굵은고춧가루",
+          "amount": 12,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "고운고춧가루",
+          "amount": 4,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 2,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "굴소스",
+          "amount": 4,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "미림",
+          "amount": 4,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "매실액",
+          "amount": 1,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "간장",
+          "amount": 4,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "설탕",
+          "amount": 6,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "고추장",
+          "amount": 4,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "다시다",
+          "amount": 4,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "미원",
+          "amount": 1,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        }
       ]
     },
     {
       "name": "전분물",
       "items": [
-        { "name": "전분", "amount": 3, "unit": "TB", "note": "전분물", "scalable": true },
-        { "name": "물", "amount": 9, "unit": "TB", "note": "전분물", "scalable": true }
+        {
+          "name": "전분",
+          "amount": 3,
+          "unit": "TB",
+          "note": "전분물",
+          "scalable": true
+        },
+        {
+          "name": "물",
+          "amount": 9,
+          "unit": "TB",
+          "note": "전분물",
+          "scalable": true
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "찬물에 아귀를 해동한 후 끓는 물에 1분 데친다.", "timer_sec": null },
-    { "text": "씻으며 불순물을 제거한다.", "timer_sec": null },
-    { "text": "식용유에 콩나물을 3분간 볶아 숨을 죽인다.", "timer_sec": null },
-    { "text": "양파채, 고추, 다진마늘 1TB와 소스를 넣고 3분 볶는다.", "timer_sec": null },
-    { "text": "아귀와 물 6TB를 넣는다.", "timer_sec": null },
-    { "text": "콩나물로 아귀를 덮고 쪽파와 버터를 올린다.", "timer_sec": null },
-    { "text": "물 반컵을 추가하고 2분간 끓인다.", "timer_sec": null },
-    { "text": "전분물을 넣고 마무리한다.", "timer_sec": null }
+    {
+      "text": "찬물에 아귀를 해동한 후 끓는 물에 1분 데친다.",
+      "timer_sec": null
+    },
+    {
+      "text": "씻으며 불순물을 제거한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "식용유에 콩나물을 3분간 볶아 숨을 죽인다.",
+      "timer_sec": null
+    },
+    {
+      "text": "양파채, 고추, 다진마늘 1TB와 소스를 넣고 3분 볶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "아귀와 물 6TB를 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "콩나물로 아귀를 덮고 쪽파와 버터를 올린다.",
+      "timer_sec": null
+    },
+    {
+      "text": "물 반컵을 추가하고 2분간 끓인다.",
+      "timer_sec": null
+    },
+    {
+      "text": "전분물을 넣고 마무리한다.",
+      "timer_sec": null
+    }
   ],
   "memo": "콩나물이 너무 익지 않게 시간 조절.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/아구찜.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "michaelseangallagher",
+    "license": "by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/"
+  }
 }

@@ -11,48 +11,197 @@
     {
       "name": "재료",
       "items": [
-        { "name": "돈다짐육", "amount": 1, "unit": "팩", "note": "재료", "scalable": true },
-        { "name": "가지", "amount": 1, "unit": "개", "note": "큰 것", "scalable": true },
-        { "name": "두부", "amount": 1, "unit": "모", "note": "재료", "scalable": true },
-        { "name": "버섯", "amount": null, "unit": "", "note": "한줌", "scalable": false }
+        {
+          "name": "돈다짐육",
+          "amount": 1,
+          "unit": "팩",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "가지",
+          "amount": 1,
+          "unit": "개",
+          "note": "큰 것",
+          "scalable": true
+        },
+        {
+          "name": "두부",
+          "amount": 1,
+          "unit": "모",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "버섯",
+          "amount": null,
+          "unit": "",
+          "note": "한줌",
+          "scalable": false
+        }
       ]
     },
     {
       "name": "양념",
       "items": [
-        { "name": "고추기름", "amount": null, "unit": "", "note": "볶음", "scalable": false },
-        { "name": "다진마늘", "amount": null, "unit": "", "note": "볶음", "scalable": false },
-        { "name": "간장", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "생강술", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "미림", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "물", "amount": 500, "unit": "ml", "note": "육수", "scalable": true },
-        { "name": "치킨스톡", "amount": 1.5, "unit": "t", "note": "양념", "scalable": true },
-        { "name": "설탕", "amount": 1, "unit": "t", "note": "양념", "scalable": true },
-        { "name": "두반장", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "굴소스", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
-        { "name": "미원", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
-        { "name": "산초", "amount": null, "unit": "", "note": "산초기름 또는 산초", "scalable": false },
-        { "name": "참기름", "amount": 0.5, "unit": "TB", "note": "마무리", "scalable": true }
+        {
+          "name": "고추기름",
+          "amount": null,
+          "unit": "",
+          "note": "볶음",
+          "scalable": false
+        },
+        {
+          "name": "다진마늘",
+          "amount": null,
+          "unit": "",
+          "note": "볶음",
+          "scalable": false
+        },
+        {
+          "name": "간장",
+          "amount": 1,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "생강술",
+          "amount": 1,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "미림",
+          "amount": 1,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "물",
+          "amount": 500,
+          "unit": "ml",
+          "note": "육수",
+          "scalable": true
+        },
+        {
+          "name": "치킨스톡",
+          "amount": 1.5,
+          "unit": "t",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "설탕",
+          "amount": 1,
+          "unit": "t",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "두반장",
+          "amount": 1,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "굴소스",
+          "amount": 2,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "후추",
+          "amount": null,
+          "unit": "",
+          "note": "톡톡",
+          "scalable": false
+        },
+        {
+          "name": "미원",
+          "amount": null,
+          "unit": "",
+          "note": "톡톡",
+          "scalable": false
+        },
+        {
+          "name": "산초",
+          "amount": null,
+          "unit": "",
+          "note": "산초기름 또는 산초",
+          "scalable": false
+        },
+        {
+          "name": "참기름",
+          "amount": 0.5,
+          "unit": "TB",
+          "note": "마무리",
+          "scalable": true
+        }
       ]
     },
     {
       "name": "전분물",
       "items": [
-        { "name": "전분", "amount": null, "unit": "", "note": "전분물", "scalable": false },
-        { "name": "물", "amount": null, "unit": "", "note": "전분물", "scalable": false }
+        {
+          "name": "전분",
+          "amount": null,
+          "unit": "",
+          "note": "전분물",
+          "scalable": false
+        },
+        {
+          "name": "물",
+          "amount": null,
+          "unit": "",
+          "note": "전분물",
+          "scalable": false
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "고추기름에 돈다짐육을 볶는다.", "timer_sec": null },
-    { "text": "어느 정도 익기 시작하면 다진마늘, 버섯 등을 넣고 볶는다.", "timer_sec": null },
-    { "text": "간장 1, 생강술 1, 미림 1을 넣는다.", "timer_sec": null },
-    { "text": "물 500ml, 치킨스톡 1.5, 설탕 1, 두반장 1, 굴소스 2, 후추/미원을 넣는다.", "timer_sec": null },
-    { "text": "전분물을 넣고 가지와 두부를 넣는다.", "timer_sec": null },
-    { "text": "산초기름이나 산초, 고추기름을 넣고 마무리한다.", "timer_sec": null },
-    { "text": "참기름은 반 스푼만 넣는다.", "timer_sec": null }
+    {
+      "text": "고추기름에 돈다짐육을 볶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "어느 정도 익기 시작하면 다진마늘, 버섯 등을 넣고 볶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "간장 1, 생강술 1, 미림 1을 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "물 500ml, 치킨스톡 1.5, 설탕 1, 두반장 1, 굴소스 2, 후추/미원을 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "전분물을 넣고 가지와 두부를 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "산초기름이나 산초, 고추기름을 넣고 마무리한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "참기름은 반 스푼만 넣는다.",
+      "timer_sec": null
+    }
   ],
   "memo": "전분물 양은 농도 보면서 조절.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/마파두부.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "TFurban",
+    "license": "by-nc-nd",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/"
+  }
 }

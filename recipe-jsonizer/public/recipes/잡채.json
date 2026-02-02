@@ -11,30 +11,137 @@
     {
       "name": "재료",
       "items": [
-        { "name": "당면", "amount": 100, "unit": "g", "note": "재료", "scalable": true },
-        { "name": "참기름", "amount": 1, "unit": "TB", "note": "당면", "scalable": true },
-        { "name": "식용유", "amount": 1, "unit": "TB", "note": "당면", "scalable": true },
-        { "name": "식용유", "amount": 2, "unit": "TB", "note": "볶음", "scalable": true },
-        { "name": "돼지고기", "amount": 200, "unit": "g", "note": "재료", "scalable": true },
-        { "name": "다진마늘", "amount": 0.5, "unit": "TB", "note": "재료", "scalable": true },
-        { "name": "버섯", "amount": 1, "unit": "개", "note": "재료", "scalable": true },
-        { "name": "애호박", "amount": 0.17, "unit": "개", "note": "1/6개", "scalable": true },
-        { "name": "당근", "amount": 50, "unit": "g", "note": "재료", "scalable": true },
-        { "name": "냉장고 야채", "amount": null, "unit": "", "note": "추가 가능", "scalable": false },
-        { "name": "간장", "amount": null, "unit": "", "note": "간", "scalable": false },
-        { "name": "설탕", "amount": null, "unit": "", "note": "간", "scalable": false },
-        { "name": "다시다", "amount": null, "unit": "", "note": "간", "scalable": false },
-        { "name": "미원", "amount": null, "unit": "", "note": "간", "scalable": false }
+        {
+          "name": "당면",
+          "amount": 100,
+          "unit": "g",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "참기름",
+          "amount": 1,
+          "unit": "TB",
+          "note": "당면",
+          "scalable": true
+        },
+        {
+          "name": "식용유",
+          "amount": 1,
+          "unit": "TB",
+          "note": "당면",
+          "scalable": true
+        },
+        {
+          "name": "식용유",
+          "amount": 2,
+          "unit": "TB",
+          "note": "볶음",
+          "scalable": true
+        },
+        {
+          "name": "돼지고기",
+          "amount": 200,
+          "unit": "g",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 0.5,
+          "unit": "TB",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "버섯",
+          "amount": 1,
+          "unit": "개",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "애호박",
+          "amount": 0.17,
+          "unit": "개",
+          "note": "1/6개",
+          "scalable": true
+        },
+        {
+          "name": "당근",
+          "amount": 50,
+          "unit": "g",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "냉장고 야채",
+          "amount": null,
+          "unit": "",
+          "note": "추가 가능",
+          "scalable": false
+        },
+        {
+          "name": "간장",
+          "amount": null,
+          "unit": "",
+          "note": "간",
+          "scalable": false
+        },
+        {
+          "name": "설탕",
+          "amount": null,
+          "unit": "",
+          "note": "간",
+          "scalable": false
+        },
+        {
+          "name": "다시다",
+          "amount": null,
+          "unit": "",
+          "note": "간",
+          "scalable": false
+        },
+        {
+          "name": "미원",
+          "amount": null,
+          "unit": "",
+          "note": "간",
+          "scalable": false
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "당면은 찬물에 넣고 불을 켠 뒤 끓기 시작하면 4분만 끓인다.", "timer_sec": 240 },
-    { "text": "익은 당면에 참기름 1T, 식용유 1T 넣고 잘 식도록 펼친다.", "timer_sec": null },
-    { "text": "중불에 식용유를 두르고 고기, 버섯, 마늘, 당근을 볶는다.", "timer_sec": null },
-    { "text": "고기가 70% 익으면 애호박 등 야채를 넣고 간장, 설탕, 다시다, 미원으로 간한다.", "timer_sec": null },
-    { "text": "당근과 애호박이 숨이 죽을 때까지 볶는다.", "timer_sec": null }
+    {
+      "text": "당면은 찬물에 넣고 불을 켠 뒤 끓기 시작하면 4분만 끓인다.",
+      "timer_sec": 240
+    },
+    {
+      "text": "익은 당면에 참기름 1T, 식용유 1T 넣고 잘 식도록 펼친다.",
+      "timer_sec": null
+    },
+    {
+      "text": "중불에 식용유를 두르고 고기, 버섯, 마늘, 당근을 볶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "고기가 70% 익으면 애호박 등 야채를 넣고 간장, 설탕, 다시다, 미원으로 간한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "당근과 애호박이 숨이 죽을 때까지 볶는다.",
+      "timer_sec": null
+    }
   ],
   "memo": "당면은 미리 불리지 않는다.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/잡채.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "debbietingzon",
+    "license": "by",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0/"
+  }
 }

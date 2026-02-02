@@ -11,56 +11,235 @@
     {
       "name": "재료",
       "items": [
-        { "name": "떡", "amount": 250, "unit": "g", "note": "재료", "scalable": true },
-        { "name": "소고기(등심)", "amount": 100, "unit": "g", "note": "재료", "scalable": true },
-        { "name": "양파", "amount": 0.5, "unit": "개", "note": "재료", "scalable": true },
-        { "name": "표고버섯", "amount": 2, "unit": "개", "note": "재료", "scalable": true },
-        { "name": "대파", "amount": 0.33, "unit": "대", "note": "재료", "scalable": true },
-        { "name": "당근", "amount": null, "unit": "", "note": "약간", "scalable": false },
-        { "name": "파프리카", "amount": null, "unit": "", "note": "약간", "scalable": false }
+        {
+          "name": "떡",
+          "amount": 250,
+          "unit": "g",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "소고기(등심)",
+          "amount": 100,
+          "unit": "g",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "양파",
+          "amount": 0.5,
+          "unit": "개",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "표고버섯",
+          "amount": 2,
+          "unit": "개",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "대파",
+          "amount": 0.33,
+          "unit": "대",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "당근",
+          "amount": null,
+          "unit": "",
+          "note": "약간",
+          "scalable": false
+        },
+        {
+          "name": "파프리카",
+          "amount": null,
+          "unit": "",
+          "note": "약간",
+          "scalable": false
+        }
       ]
     },
     {
       "name": "고기 밑간",
       "items": [
-        { "name": "다진양파", "amount": 0.17, "unit": "개", "note": "1/6개", "scalable": true },
-        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "밑간", "scalable": true },
-        { "name": "진간장", "amount": 2, "unit": "TB", "note": "밑간", "scalable": true },
-        { "name": "설탕", "amount": 1.5, "unit": "TB", "note": "밑간", "scalable": true },
-        { "name": "맛술", "amount": 1, "unit": "TB", "note": "밑간", "scalable": true },
-        { "name": "참기름", "amount": 1, "unit": "TB", "note": "밑간", "scalable": true },
-        { "name": "깨소금", "amount": 1, "unit": "TB", "note": "밑간", "scalable": true },
-        { "name": "대파 초록부분", "amount": null, "unit": "", "note": "조금", "scalable": false },
-        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false }
+        {
+          "name": "다진양파",
+          "amount": 0.17,
+          "unit": "개",
+          "note": "1/6개",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 1,
+          "unit": "TB",
+          "note": "밑간",
+          "scalable": true
+        },
+        {
+          "name": "진간장",
+          "amount": 2,
+          "unit": "TB",
+          "note": "밑간",
+          "scalable": true
+        },
+        {
+          "name": "설탕",
+          "amount": 1.5,
+          "unit": "TB",
+          "note": "밑간",
+          "scalable": true
+        },
+        {
+          "name": "맛술",
+          "amount": 1,
+          "unit": "TB",
+          "note": "밑간",
+          "scalable": true
+        },
+        {
+          "name": "참기름",
+          "amount": 1,
+          "unit": "TB",
+          "note": "밑간",
+          "scalable": true
+        },
+        {
+          "name": "깨소금",
+          "amount": 1,
+          "unit": "TB",
+          "note": "밑간",
+          "scalable": true
+        },
+        {
+          "name": "대파 초록부분",
+          "amount": null,
+          "unit": "",
+          "note": "조금",
+          "scalable": false
+        },
+        {
+          "name": "후추",
+          "amount": null,
+          "unit": "",
+          "note": "톡톡",
+          "scalable": false
+        }
       ]
     },
     {
       "name": "떡 밑간",
       "items": [
-        { "name": "참기름", "amount": 1, "unit": "TB", "note": "밑간", "scalable": true },
-        { "name": "진간장", "amount": 1, "unit": "TB", "note": "밑간", "scalable": true }
+        {
+          "name": "참기름",
+          "amount": 1,
+          "unit": "TB",
+          "note": "밑간",
+          "scalable": true
+        },
+        {
+          "name": "진간장",
+          "amount": 1,
+          "unit": "TB",
+          "note": "밑간",
+          "scalable": true
+        }
       ]
     },
     {
       "name": "볶을때 양념",
       "items": [
-        { "name": "식용유", "amount": null, "unit": "", "note": "약간", "scalable": false },
-        { "name": "물", "amount": 100, "unit": "ml", "note": "양념", "scalable": true },
-        { "name": "굴소스", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "진간장", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "설탕", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "참기름", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "미원", "amount": null, "unit": "", "note": "약간", "scalable": false },
-        { "name": "볶은깨", "amount": null, "unit": "", "note": "마무리", "scalable": false }
+        {
+          "name": "식용유",
+          "amount": null,
+          "unit": "",
+          "note": "약간",
+          "scalable": false
+        },
+        {
+          "name": "물",
+          "amount": 100,
+          "unit": "ml",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "굴소스",
+          "amount": 0.5,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "진간장",
+          "amount": 2,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "설탕",
+          "amount": 2,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "다진마늘",
+          "amount": 1,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "참기름",
+          "amount": 2,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "미원",
+          "amount": null,
+          "unit": "",
+          "note": "약간",
+          "scalable": false
+        },
+        {
+          "name": "볶은깨",
+          "amount": null,
+          "unit": "",
+          "note": "마무리",
+          "scalable": false
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "고기는 작게 잘라 밑간에 담가둔다.", "timer_sec": null },
-    { "text": "떡은 반 이상 삶은 후 씻어 간장+참기름으로 밑간한다.", "timer_sec": null },
-    { "text": "양파, 대파는 다지고 당근, 파프리카는 준비한다.", "timer_sec": null }
+    {
+      "text": "고기는 작게 잘라 밑간에 담가둔다.",
+      "timer_sec": null
+    },
+    {
+      "text": "떡은 반 이상 삶은 후 씻어 간장+참기름으로 밑간한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "양파, 대파는 다지고 당근, 파프리카는 준비한다.",
+      "timer_sec": null
+    }
   ],
   "memo": "세부 볶음 순서는 취향에 맞게 조절.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/궁중떡볶이.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "minwoo",
+    "license": "by-nc-nd",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/"
+  }
 }

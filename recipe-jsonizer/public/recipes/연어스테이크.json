@@ -12,24 +12,92 @@
     {
       "name": "재료",
       "items": [
-        { "name": "연어 필레", "amount": 2, "unit": "조각", "note": "메인", "scalable": true },
-        { "name": "소금", "amount": 0.5, "unit": "t", "note": "밑간", "scalable": false },
-        { "name": "후추", "amount": 0.3, "unit": "t", "note": "밑간", "scalable": false },
-        { "name": "식용유", "amount": 1, "unit": "TB", "note": "굽기", "scalable": true },
-        { "name": "버터", "amount": 20, "unit": "g", "note": "베이스팅", "scalable": true },
-        { "name": "마늘", "amount": 4, "unit": "쪽", "note": "베이스팅", "scalable": true },
-        { "name": "타임", "amount": 3, "unit": "줄기", "note": "베이스팅", "scalable": true }
+        {
+          "name": "연어 필레",
+          "amount": 2,
+          "unit": "조각",
+          "note": "메인",
+          "scalable": true
+        },
+        {
+          "name": "소금",
+          "amount": 0.5,
+          "unit": "t",
+          "note": "밑간",
+          "scalable": false
+        },
+        {
+          "name": "후추",
+          "amount": 0.3,
+          "unit": "t",
+          "note": "밑간",
+          "scalable": false
+        },
+        {
+          "name": "식용유",
+          "amount": 1,
+          "unit": "TB",
+          "note": "굽기",
+          "scalable": true
+        },
+        {
+          "name": "버터",
+          "amount": 20,
+          "unit": "g",
+          "note": "베이스팅",
+          "scalable": true
+        },
+        {
+          "name": "마늘",
+          "amount": 4,
+          "unit": "쪽",
+          "note": "베이스팅",
+          "scalable": true
+        },
+        {
+          "name": "타임",
+          "amount": 3,
+          "unit": "줄기",
+          "note": "베이스팅",
+          "scalable": true
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "냉동연어는 냉장실에서 하루간 해동한다.", "timer_sec": null },
-    { "text": "키친타올로 수분을 제거하고 소금/후추로 밑간한다.", "timer_sec": null },
-    { "text": "달군 팬에 식용유를 두르고 껍질부터 올린다.", "timer_sec": null },
-    { "text": "뒤집개로 30초 정도 눌러 껍질이 말리지 않게 한다.", "timer_sec": null },
-    { "text": "버터, 마늘, 타임을 넣고 불을 끄고 베이스팅한다.", "timer_sec": null },
-    { "text": "살 색이 변하면 뒤집고 잔열에 10초 두었다가 레스팅한다.", "timer_sec": null }
+    {
+      "text": "냉동연어는 냉장실에서 하루간 해동한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "키친타올로 수분을 제거하고 소금/후추로 밑간한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "달군 팬에 식용유를 두르고 껍질부터 올린다.",
+      "timer_sec": null
+    },
+    {
+      "text": "뒤집개로 30초 정도 눌러 껍질이 말리지 않게 한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "버터, 마늘, 타임을 넣고 불을 끄고 베이스팅한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "살 색이 변하면 뒤집고 잔열에 10초 두었다가 레스팅한다.",
+      "timer_sec": null
+    }
   ],
   "memo": "베이스팅 시 지글거리는 소리가 나면 불이 세므로 조절.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/연어스테이크.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "comfuture",
+    "license": "by-nc-nd",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-nd/2.0/"
+  }
 }

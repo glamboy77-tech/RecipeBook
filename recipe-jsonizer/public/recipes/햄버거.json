@@ -11,39 +11,164 @@
     {
       "name": "재료",
       "items": [
-        { "name": "다진소고기", "amount": 100, "unit": "g", "note": "보통(더블 135g)", "scalable": true },
-        { "name": "치즈", "amount": 1, "unit": "개", "note": "패티 1개당", "scalable": true },
-        { "name": "토마토", "amount": 2, "unit": "조각", "note": "슬라이스", "scalable": true },
-        { "name": "양상추", "amount": 1, "unit": "장", "note": "상추 대체 가능", "scalable": true },
-        { "name": "햄버거빵", "amount": 1, "unit": "개", "note": "재료", "scalable": true },
-        { "name": "양파", "amount": 0.5, "unit": "개", "note": "5인분 반개", "scalable": true },
-        { "name": "버터", "amount": null, "unit": "", "note": "굽기", "scalable": false },
-        { "name": "올리브유", "amount": null, "unit": "", "note": "굽기", "scalable": false },
-        { "name": "소금", "amount": null, "unit": "", "note": "간", "scalable": false },
-        { "name": "후추", "amount": null, "unit": "", "note": "간", "scalable": false }
+        {
+          "name": "다진소고기",
+          "amount": 100,
+          "unit": "g",
+          "note": "보통(더블 135g)",
+          "scalable": true
+        },
+        {
+          "name": "치즈",
+          "amount": 1,
+          "unit": "개",
+          "note": "패티 1개당",
+          "scalable": true
+        },
+        {
+          "name": "토마토",
+          "amount": 2,
+          "unit": "조각",
+          "note": "슬라이스",
+          "scalable": true
+        },
+        {
+          "name": "양상추",
+          "amount": 1,
+          "unit": "장",
+          "note": "상추 대체 가능",
+          "scalable": true
+        },
+        {
+          "name": "햄버거빵",
+          "amount": 1,
+          "unit": "개",
+          "note": "재료",
+          "scalable": true
+        },
+        {
+          "name": "양파",
+          "amount": 0.5,
+          "unit": "개",
+          "note": "5인분 반개",
+          "scalable": true
+        },
+        {
+          "name": "버터",
+          "amount": null,
+          "unit": "",
+          "note": "굽기",
+          "scalable": false
+        },
+        {
+          "name": "올리브유",
+          "amount": null,
+          "unit": "",
+          "note": "굽기",
+          "scalable": false
+        },
+        {
+          "name": "소금",
+          "amount": null,
+          "unit": "",
+          "note": "간",
+          "scalable": false
+        },
+        {
+          "name": "후추",
+          "amount": null,
+          "unit": "",
+          "note": "간",
+          "scalable": false
+        }
       ]
     },
     {
       "name": "소스",
       "items": [
-        { "name": "마요네즈", "amount": 0.5, "unit": "컵", "note": "소스", "scalable": true },
-        { "name": "케찹", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "홀머스터드", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "스리랏챠소스", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "크게다진피클", "amount": 2, "unit": "TB", "note": "소스", "scalable": true },
-        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false }
+        {
+          "name": "마요네즈",
+          "amount": 0.5,
+          "unit": "컵",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "케찹",
+          "amount": 1,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "홀머스터드",
+          "amount": 1,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "스리랏챠소스",
+          "amount": 1,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "크게다진피클",
+          "amount": 2,
+          "unit": "TB",
+          "note": "소스",
+          "scalable": true
+        },
+        {
+          "name": "후추",
+          "amount": null,
+          "unit": "",
+          "note": "톡톡",
+          "scalable": false
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "토마토를 얇게 썬다.", "timer_sec": null },
-    { "text": "소고기를 치대지 말고 모양만 잡아 소금, 후추 간을 한다.", "timer_sec": null },
-    { "text": "양파를 버터에 구워 캬라멜화한다.", "timer_sec": null },
-    { "text": "카놀라유/라드 1스푼에 패티를 굽는다.", "timer_sec": null },
-    { "text": "뒤집으며 치즈를 얹어 녹인다.", "timer_sec": null },
-    { "text": "햄버거빵에 버터를 바르고 구워 세워둔다.", "timer_sec": null },
-    { "text": "빵-소스-상추-토마토-패티-양파-소스-빵 순서로 조립한다.", "timer_sec": null }
+    {
+      "text": "토마토를 얇게 썬다.",
+      "timer_sec": null
+    },
+    {
+      "text": "소고기를 치대지 말고 모양만 잡아 소금, 후추 간을 한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "양파를 버터에 구워 캬라멜화한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "카놀라유/라드 1스푼에 패티를 굽는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "뒤집으며 치즈를 얹어 녹인다.",
+      "timer_sec": null
+    },
+    {
+      "text": "햄버거빵에 버터를 바르고 구워 세워둔다.",
+      "timer_sec": null
+    },
+    {
+      "text": "빵-소스-상추-토마토-패티-양파-소스-빵 순서로 조립한다.",
+      "timer_sec": null
+    }
   ],
   "memo": "양파는 충분히 볶아 단맛을 낸다.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/햄버거.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "flickr",
+    "creator": "Social Designer",
+    "license": "by-nc-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+  }
 }

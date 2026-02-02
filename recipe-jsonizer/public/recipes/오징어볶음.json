@@ -11,38 +11,148 @@
     {
       "name": "재료",
       "items": [
-        { "name": "오징어", "amount": 3, "unit": "마리", "note": "칼집", "scalable": true },
-        { "name": "대파", "amount": 2, "unit": "대", "note": "어슷", "scalable": true },
-        { "name": "양파", "amount": 2, "unit": "개", "note": "작은 것 채", "scalable": true },
-        { "name": "마늘", "amount": 20, "unit": "알", "note": "편", "scalable": true },
-        { "name": "청양고추", "amount": 6, "unit": "개", "note": "옵션", "scalable": true }
+        {
+          "name": "오징어",
+          "amount": 3,
+          "unit": "마리",
+          "note": "칼집",
+          "scalable": true
+        },
+        {
+          "name": "대파",
+          "amount": 2,
+          "unit": "대",
+          "note": "어슷",
+          "scalable": true
+        },
+        {
+          "name": "양파",
+          "amount": 2,
+          "unit": "개",
+          "note": "작은 것 채",
+          "scalable": true
+        },
+        {
+          "name": "마늘",
+          "amount": 20,
+          "unit": "알",
+          "note": "편",
+          "scalable": true
+        },
+        {
+          "name": "청양고추",
+          "amount": 6,
+          "unit": "개",
+          "note": "옵션",
+          "scalable": true
+        }
       ]
     },
     {
       "name": "양념",
       "items": [
-        { "name": "고춧가루", "amount": 6, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "설탕", "amount": 4, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "간장", "amount": 8, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "고추장", "amount": 2, "unit": "TB", "note": "크게 2", "scalable": true },
-        { "name": "식용유", "amount": null, "unit": "", "note": "8바퀴", "scalable": false },
-        { "name": "참기름", "amount": 2, "unit": "TB", "note": "양념", "scalable": true },
-        { "name": "통깨", "amount": null, "unit": "", "note": "적당히", "scalable": false }
+        {
+          "name": "고춧가루",
+          "amount": 6,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "설탕",
+          "amount": 4,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "간장",
+          "amount": 8,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "고추장",
+          "amount": 2,
+          "unit": "TB",
+          "note": "크게 2",
+          "scalable": true
+        },
+        {
+          "name": "식용유",
+          "amount": null,
+          "unit": "",
+          "note": "8바퀴",
+          "scalable": false
+        },
+        {
+          "name": "참기름",
+          "amount": 2,
+          "unit": "TB",
+          "note": "양념",
+          "scalable": true
+        },
+        {
+          "name": "통깨",
+          "amount": null,
+          "unit": "",
+          "note": "적당히",
+          "scalable": false
+        }
       ]
     }
   ],
   "steps": [
-    { "text": "강불로 예열한 팬에 식용유 4바퀴와 참기름 1TB를 두른다.", "timer_sec": null },
-    { "text": "대파, 마늘, 청양고추 순으로 볶는다.", "timer_sec": null },
-    { "text": "대파가 색이 변하면 최약불로 줄이고 고춧가루를 넣어 2~3분 볶는다.", "timer_sec": null },
-    { "text": "설탕을 넣고 약불에서 2~3분 볶는다.", "timer_sec": null },
-    { "text": "간장을 넣고 강불로 올려 가장자리에서 태우듯 끓인다.", "timer_sec": null },
-    { "text": "간장이 끓으면 고추장과 양파를 넣고 볶는다.", "timer_sec": null },
-    { "text": "양파가 빨갛게 변하면 오징어를 넣고 볶는다.", "timer_sec": null },
-    { "text": "뚜껑을 덮고 중불에서 2분 익힌다(중간에 뒤적임).", "timer_sec": 120 },
-    { "text": "뚜껑을 열고 강불에서 볶아 국물을 1분 정도 졸인다.", "timer_sec": 60 },
-    { "text": "눌은 소스를 긁어 섞고 불을 끈 뒤 참기름 또는 화유와 통깨로 마무리한다.", "timer_sec": null }
+    {
+      "text": "강불로 예열한 팬에 식용유 4바퀴와 참기름 1TB를 두른다.",
+      "timer_sec": null
+    },
+    {
+      "text": "대파, 마늘, 청양고추 순으로 볶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "대파가 색이 변하면 최약불로 줄이고 고춧가루를 넣어 2~3분 볶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "설탕을 넣고 약불에서 2~3분 볶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "간장을 넣고 강불로 올려 가장자리에서 태우듯 끓인다.",
+      "timer_sec": null
+    },
+    {
+      "text": "간장이 끓으면 고추장과 양파를 넣고 볶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "양파가 빨갛게 변하면 오징어를 넣고 볶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "뚜껑을 덮고 중불에서 2분 익힌다(중간에 뒤적임).",
+      "timer_sec": 120
+    },
+    {
+      "text": "뚜껑을 열고 강불에서 볶아 국물을 1분 정도 졸인다.",
+      "timer_sec": 60
+    },
+    {
+      "text": "눌은 소스를 긁어 섞고 불을 끈 뒤 참기름 또는 화유와 통깨로 마무리한다.",
+      "timer_sec": null
+    }
   ],
   "memo": "오삼불고기는 삼겹살을 미리 구워 잘라두고 오징어 익힌 후 넣기.",
-  "source": ""
+  "source": "",
+  "image": "/recipes/images/오징어볶음.png",
+  "imageCredit": {
+    "provider": "openverse",
+    "sourceUrl": "wikimedia",
+    "creator": "EAT&ART TARO",
+    "license": "by-sa",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+  }
 }
