@@ -1,0 +1,92 @@
+{
+  "id": "압력솥밥_황금비율_782431",
+  "title": "압력솥밥(황금비율)",
+  "time_total_min": 35,
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "밥",
+    "압력밥솥",
+    "일상"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "쌀",
+      "items": [
+        {
+          "name": "백미",
+          "amount": 1.2,
+          "unit": "컵",
+          "note": "쌀",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        },
+        {
+          "name": "현미",
+          "amount": 0.6,
+          "unit": "컵",
+          "note": "쌀",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        },
+        {
+          "name": "찹쌀",
+          "amount": 0.2,
+          "unit": "컵",
+          "note": "쌀",
+          "scalable": true,
+          "ingredient_type": "solid",
+          "approx_ml": null
+        }
+      ]
+    },
+    {
+      "name": "물",
+      "items": [
+        {
+          "name": "물",
+          "amount": 2.35,
+          "unit": "컵",
+          "note": "물 - 2.3~2.4컵",
+          "scalable": true,
+          "ingredient_type": "liquid",
+          "approx_ml": null
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "쌀(백미·현미·찹쌀)을 섞어 2~3회 가볍게 씻고 5분 정도 물기를 뺀다.",
+      "timer_sec": null
+    },
+    {
+      "text": "현미 비율이 40% 이상이면 20~30분 불리거나 물을 약간 추가한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "내솥에 쌀과 물을 넣고 평평하게 고른다.",
+      "timer_sec": null
+    },
+    {
+      "text": "가스 압력밥솥을 센불에 올려 추가 돌 때까지 가열한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "추가 돌기 시작하면 중약불로 줄여 3분 더 끓인다.",
+      "timer_sec": 180
+    },
+    {
+      "text": "불을 끄고 10~15분 뜸을 들인다.",
+      "timer_sec": 600
+    },
+    {
+      "text": "압을 뺀 뒤 밥을 아래에서 위로 크게 한 번 풀어 마무리한다.",
+      "timer_sec": null
+    }
+  ],
+  "memo": "✔ 일상용 황금비율: 백미 1.2컵 / 현미 0.6컵 / 찹쌀 0.2컵\n✔ 씹는 맛 + 찰기 균형, 대부분의 반찬과 잘 어울림\n• 물은 2.3~2.4컵 범위에서 조절\n• 현미 40% 이상이면 불리거나 물 추가 필요\n• 찹쌀 0.3컵 이상이면 질어질 수 있음\n• 더 부드럽게 먹고 싶으면 물 +0.1컵",
+  "source": ""
+}
