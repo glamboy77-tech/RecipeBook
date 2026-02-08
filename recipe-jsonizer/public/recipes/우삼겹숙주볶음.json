@@ -1,0 +1,42 @@
+{
+  "id": "우삼겹숙주볶음_918362",
+  "title": "우삼겹 숙주볶음",
+  "time_total_min": 10,
+  "base_servings": 3,
+  "tags": [
+    "볶음",
+    "소고기",
+    "숙주"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "우삼겹", "amount": 300, "unit": "g", "note": "", "scalable": true },
+        { "name": "숙주", "amount": 300, "unit": "g", "note": "", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "TB", "note": "", "scalable": true },
+        { "name": "대파", "amount": null, "unit": "", "note": "조금", "scalable": false },
+        { "name": "식용유", "amount": null, "unit": "", "note": "약간", "scalable": false }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "굴소스", "amount": 1.5, "unit": "TB", "note": "", "scalable": true },
+        { "name": "간장", "amount": 0.5, "unit": "TB", "note": "", "scalable": true },
+        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "참기름", "amount": null, "unit": "", "note": "살짝(마무리용)", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "센 불에서 팬을 예열한다(연기가 살짝 날 정도).", "timer_sec": null },
+    { "text": "식용유를 아주 소량 두르고 우삼겹을 넣어 한 면이 노릇해질 때까지 건드리지 않는다.", "timer_sec": null },
+    { "text": "기름이 나오면 다진 마늘과 대파를 넣어 향만 낸다.", "timer_sec": null },
+    { "text": "숙주를 한 번에 넣고 30~40초만 빠르게 볶는다.", "timer_sec": 40 },
+    { "text": "굴소스, 간장, 후추로 간한다.", "timer_sec": null },
+    { "text": "불을 끄고 참기름을 몇 방울 떨어뜨린다.", "timer_sec": null }
+  ],
+  "memo": "숙주는 익히는 것이 아니라 숨만 죽인다. 물이 생기면 실패이므로 끝까지 강불 유지.",
+  "source": ""
+}
