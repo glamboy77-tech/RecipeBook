@@ -105,8 +105,8 @@
         },
         {
           "name": "굴",
-          "amount": 1.5,
-          "unit": "팩(300g)",
+          "amount": 450,
+          "unit": "g",
           "note": "메인",
           "scalable": true
         },
@@ -154,7 +154,7 @@
       "timer_sec": null
     }
   ],
-  "memo": "굴은 알이 큰 것이 맛있고, 제철은 보통 11월~2월로 이 시기에 살이 차고 풍미가 좋다.",
+  "memo": "굴은 알이 큰 것이 맛있고, 제철은 보통 11월~2월로 이 시기에 살이 차고 풍미가 좋다. 1봉지 300g 기준.",
   "source": "",
   "image": "/recipes/images/굴국밥.png",
   "imageCredit": {
