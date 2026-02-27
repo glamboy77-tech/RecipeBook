@@ -105,7 +105,7 @@
         },
         {
           "name": "굴",
-          "amount": 450,
+          "amount": 600,
           "unit": "g",
           "note": "메인",
           "scalable": true
