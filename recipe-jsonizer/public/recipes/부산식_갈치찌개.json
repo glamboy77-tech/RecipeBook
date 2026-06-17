@@ -1,0 +1,57 @@
+{
+  "id": "부산식_갈치찌개_061711",
+  "title": "부산식 갈치찌개",
+  "time_total_min": 45,
+  "base_servings": 4,
+  "tags": [
+    "한식",
+    "찌개",
+    "생선",
+    "갈치",
+    "부산식"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "손질 갈치", "amount": 800, "unit": "g", "note": "700~900g", "scalable": true },
+        { "name": "무", "amount": 400, "unit": "g", "note": "1cm 두께", "scalable": true },
+        { "name": "애호박", "amount": 1, "unit": "개", "note": "1.5cm 반달", "scalable": true },
+        { "name": "양파", "amount": 1, "unit": "개", "note": "굵게 채썰기", "scalable": true },
+        { "name": "대파", "amount": 1, "unit": "대", "note": "어슷썰기", "scalable": true },
+        { "name": "청양고추", "amount": 2, "unit": "개", "note": "1~2개, 어슷썰기", "scalable": true },
+        { "name": "홍고추", "amount": 1, "unit": "개", "note": "선택, 어슷썰기", "scalable": false },
+        { "name": "멸치다시마 육수", "amount": 1000, "unit": "ml", "note": "국물 넉넉히", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "고춧가루", "amount": 3, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "진간장", "amount": 3, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "국간장", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "액젓", "amount": 1, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "다진마늘", "amount": 1.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "맛술 또는 소주", "amount": 2, "unit": "TB", "note": "비린내 제거", "scalable": true },
+        { "name": "된장", "amount": 0.5, "unit": "t", "note": "비린내 잡을 정도만", "scalable": true },
+        { "name": "설탕", "amount": 0.5, "unit": "TB", "note": "양념", "scalable": true },
+        { "name": "다진 생강", "amount": 0.25, "unit": "t", "note": "양념", "scalable": true },
+        { "name": "후추", "amount": null, "unit": "", "note": "약간", "scalable": false },
+        { "name": "고추장", "amount": 0.5, "unit": "TB", "note": "선택, 진하고 달큰하게 먹고 싶을 때만", "scalable": false }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "갈치는 배 안쪽의 검은 막과 핏물을 깨끗이 제거하고 흐르는 물에 가볍게 씻은 뒤 물기를 닦는다.", "timer_sec": null },
+    { "text": "무는 1cm 두께로 썰고, 애호박은 1.5cm 두께 반달 모양으로 썬다. 양파는 굵게 채 썰고 대파와 고추는 어슷 썬다.", "timer_sec": null },
+    { "text": "냄비에 무와 멸치다시마 육수 1L를 넣는다.", "timer_sec": null },
+    { "text": "양념 재료를 모두 섞어 육수에 풀고 뚜껑을 덮어 중불에서 15~20분 끓인다. 무가 맵거나 단단하면 5분 더 끓인다.", "timer_sec": 1200 },
+    { "text": "무가 반 이상 익으면 갈치를 무 위에 겹치지 않게 올리고 양파를 넣는다.", "timer_sec": null },
+    { "text": "끓어오르면 거품을 걷고 뚜껑을 반쯤 열어 중불에서 10분 끓인다.", "timer_sec": 600 },
+    { "text": "애호박을 넣고 국물을 갈치 위로 몇 번 끼얹는다. 갈치는 부서지기 쉬우므로 뒤집지 않는다.", "timer_sec": null },
+    { "text": "대파와 청양고추, 홍고추를 넣고 7~10분 더 끓인다.", "timer_sec": 600 },
+    { "text": "국물이 너무 줄면 육수나 물을 100~200ml 추가한다. 완성 시 갈치가 절반 정도 잠길 만큼 국물이 남아 있으면 좋다.", "timer_sec": null }
+  ],
+  "memo": "• 고추장은 넣지 않는 것을 기본으로 하고, 더 진하고 달큰한 맛을 원하면 1/2큰술만 추가\n• 싱거우면 국간장 또는 액젓 1/2큰술 추가\n• 짜면 물 100ml 추가\n• 단맛이 부족하면 설탕 1/2큰술 추가\n• 감칠맛이 부족하면 소금이나 미원 1~2꼬집 추가\n• 비린 향이 나면 된장 1/4작은술 또는 생강 약간 추가",
+  "source": ""
+}

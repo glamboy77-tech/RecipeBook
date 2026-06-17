@@ -1,0 +1,37 @@
+{
+  "id": "양념치킨_소스_061711",
+  "title": "양념치킨 소스",
+  "time_total_min": 10,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "소스",
+    "치킨",
+    "양념치킨"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "소스",
+      "items": [
+        { "name": "케찹", "amount": 2, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "물엿", "amount": 4, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "고추장", "amount": 1, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "설탕", "amount": 2, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "고춧가루", "amount": 1, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "간장", "amount": 1, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "후추", "amount": null, "unit": "", "note": "톡톡", "scalable": false },
+        { "name": "돈가스소스", "amount": 1, "unit": "밥숟가락", "note": "불독 추천", "scalable": true },
+        { "name": "딸기잼", "amount": 0.5, "unit": "밥숟가락", "note": "소스", "scalable": true },
+        { "name": "물", "amount": 1, "unit": "밥숟가락", "note": "농도 조절", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "냄비나 팬에 소스 재료를 모두 넣고 잘 섞는다.", "timer_sec": null },
+    { "text": "중약불에서 저어가며 한소끔 끓인다.", "timer_sec": null },
+    { "text": "튀긴 치킨에 버무리거나 찍어 먹기 좋게 농도를 맞춘다.", "timer_sec": null }
+  ],
+  "memo": "• 기본 계량은 밥숟가락 기준\n• 너무 되직하면 물을 조금씩 추가해 농도 조절\n• 끓일 때 당류가 많아 타기 쉬우니 중약불에서 저어주기",
+  "source": ""
+}
