@@ -279,6 +279,7 @@ function RecipeViewerApp() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [sortBy, setSortBy] = useState("title");
+  const [shareStatus, setShareStatus] = useState("");
 
   useEffect(() => {
     (async () => {
@@ -305,8 +306,11 @@ function RecipeViewerApp() {
         loaded.sort((a, b) => (a.title || "").localeCompare(b.title || "", "ko"));
         setRecipes(loaded);
         if (loaded.length > 0) {
-          setSelectedId(loaded[0].id);
-          setTargetServings(loaded[0].base_servings || 4);
+          const params = new URLSearchParams(window.location.search);
+          const recipeIdFromUrl = params.get("recipe");
+          const initialRecipe = loaded.find((r) => r.id === recipeIdFromUrl) || loaded[0];
+          setSelectedId(initialRecipe.id);
+          setTargetServings(initialRecipe.base_servings || 4);
         }
       } catch (e) {
         console.error(e);
@@ -318,6 +322,13 @@ function RecipeViewerApp() {
   }, []);
 
   const selected = useMemo(() => recipes.find((r) => r.id === selectedId) || null, [recipes, selectedId]);
+
+  useEffect(() => {
+    if (!selectedId) return;
+    const url = new URL(window.location.href);
+    url.searchParams.set("recipe", selectedId);
+    window.history.replaceState(null, "", url);
+  }, [selectedId]);
 
   // 모바일에서 선택이 생기면 자동으로 상세로 이동
   useEffect(() => {
@@ -371,6 +382,100 @@ function RecipeViewerApp() {
   }, [filtered, sortBy]);
 
   // 선택 변경 시 targetServings 초기화는 onClick 핸들러에서 처리
+
+  const getShareUrl = (recipeId = selectedId) => {
+    const url = new URL(window.location.href);
+    url.searchParams.set("recipe", recipeId);
+    return url.toString();
+  };
+
+  const buildRecipeShareText = (recipe) => {
+    if (!recipe) return "";
+
+    const ingredientLines = recipe.ingredient_groups?.length
+      ? recipe.ingredient_groups.flatMap((group) => [
+          `[${group.name}]`,
+          ...(group.items || []).map((ing) => {
+            const normalized = normalizeIngredientAmountUnit(ing?.amount, ing?.unit);
+            const amountText = ing.amount !== null && ing.amount !== undefined
+              ? `: ${formatAmountUnitForDisplay(ing.amount, normalized.unit)}`
+              : "";
+            const note = formatIngredientNote(ing.note, group.name);
+            return `- ${ing.name}${amountText}${note ? ` (${note})` : ""}`;
+          }),
+        ])
+      : (recipe.ingredients || []).map((ing) => {
+          const normalized = normalizeIngredientAmountUnit(ing?.amount, ing?.unit);
+          const amountText = ing.amount !== null && ing.amount !== undefined
+            ? `: ${formatAmountUnitForDisplay(ing.amount, normalized.unit)}`
+            : "";
+          return `- ${ing.name}${amountText}`;
+        });
+
+    const stepLines = (recipe.steps || []).map((step, idx) => `${idx + 1}. ${step.text}`);
+
+    return [
+      recipe.title,
+      `기준 ${recipe.base_servings ?? "?"}인분`,
+      "",
+      "[재료]",
+      ...ingredientLines,
+      "",
+      "[요리법]",
+      ...stepLines,
+      recipe.memo ? `\n[메모]\n${recipe.memo}` : "",
+      "",
+      `레시피북에서 보기: ${getShareUrl(recipe.id)}`,
+    ].filter(Boolean).join("\n");
+  };
+
+  const copyToClipboard = async (text) => {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return;
+    }
+
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.style.position = "fixed";
+    textarea.style.opacity = "0";
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+    document.execCommand("copy");
+    document.body.removeChild(textarea);
+  };
+
+  const handleShareRecipe = async () => {
+    if (!selected) return;
+
+    const shareUrl = getShareUrl(selected.id);
+    const shareData = {
+      title: `${selected.title} 레시피`,
+      text: `${selected.title} 레시피를 공유할게요.`,
+      url: shareUrl,
+    };
+
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+        setShareStatus("공유창을 열었어요.");
+      } else {
+        await copyToClipboard(shareUrl);
+        setShareStatus("공유 링크를 복사했어요.");
+      }
+    } catch (e) {
+      if (e?.name === "AbortError") return;
+      await copyToClipboard(shareUrl);
+      setShareStatus("공유 링크를 복사했어요.");
+    }
+  };
+
+  const handleCopyRecipeText = async () => {
+    if (!selected) return;
+    await copyToClipboard(buildRecipeShareText(selected));
+    setShareStatus("레시피 내용을 복사했어요.");
+  };
 
   if (loading) {
     return (
@@ -460,6 +565,7 @@ function RecipeViewerApp() {
                   onClick={() => {
                     setSelectedId(r.id);
                     setTargetServings(r.base_servings || 4);
+                    setShareStatus("");
                     if (isMobile) setMobilePane("detail");
                   }}
                   style={{
@@ -500,7 +606,17 @@ function RecipeViewerApp() {
                   ) : null}
                 </div>
 
-                <div style={styles.servingsControl}>
+                <div style={styles.detailActions}>
+                  <div style={styles.shareActions}>
+                    <button style={styles.primaryBtn} onClick={handleShareRecipe}>
+                      공유
+                    </button>
+                    <button style={styles.secondaryBtn} onClick={handleCopyRecipeText}>
+                      텍스트 복사
+                    </button>
+                  </div>
+                  {shareStatus ? <div style={styles.shareStatus}>{shareStatus}</div> : null}
+
                   <div style={styles.servingsLabel}>인분</div>
                   <div style={{ display: "flex", gap: 8, alignItems: "center", marginTop: 6 }}>
                     <button 
@@ -653,6 +769,7 @@ const styles = {
   cardTitle: { fontWeight: 800, fontSize: 13, marginBottom: 8, opacity: 0.95 },
   input: { borderRadius: 8, border: "1px solid #2a3566", background: "#0b0f1b", color: "#e8ecf3", padding: 8 },
   primaryBtn: { padding: "10px 12px", borderRadius: 12, border: "1px solid #3b4aa3", background: "#1a2140", color: "#e8ecf3", cursor: "pointer", fontWeight: 800 },
+  secondaryBtn: { padding: "10px 12px", borderRadius: 12, border: "1px solid #2a3566", background: "#151a2a", color: "#e8ecf3", cursor: "pointer", fontWeight: 800 },
   loading: { textAlign: "center", padding: 20, opacity: 0.7, color: "#e8ecf3" },
   errorBox: { padding: 10, borderRadius: 12, border: "1px solid #5b2c2c", background: "#271214", color: "#ffd7d7" },
   emptyBox: { padding: 12, borderRadius: 14, border: "1px dashed #2a3566", opacity: 0.8, lineHeight: 1.4, textAlign: "center", color: "#e8ecf3" },
@@ -672,6 +789,9 @@ const styles = {
   recipeTitle: { fontSize: 20, fontWeight: 800, color: "#e8ecf3" },
   recipeMeta: { fontSize: 13, opacity: 0.8, marginTop: 6, color: "#e8ecf3" },
   timeText: { marginLeft: 12, fontSize: 12, opacity: 0.85 },
+  detailActions: { display: "flex", flexDirection: "column", alignItems: "flex-end", gap: 8, whiteSpace: "nowrap" },
+  shareActions: { display: "flex", justifyContent: "flex-end", gap: 8, flexWrap: "wrap" },
+  shareStatus: { fontSize: 12, color: "#9fb0ff", opacity: 0.95 },
   servingsControl: { whiteSpace: "nowrap" },
   servingsLabel: { fontSize: 12, opacity: 0.8, color: "#e8ecf3" },
   servingsBtn: { padding: "4px 8px", borderRadius: 6, border: "1px solid #2a3566", background: "#151a2a", color: "#e8ecf3", cursor: "pointer", fontSize: 12 },
