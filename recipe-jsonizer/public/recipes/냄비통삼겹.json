@@ -1,0 +1,105 @@
+{
+  "id": "냄비통삼겹_070526",
+  "title": "냄비통삼겹",
+  "time_total_min": 35,
+  "base_servings": 2,
+  "tags": [
+    "한식",
+    "돼지고기",
+    "삼겹살",
+    "구이"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        {
+          "name": "통삼겹살",
+          "amount": 600,
+          "unit": "g",
+          "note": "두께 있는 덩어리",
+          "scalable": true
+        },
+        {
+          "name": "통마늘",
+          "amount": 10,
+          "unit": "알",
+          "note": "취향껏",
+          "scalable": true
+        },
+        {
+          "name": "김치",
+          "amount": null,
+          "unit": "",
+          "note": "남은 기름에 구울 것",
+          "scalable": false
+        }
+      ]
+    },
+    {
+      "name": "선택",
+      "items": [
+        {
+          "name": "소금",
+          "amount": null,
+          "unit": "",
+          "note": "고기 밑간 또는 찍어먹기",
+          "scalable": false
+        },
+        {
+          "name": "후추",
+          "amount": null,
+          "unit": "",
+          "note": "고기 밑간",
+          "scalable": false
+        },
+        {
+          "name": "쌈장",
+          "amount": null,
+          "unit": "",
+          "note": "곁들임",
+          "scalable": false
+        },
+        {
+          "name": "쌈채소",
+          "amount": null,
+          "unit": "",
+          "note": "곁들임",
+          "scalable": false
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "두꺼운 냄비나 팬을 중불로 예열한 뒤 통삼겹살을 올린다.",
+      "timer_sec": null
+    },
+    {
+      "text": "통삼겹살의 4면을 각각 2분씩 돌려가며 크리스피하게 지진다.",
+      "timer_sec": 480
+    },
+    {
+      "text": "불을 약불로 줄이고 통마늘을 넣는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "통삼겹살의 넓은 양면을 각각 7분씩 익힌다. 중간에 마늘은 타지 않게 굴려준다.",
+      "timer_sec": 840
+    },
+    {
+      "text": "고기를 꺼내 도마나 접시에 올리고 5~10분 레스팅한다.",
+      "timer_sec": 600
+    },
+    {
+      "text": "냄비에 남은 삼겹살 기름에 김치 등을 넣고 노릇하게 구워 곁들인다.",
+      "timer_sec": null
+    },
+    {
+      "text": "레스팅한 고기를 먹기 좋은 두께로 썰어 구운 김치, 마늘과 함께 낸다.",
+      "timer_sec": null
+    }
+  ],
+  "memo": "냄비는 두꺼운 것을 쓰면 열이 안정적이다. 기름이 많이 튈 수 있으니 깊은 냄비를 사용하고, 고기 두께가 두꺼우면 약불 익힘 시간을 2~3분 늘린다. 자르기 전에 꼭 레스팅하면 육즙이 덜 빠진다.",
+  "source": ""
+}
