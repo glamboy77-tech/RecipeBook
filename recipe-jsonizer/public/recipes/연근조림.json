@@ -1,0 +1,96 @@
+{
+  "id": "연근조림_210926",
+  "title": "연근조림",
+  "time_total_min": 25,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "반찬",
+    "조림",
+    "연근"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        {
+          "name": "연근",
+          "amount": 300,
+          "unit": "g",
+          "note": "먹기 좋은 두께로 썰기",
+          "scalable": true
+        },
+        {
+          "name": "물",
+          "amount": null,
+          "unit": "",
+          "note": "연근이 잠길 만큼",
+          "scalable": false
+        },
+        {
+          "name": "식초",
+          "amount": null,
+          "unit": "",
+          "note": "연근을 담글 물에 소량",
+          "scalable": false
+        }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        {
+          "name": "올리고당",
+          "amount": 3,
+          "unit": "TB",
+          "note": "3숟갈",
+          "scalable": true
+        },
+        {
+          "name": "간장",
+          "amount": 4,
+          "unit": "TB",
+          "note": "4숟갈",
+          "scalable": true
+        },
+        {
+          "name": "미림",
+          "amount": 2,
+          "unit": "TB",
+          "note": "2숟갈",
+          "scalable": true
+        },
+        {
+          "name": "참기름",
+          "amount": 1,
+          "unit": "TB",
+          "note": "1숟갈",
+          "scalable": true
+        },
+        {
+          "name": "통깨",
+          "amount": null,
+          "unit": "",
+          "note": "적당량",
+          "scalable": false
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "연근은 먹기 좋은 두께로 썰어 식초물에 잠깐 담가 떫은맛을 뺀 뒤 물기를 제거한다.",
+      "timer_sec": null
+    },
+    {
+      "text": "팬에 연근, 올리고당, 간장, 미림을 넣고 중불에서 양념이 배도록 졸인다.",
+      "timer_sec": null
+    },
+    {
+      "text": "양념이 자작하게 졸아들면 참기름과 통깨를 넣고 골고루 섞어 마무리한다.",
+      "timer_sec": null
+    }
+  ],
+  "memo": "연근을 식초물에 잠깐 담가두면 떫은맛을 줄일 수 있다. 조리는 중불에서 양념이 타지 않도록 뒤집어가며 진행한다.",
+  "source": ""
+}
