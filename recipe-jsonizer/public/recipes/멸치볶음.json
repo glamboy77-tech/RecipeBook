@@ -1,0 +1,118 @@
+{
+  "id": "멸치볶음_210926",
+  "title": "멸치볶음",
+  "time_total_min": 15,
+  "base_servings": 2,
+  "tags": [
+    "한식",
+    "반찬",
+    "볶음",
+    "멸치"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        {
+          "name": "잔멸치",
+          "amount": null,
+          "unit": "",
+          "note": "적당량",
+          "scalable": false
+        },
+        {
+          "name": "식용유",
+          "amount": null,
+          "unit": "",
+          "note": "팬에 두를 만큼",
+          "scalable": false
+        },
+        {
+          "name": "다진마늘",
+          "amount": 1,
+          "unit": "TB",
+          "note": "1숟갈",
+          "scalable": true
+        },
+        {
+          "name": "다진 청양고추",
+          "amount": 1,
+          "unit": "TB",
+          "note": "1숟갈",
+          "scalable": true
+        }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        {
+          "name": "맛술",
+          "amount": 1,
+          "unit": "TB",
+          "note": "1숟갈",
+          "scalable": true
+        },
+        {
+          "name": "진간장",
+          "amount": 0.5,
+          "unit": "TB",
+          "note": "0.5숟갈",
+          "scalable": true
+        },
+        {
+          "name": "매실액",
+          "amount": 1,
+          "unit": "TB",
+          "note": "1숟갈",
+          "scalable": true
+        },
+        {
+          "name": "물엿",
+          "amount": null,
+          "unit": "",
+          "note": "코팅할 만큼",
+          "scalable": false
+        },
+        {
+          "name": "참기름",
+          "amount": 0.5,
+          "unit": "TB",
+          "note": "0.5숟갈",
+          "scalable": true
+        },
+        {
+          "name": "볶은깨",
+          "amount": 1,
+          "unit": "TB",
+          "note": "1숟갈",
+          "scalable": true
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "text": "마른 팬에 잔멸치를 넣고 노릇노릇해질 때까지 볶은 뒤 덜어놓는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "팬에 식용유를 두르고 다진마늘을 넣어 흰색이 될 때까지 볶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "볶아둔 잔멸치를 팬에 넣고 마늘과 골고루 섞는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "맛술, 진간장, 매실액, 다진 청양고추를 넣고 물기가 없어질 때까지 볶는다.",
+      "timer_sec": null
+    },
+    {
+      "text": "물엿을 넣어 멸치를 코팅한 뒤 참기름과 볶은깨를 넣어 마무리한다.",
+      "timer_sec": null
+    }
+  ],
+  "memo": "멸치는 양념을 넣기 전에 마른 팬에서 충분히 볶아 비린 맛과 수분을 날린다.",
+  "source": ""
+}
