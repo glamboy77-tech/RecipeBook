@@ -1,0 +1,51 @@
+{
+  "id": "제육볶음_뚝딱이형_260926",
+  "title": "제육볶음 (뚝딱이형)",
+  "time_total_min": 20,
+  "base_servings": 3,
+  "tags": [
+    "한식",
+    "볶음",
+    "돼지고기",
+    "제육"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "불고기용 앞다리살", "amount": 500, "unit": "g", "note": "얇게 썬 다른 돼지고기로 대체 가능", "scalable": true },
+        { "name": "양배추", "amount": 100, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "양파", "amount": 150, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "당근", "amount": 30, "unit": "g", "note": "채썰기", "scalable": true },
+        { "name": "대파", "amount": 100, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "청양고추", "amount": 15, "unit": "g", "note": "재료", "scalable": true },
+        { "name": "식용유", "amount": 3, "unit": "밥숟가락", "note": "볶기", "scalable": true },
+        { "name": "참깨", "amount": null, "unit": "", "note": "마무리, 적당량", "scalable": false }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "진간장", "amount": 4, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "설탕", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "다진 마늘", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "고추장", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "굵은 고춧가루", "amount": 3, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "물엿", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "굴소스", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "맛술(미림)", "amount": 1, "unit": "밥숟가락", "note": "양념", "scalable": true },
+        { "name": "후추", "amount": 0.1, "unit": "밥숟가락", "note": "양념", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "팬에 식용유 3숟가락을 두르고 불고기용 앞다리살을 넣는다. 앞다리살이 없다면 얇게 썬 다른 돼지고기를 사용해도 된다.", "timer_sec": null },
+    { "text": "진간장과 설탕을 넣고 수분이 날아가도록 바짝 볶는다.", "timer_sec": null },
+    { "text": "대파, 양파, 채 썬 당근, 양배추, 청양고추를 순서대로 넣는다.", "timer_sec": null },
+    { "text": "굵은 고춧가루, 고추장, 다진 마늘, 물엿, 맛술(미림), 굴소스, 후추를 순서대로 넣는다.", "timer_sec": null },
+    { "text": "불을 최대한 세게 올리고 야채를 빠르게 볶는다. 야채가 푹 익어 물이 나오지 않도록 양파가 투명해지기 직전까지만 볶는다.", "timer_sec": null },
+    { "text": "완성된 제육볶음을 접시에 담고 참깨를 뿌려 마무리한다.", "timer_sec": null }
+  ],
+  "memo": "야채에서 물이 나오지 않도록 센 불에서 빠르게 볶는 것이 핵심이다.",
+  "source": "뚝딱이형"
+}
