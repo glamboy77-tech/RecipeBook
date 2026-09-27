@@ -1,0 +1,47 @@
+{
+  "id": "가라아게동_260927",
+  "title": "가라아게동",
+  "time_total_min": 20,
+  "base_servings": 1,
+  "tags": [
+    "일식",
+    "덮밥",
+    "가라아게",
+    "닭고기"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "냉동 치킨가라아게", "amount": 160, "unit": "g", "note": "약 150~170g", "scalable": true },
+        { "name": "밥", "amount": 200, "unit": "g", "note": "1공기", "scalable": true },
+        { "name": "양파", "amount": 70, "unit": "g", "note": "약 60~80g", "scalable": true },
+        { "name": "계란", "amount": 1, "unit": "개", "note": "완전히 풀지 않고 대충 섞기", "scalable": true },
+        { "name": "대파 또는 쪽파", "amount": null, "unit": "", "note": "마무리, 약간", "scalable": false },
+        { "name": "김가루", "amount": null, "unit": "", "note": "마무리, 선택", "scalable": false },
+        { "name": "통깨", "amount": null, "unit": "", "note": "마무리, 선택", "scalable": false }
+      ]
+    },
+    {
+      "name": "소스",
+      "items": [
+        { "name": "물", "amount": 60, "unit": "ml", "note": "소스", "scalable": true },
+        { "name": "진간장", "amount": 1.5, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "맛술", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "설탕", "amount": 1.5, "unit": "t", "note": "소스", "scalable": true },
+        { "name": "혼다시", "amount": 0.25, "unit": "t", "note": "소스", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "냉동 치킨가라아게를 에어프라이어 180~190℃에서 10~15분 정도 바삭하게 데운다.", "timer_sec": 900 },
+    { "text": "작은 팬에 물 60ml, 진간장 1.5큰술, 맛술 1큰술, 설탕 1.5작은술, 혼다시 1/4작은술을 넣고 끓인다.", "timer_sec": null },
+    { "text": "채 썬 양파를 넣고 중불에서 2~3분 끓여 부드럽게 만든다.", "timer_sec": 180 },
+    { "text": "계란은 완전히 풀지 않고 대충 섞는다. 계란의 2/3를 먼저 붓고 약불에서 약 30초 익힌다.", "timer_sec": 30 },
+    { "text": "나머지 계란을 붓고 15~20초 후 불을 끈 뒤 잔열로 익힌다.", "timer_sec": 20 },
+    { "text": "밥 위에 양파와 계란 소스를 올리고 그 위에 바삭하게 데운 가라아게를 얹는다.", "timer_sec": null },
+    { "text": "팬에 남은 소스를 가라아게 위에 약 1큰술만 뿌리고 대파 또는 쪽파를 올린다. 취향에 따라 김가루와 통깨를 뿌려 완성한다.", "timer_sec": null }
+  ],
+  "memo": "가라아게의 바삭함을 유지하려면 양파와 계란 소스를 밥에 먼저 올린 뒤 가라아게를 얹고, 남은 소스는 약 1큰술만 뿌린다.",
+  "source": ""
+}
