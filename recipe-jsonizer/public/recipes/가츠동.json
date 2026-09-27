@@ -1,0 +1,46 @@
+{
+  "id": "가츠동_260927",
+  "title": "가츠동",
+  "time_total_min": 15,
+  "base_servings": 1,
+  "tags": [
+    "일식",
+    "덮밥",
+    "돈카츠",
+    "돼지고기"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "돈카츠", "amount": 135, "unit": "g", "note": "1장, 약 120~150g", "scalable": true },
+        { "name": "밥", "amount": 200, "unit": "g", "note": "1공기", "scalable": true },
+        { "name": "양파", "amount": 70, "unit": "g", "note": "1/3~1/2개, 약 60~80g", "scalable": true },
+        { "name": "계란", "amount": 1, "unit": "개", "note": "완전히 풀지 않고 대충 섞기", "scalable": true },
+        { "name": "대파", "amount": null, "unit": "", "note": "마무리, 약간", "scalable": false },
+        { "name": "김가루", "amount": null, "unit": "", "note": "마무리, 선택", "scalable": false }
+      ]
+    },
+    {
+      "name": "소스",
+      "items": [
+        { "name": "물", "amount": 60, "unit": "ml", "note": "소스", "scalable": true },
+        { "name": "진간장", "amount": 1.5, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "맛술", "amount": 1, "unit": "TB", "note": "소스", "scalable": true },
+        { "name": "설탕", "amount": 1.5, "unit": "t", "note": "소스", "scalable": true },
+        { "name": "혼다시", "amount": 0.25, "unit": "t", "note": "소스", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [
+    { "text": "돈카츠를 바삭하게 튀기거나 에어프라이어로 데운 뒤 약 2cm 폭으로 썬다.", "timer_sec": null },
+    { "text": "작은 팬에 물 60ml, 진간장 1.5큰술, 맛술 1큰술, 설탕 1.5작은술, 혼다시 1/4작은술을 넣고 끓인다.", "timer_sec": null },
+    { "text": "채 썬 양파를 넣고 중불에서 2~3분 끓여 살짝 부드럽게 만든다.", "timer_sec": 180 },
+    { "text": "썰어 둔 돈카츠를 양파 위에 올리고 30초~1분 정도 끓여 소스를 먹인다.", "timer_sec": 60 },
+    { "text": "계란은 완전히 풀지 않고 대충 섞는다. 계란의 2/3를 먼저 붓고 뚜껑을 덮어 약불에서 30~40초 익힌다.", "timer_sec": 40 },
+    { "text": "나머지 계란을 붓고 15~20초 후 불을 끈 뒤 잔열로 반숙 상태를 만든다.", "timer_sec": 20 },
+    { "text": "밥 위에 팬의 내용물을 미끄러뜨리듯 올리고 대파나 김가루를 조금 뿌려 완성한다.", "timer_sec": null }
+  ],
+  "memo": "계란을 두 번에 나누어 넣고 잔열로 마무리하면 촉촉한 반숙 상태로 완성할 수 있다.",
+  "source": ""
+}
