@@ -1,0 +1,41 @@
+{
+  "id": "10분_대패_감자탕_261026",
+  "title": "10분 대패 감자탕",
+  "time_total_min": 10,
+  "base_servings": 1,
+  "tags": [
+    "한식",
+    "탕",
+    "돼지고기",
+    "감자탕"
+  ],
+  "ingredient_groups": [
+    {
+      "name": "재료",
+      "items": [
+        { "name": "대패삼겹살", "amount": 400, "unit": "g", "note": "찌개용 앞다리살로 대체 가능", "scalable": true },
+        { "name": "신김치", "amount": 200, "unit": "g", "note": "", "scalable": true },
+        { "name": "사골곰탕", "amount": 500, "unit": "g", "note": "", "scalable": true },
+        { "name": "물", "amount": 200, "unit": "ml", "note": "", "scalable": true },
+        { "name": "감자", "amount": 200, "unit": "g", "note": "", "scalable": true },
+        { "name": "대파", "amount": 50, "unit": "g", "note": "", "scalable": true },
+        { "name": "깻잎", "amount": 15, "unit": "g", "note": "", "scalable": true },
+        { "name": "청양고추", "amount": 15, "unit": "g", "note": "", "scalable": true }
+      ]
+    },
+    {
+      "name": "양념",
+      "items": [
+        { "name": "된장", "amount": 1.5, "unit": "스푼", "note": "", "scalable": true },
+        { "name": "고추장", "amount": 0.5, "unit": "스푼", "note": "", "scalable": true },
+        { "name": "고춧가루", "amount": 1.5, "unit": "스푼", "note": "", "scalable": true },
+        { "name": "다진마늘", "amount": 1, "unit": "스푼", "note": "", "scalable": true },
+        { "name": "들깨가루", "amount": 3, "unit": "스푼", "note": "", "scalable": true },
+        { "name": "후추", "amount": 0.1, "unit": "스푼", "note": "", "scalable": true }
+      ]
+    }
+  ],
+  "steps": [],
+  "memo": "인분 정보가 제공되지 않아 전체 재료량을 배율 계산용 기준 1로 기록했다. 실제 1인분을 의미하지 않는다. 스푼 단위는 제공된 표기를 그대로 사용했다. 조리 순서는 미제공.",
+  "source": ""
+}
