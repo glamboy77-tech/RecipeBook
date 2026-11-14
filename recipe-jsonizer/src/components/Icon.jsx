@@ -11,6 +11,12 @@ const paths = {
   check: <path d="m5 12 4 4L19 6" />,
   people: <><circle cx="9" cy="7" r="3" /><path d="M3 21v-3a6 6 0 0 1 12 0v3M16 4a3 3 0 0 1 0 6m2 4a5 5 0 0 1 3 4v3" /></>,
   bowl: <><path d="M3 12h18a9 9 0 0 1-18 0ZM7 21h10M8 3v4m4-5v5m4-4v4" /></>,
+  play: <path d="m8 4 12 8-12 8V4Z" />,
+  pause: <><path d="M8 5v14M16 5v14" strokeWidth="3" /></>,
+  reset: <><path d="M3 11a9 9 0 1 1 2 7M3 4v7h7" /></>,
+  chevron: <path d="m6 9 6 6 6-6" />,
+  sound: <><path d="m11 4-6 5H2v6h3l6 5V4ZM15 8a6 6 0 0 1 0 8m3-11a10 10 0 0 1 0 14" /></>,
+  muted: <><path d="m11 4-6 5H2v6h3l6 5V4Zm6 5 5 6m-5 0 5-6" /></>,
   close: <path d="m6 6 12 12M6 18 18 6" />,
 };
 

@@ -37,6 +37,10 @@ jobs:
         working-directory: recipe-jsonizer
         run: npm run lint
 
+      - name: Test
+        working-directory: recipe-jsonizer
+        run: npm test
+
       - name: Build
         working-directory: recipe-jsonizer
         run: npm run build

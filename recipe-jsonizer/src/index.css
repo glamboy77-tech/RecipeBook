@@ -232,3 +232,63 @@ button { transition: background .16s ease, color .16s ease, border-color .16s ea
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Cooking timers stay outside the scrolling recipe so other steps remain usable. */
+.step-timer { cursor: pointer; border: 1px solid #dce2cf; gap: 7px; padding: 7px 9px; min-height: 32px; }
+.step-timer:hover { background: #e2e8d4; border-color: #b5c29b; }
+.step-timer.timer-running { background: var(--olive); border-color: var(--olive); color: var(--paper); }
+.step-timer.timer-paused { border-style: dashed; }
+.step-timer.timer-done { background: #fbf0dc; color: #8a6027; border-color: #e5cda3; }
+.step-timer > span:last-child:not(:first-child) { font-size: 10px; }
+.timer-digits { font-variant-numeric: tabular-nums; letter-spacing: .8px; white-space: nowrap; }
+.timer-panel { flex-shrink: 0; border-top: 1px solid #d4dbc6; background: var(--paper); box-shadow: 0 -4px 20px #383d2708; padding-bottom: env(safe-area-inset-bottom); }
+.timer-panel-header { max-width: 1200px; margin: auto; display: flex; align-items: center; padding: 0 28px; gap: 10px; }
+.timer-panel-toggle { min-height: 49px; display: flex; align-items: center; gap: 10px; flex: 1; text-align: left; color: var(--olive); padding: 0; min-width: 0; }
+.timer-panel-toggle strong { font-size: 12px; white-space: nowrap; }
+.timer-count { background: var(--olive-soft); border-radius: 50%; min-width: 21px; height: 21px; display: grid; place-items: center; font-size: 10px; }
+.timer-summary { margin-left: auto; font-size: 11px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.chevron-expanded { transform: rotate(180deg); }
+.timer-sound { width: 32px; height: 32px; color: var(--olive); border-radius: 5px; display: grid; place-items: center; }
+.timer-sound:hover, .timer-controls button:hover { background: var(--olive-soft); }
+.timer-panel-body { max-height: min(33dvh, 250px); overflow-y: auto; overscroll-behavior: contain; scrollbar-width: thin; }
+.active-timers { max-width: 1200px; list-style: none; padding: 0 28px; margin: 0 auto; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 28px; }
+.active-timer { padding: 10px 0; display: flex; align-items: center; gap: 15px; border-top: 1px solid var(--line); min-width: 0; }
+.active-timer-copy { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 5px; }
+.active-timer-copy > strong { font-size: 12px; font-weight: 600; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.active-timer-copy > span { font-size: 10px; color: var(--muted); line-height: 1.6; }
+.timer-state { margin-left: 8px; color: var(--olive); white-space: nowrap; }
+.active-timer > .timer-digits { font-size: 21px; font-weight: 500; color: var(--olive); }
+.active-timer.timer-done .timer-digits, .active-timer.timer-done .timer-state { color: #9a682a; }
+.active-timer.timer-paused > .timer-digits, .active-timer.timer-ready > .timer-digits { color: #8d9280; }
+.timer-controls { display: flex; align-items: center; gap: 4px; flex-shrink: 0; }
+.timer-controls button { width: 30px; height: 32px; display: grid; place-items: center; color: var(--olive); border-radius: 5px; }
+.timer-controls .timer-primary-control { background: var(--olive-soft); }
+.timer-panel-hint { font-size: 10px; color: var(--muted); padding: 7px 28px 12px; margin: 0 auto; max-width: 1200px; line-height: 1.6; }
+@media (max-width: 900px) {
+  .active-timers { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 768px) {
+  .timer-panel-header { padding: 0 22px; }
+  .active-timers { padding: 0 22px; }
+  .timer-panel-toggle { min-height: 48px; gap: 8px; }
+  .timer-panel-toggle strong { font-size: 12px; }
+  .timer-summary { font-size: 10px; }
+  .timer-panel-hint { padding: 5px 22px 10px; font-size: 10px; }
+  .active-timer { gap: 10px; }
+  .active-timer-copy > strong { font-size: 12px; }
+  .active-timer-copy > span { font-size: 10px; }
+  .active-timer > .timer-digits { font-size: 20px; }
+  .timer-controls { gap: 1px; }
+  .timer-controls button { width: 31px; height: 40px; }
+  .step-timer { min-height: 38px; padding: 8px 11px; font-size: 12px; }
+  .step-timer > span:last-child:not(:first-child) { font-size: 11px; }
+  .timer-state { display: block; margin-left: 0; }
+  .timer-sound { height: 40px; }
+}
+@media (max-width: 360px) {
+  .timer-panel-header, .active-timers { padding-left: 14px; padding-right: 14px; }
+  .timer-panel-hint { padding-left: 14px; padding-right: 14px; }
+  .active-timer { gap: 7px; }
+  .active-timer > .timer-digits { font-size: 18px; }
+  .timer-summary { font-size: 9px; }
+}

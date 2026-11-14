@@ -3,6 +3,7 @@ import { formatIngredientNote, normalizeIngredientAmountUnit, scaleIngredientAmo
 import { formatAmountUnitForDisplay, formatTimeTotal } from "../lib/recipeDisplay";
 import Icon from "./Icon";
 import RecipeImage from "./RecipeImage";
+import StepTimer from "./StepTimer";
 
 async function copyText(text) {
   if (navigator.clipboard?.writeText) {
@@ -100,7 +101,7 @@ export default function RecipeDetail({ recipe, onBack }) {
         </section>
         <section className="method-section" aria-labelledby="method-heading">
           <div className="section-heading"><h2 id="method-heading">만드는 법</h2><span>METHOD</span></div>
-          <ol className="steps-list">{(recipe.steps || []).map((s, i) => <li key={i}><span className="step-number">{String(i + 1).padStart(2, "0")}</span><div><p>{s.text}</p>{s.timer_sec > 0 && <span className="step-time"><Icon name="clock" size={14} />{s.timer_sec >= 60 ? `${Math.floor(s.timer_sec / 60)}분 ${s.timer_sec % 60 ? `${s.timer_sec % 60}초` : ""}` : `${s.timer_sec}초`}</span>}</div></li>)}</ol>
+          <ol className="steps-list">{(recipe.steps || []).map((s, i) => <li key={i}><span className="step-number">{String(i + 1).padStart(2, "0")}</span><div><p>{s.text}</p>{Number.isInteger(s.timer_sec) && s.timer_sec > 0 && <StepTimer recipe={recipe} stepIndex={i} seconds={s.timer_sec} />}</div></li>)}</ol>
           {!recipe.steps?.length && <p className="muted">아직 조리 순서가 없어요.</p>}
           {recipe.memo && <aside className="recipe-memo"><span className="eyebrow">KITCHEN NOTE</span><h3>기억해둘 것</h3><p>{recipe.memo}</p></aside>}
         </section>

@@ -1,5 +1,6 @@
 import RecipeViewer from "./components/RecipeViewer";
 import Icon from "./components/Icon";
+import TimerPanel from "./components/TimerPanel";
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
         <span className="header-note">좋아하는 맛을 모아두는 곳<span className="header-note-line" /></span>
       </header>
       <main><RecipeViewer /></main>
+      <TimerPanel />
     </div>
   );
 }
