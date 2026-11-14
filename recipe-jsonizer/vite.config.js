@@ -13,13 +13,13 @@ export default defineConfig({
       registerType: 'autoUpdate',
       // 개발 중에도 SW를 켜서 테스트할지 여부(기본 false). 일단 false 유지.
       devOptions: { enabled: false },
-      includeAssets: ['vite.svg', 'favicon.ico', 'apple-touch-icon-180x180.png'],
+      includeAssets: ['favicon.ico', 'apple-touch-icon-180x180.png'],
       manifest: {
         name: 'RecipeBook',
         short_name: 'RecipeBook',
-        description: '레시피 뷰어 + 변환기',
-        theme_color: '#0b0d12',
-        background_color: '#0b0d12',
+        description: '좋아하는 맛을 모아두는 나만의 레시피북',
+        theme_color: '#f6f5f0',
+        background_color: '#f6f5f0',
         display: 'standalone',
         scope: '/RecipeBook/',
         start_url: '/RecipeBook/',
@@ -49,7 +49,7 @@ export default defineConfig({
       },
       workbox: {
         // “전체 레시피 오프라인” 목적: 빌드 시점에 public/recipes 아래 JSON을 전부 precache
-        globPatterns: ['**/*.{js,css,html,ico,png,svg,json}'],
+        globPatterns: ['**/*.{js,css,html,ico,png,jpg,jpeg,webp,svg,json}'],
         globIgnores: ['**/node_modules/**/*'],
         // 이미지 용량이 2MB를 넘어 precache에서 제외되면 build 실패하므로 한도를 상향
         maximumFileSizeToCacheInBytes: 10 * 1024 * 1024,

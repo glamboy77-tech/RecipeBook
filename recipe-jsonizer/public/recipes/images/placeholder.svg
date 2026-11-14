@@ -1,15 +1,9 @@
-<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#1a2140" />
-      <stop offset="100%" stop-color="#0b0f1b" />
-    </linearGradient>
-  </defs>
-  <rect width="1200" height="800" rx="48" fill="url(#bg)" />
-  <rect x="80" y="80" width="1040" height="640" rx="36" fill="#121623" stroke="#2a3566" stroke-width="6" />
-  <circle cx="420" cy="360" r="90" fill="#1f263a" />
-  <path d="M300 560L470 420L590 520L750 360L900 560H300Z" fill="#1a2140" />
-  <text x="600" y="690" text-anchor="middle" fill="#e8ecf3" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="36" font-weight="700">
-    Recipe Photo
-  </text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#eeeee3"/>
+  <circle cx="600" cy="400" r="240" fill="#f8f8f0"/>
+  <circle cx="600" cy="400" r="192" stroke="#d8ddca" stroke-width="3"/>
+  <g stroke="#8b9973" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M500 385h200a100 100 0 0 1-200 0ZM548 494h104M550 320v25m50-40v40m50-25v25"/>
+    <path d="m334 300 20 200m-50-200 12 80c3 22 38 25 40 0l-2-80m-25 104 10 96M866 300c-42 36-44 90-9 99l-18 101m27-200-9 99" stroke-width="5"/>
+  </g>
 </svg>

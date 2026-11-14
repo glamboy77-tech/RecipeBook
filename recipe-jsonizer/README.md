@@ -1,16 +1,40 @@
-# React + Vite
+# 레시피북
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+개인용 레시피를 JSON 파일로 모아 보는 React + Vite 앱입니다. GitHub Pages의 `/RecipeBook/` 경로에 배포하며 PWA 설치와 오프라인 사용을 지원합니다.
 
-Currently, two official plugins are available:
+## 실행
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+이 디렉터리에서 실행합니다.
 
-## React Compiler
+```sh
+npm ci
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```sh
+npm run lint
+npm run build
+npm run preview
+```
 
-## Expanding the ESLint configuration
+## 사용
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 이름·태그·재료로 검색하고 태그 버튼으로 목록을 좁힙니다.
+- PC에서는 목록과 상세를 함께, 모바일에서는 목록에서 선택한 상세를 봅니다.
+- 인분을 바꾸면 기존 계량 규칙에 따라 재료량이 조정됩니다. 내용 복사에도 선택한 인분이 반영됩니다.
+- 준비한 재료를 체크할 수 있습니다. 체크와 인분 변경은 현재 화면에만 적용되며 원본 파일은 바뀌지 않습니다.
+- 공유 링크의 `?recipe=...`로 해당 요리를 바로 열 수 있습니다.
+- 오프라인 사용은 처음 온라인에서 접속해 서비스 워커의 저장이 완료된 뒤 가능합니다. 레시피와 로컬 사진을 함께 저장합니다.
+
+## 레시피와 화면 수정
+
+`public/recipes/index.json`에 레시피 파일명을 등록하고 같은 디렉터리에 JSON을 둡니다. 기존 `ingredient_groups` 및 `ingredients` 형식을 모두 지원합니다. 사진은 JSON의 `image`를 사용하고, 없으면 같은 파일명의 WebP/JPG/PNG/JPEG를 찾은 뒤 기본 이미지로 표시합니다.
+
+- `src/components/RecipeViewer.jsx`: 목록, 검색, 필터, 파일 로드와 URL 이동
+- `src/components/RecipeDetail.jsx`: 상세, 인분, 재료 체크와 공유
+- `src/components/RecipeImage.jsx`: 이미지 경로와 대체 이미지
+- `src/lib/recipe.js`: 재료 정규화와 인분 계산
+- `src/lib/recipeDisplay.js`: 계량·시간 표시
+- `src/index.css`: 색상 변수와 반응형 화면
+
+`src/RecipeViewer.jsx`, `src/RecipeConverter.jsx`는 기존 import 경로를 위한 진입점입니다. GitHub Pages 배포 설정은 `vite.config.js`와 루트의 `.github/workflows/pages.yml`에 있습니다.
